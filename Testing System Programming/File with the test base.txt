@@ -633,3 +633,300 @@ b) double_to_str()
 c) convert_str()
 d) str_convert()
 Answer: a) to_string()
+
+THEME - RECURSION.
+
+1. What is recursion in C++?
+a) A loop that repeats a set of instructions
+b) A function that calls itself
+c) A function that returns a value
+d) A variable that changes its value during program execution
+Answer: b) A function that calls itself
+
+2. What is the base case in recursion?
+a) The case where the function is called for the first time
+b) The case where the function returns a value
+c) The case where the function stops calling itself
+d) The case where the function is called recursively
+Answer: c) The case where the function stops calling itself
+
+3. What is the difference between direct and indirect recursion?
+a) Direct recursion is when a function calls itself, while indirect recursion is when a function calls another function that eventually calls the original function.
+b) Direct recursion is when a function calls another function, while indirect recursion is when a function calls itself.
+c) Direct recursion is when a function returns a value, while indirect recursion is when a function does not return a value.
+d) Direct recursion is when a function uses a loop, while indirect recursion is when a function does not use a loop.
+Answer: a) Direct recursion is when a function calls itself, while indirect recursion is when a function calls another function that eventually calls the original function.
+
+4. What is the maximum number of recursive calls that can be made in C++?
+a) It depends on the available memory
+b) It depends on the processor speed
+c) It depends on the compiler used
+d) There is no maximum limit
+Answer: a) It depends on the available memory
+
+5. What is the factorial of a number?
+a) The sum of all the numbers up to the given number
+b) The product of all the numbers up to the given number
+c) The difference between all the numbers up to the given number
+d) The quotient of all the numbers up to the given number
+Answer: b) The product of all the numbers up to the given number
+
+6. What is the base case for computing the factorial of a number using recursion?
+a) n == 0
+b) n == 1
+c) n < 1
+d) n > 1
+Answer: b) n == 1
+
+7. What is the output of the following recursive function for n = 3?
+int recursiveFunc(int n) {
+    if (n == 1) {
+        return 1;
+    } else {
+        return n * recursiveFunc(n-1);
+    }
+}
+a) 1
+b) 2
+c) 3
+d) 6
+Answer: d) 6
+
+8. What is the output of the following recursive function for n = 4?
+int recursiveFunc(int n) {
+    if (n == 0) {
+        return 0;
+    } else {
+        return n + recursiveFunc(n-1);
+    }
+}
+a) 0
+b) 6
+c) 10
+d) 24
+Answer: c) 10
+
+9. What is the output of the following recursive function for n = 5?
+arduino
+Copy code
+int recursiveFunc(int n) {
+    if (n < 1) {
+        return 0;
+    } else {
+        return recursiveFunc(n-1) + n;
+    }
+}
+a) 0
+b) 10
+c) 15
+d) 25
+Answer: c) 15
+
+10. What is a recursive algorithm to compute the Fibonacci sequence?
+a) Check if n == 0 or n == 1, return 1, otherwise return fibonacci(n-2)
+b) Check if n == 0 or n == 1, return n, otherwise return fibonacci(n-1) + fibonacci(n-2)
+c) Check if n == 0 or n == 1, return 0, otherwise return fibonacci(n-1) - fibonacci(n-2)
+d) Check if n == 0 or n == 1, return 0, otherwise return fibonacci(n+1) + fibonacci(n-1)
+Answer: b) Check if n == 0 or n == 1, return n, otherwise return fibonacci(n-1) + fibonacci(n-2)
+
+11. What is the output of the following recursive function for n = 6?
+int recursiveFunc(int n) {
+if (n <= 0) {
+return 0;
+} else if (n % 2 == 0) {
+return recursiveFunc(n-1);
+} else {
+return n + recursiveFunc(n-2);
+}
+}
+a) 6
+b) 9
+c) 12
+d) 15
+Answer: d) 15
+
+12. What is tail recursion?
+a) A function that returns a value
+b) A function that calls itself at the end of the function
+c) A function that calls another function
+d) A function that uses a loop
+Answer: b) A function that calls itself at the end of the function
+
+13. What is the difference between tail recursion and non-tail recursion?
+a) Tail recursion uses a loop, while non-tail recursion does not use a loop.
+b) Tail recursion returns a value, while non-tail recursion does not return a value.
+c) Tail recursion calls itself at the end of the function, while non-tail recursion calls itself at the beginning of the function.
+d) There is no difference between tail recursion and non-tail recursion.
+Answer: c) Tail recursion calls itself at the end of the function, while non-tail recursion calls itself at the beginning of the function.
+
+14. What is the output of the following tail recursive function for n = 4?
+int recursiveFunc(int n, int result) {
+if (n == 0) {
+return result;
+} else {
+return recursiveFunc(n-1, result*n);
+}
+}
+a) 0
+b) 1
+c) 6
+d) 24
+Answer: d) 24
+
+15. What is the output of the following non-tail recursive function for n = 5?
+int recursiveFunc(int n) {
+if (n == 0) {
+return 0;
+} else {
+return recursiveFunc(n-1) + n;
+}
+}
+a) 0
+b) 10
+c) 15
+d) 25
+Answer: c) 15
+
+16. What is the output of the following tail recursive function for n = 6?
+int recursiveFunc(int n, int a, int b) {
+if (n == 0) {
+return a;
+} else {
+return recursiveFunc(n-1, b, a+b);
+}
+}
+a) 5
+b) 8
+c) 13
+d) 21
+Answer: c) 13
+
+17. What is the time complexity of the recursive function for computing the factorial of a number?
+a) O(n)
+b) O(n^2)
+c) O(log n)
+d) O(2^n)
+Answer: a) O(n)
+
+18. What is the time complexity of the recursive algorithm for computing the Fibonacci sequence?
+a) O(n)
+b) O(n^2)
+c) O(log n)
+d) O(2^n)
+Answer: d) O(2^n)
+
+19. What is recursion in C++?
+a) A loop that repeats a set of instructions
+b) A function that calls itself
+c) A function that returns a value
+d) A variable that changes its value during program execution
+Answer: b) A function that calls itself
+
+20. What is the base case in recursion?
+a) The case where the function is called for the first time
+b) The case where the function returns a value
+c) The case where the function stops calling itself
+d) The case where the function is called recursively
+Answer: c) The case where the function stops calling itself
+
+21. What is the difference between direct and indirect recursion?
+a) Direct recursion is when a function calls itself, while indirect recursion is when a function calls another function that eventually calls the original function.
+b) Direct recursion is when a function calls another function, while indirect recursion is when a function calls itself.
+c) Direct recursion is when a function returns a value, while indirect recursion is when a function does not return a value.
+d) Direct recursion is when a function uses a loop, while indirect recursion is when a function does not use a loop.
+Answer: a) Direct recursion is when a function calls itself, while indirect recursion is when a function calls another function that eventually calls the original function.
+
+22. What is the maximum number of recursive calls that can be made in C++?
+a) It depends on the available memory
+b) It depends on the processor speed
+c) It depends on the compiler used
+d) There is no maximum limit
+Answer: a) It depends on the available memory
+
+23. What is the factorial of a number?
+a) The sum of all the numbers up to the given number
+b) The product of all the numbers up to the given number
+c) The difference between all the numbers up to the given number
+d) The quotient of all the numbers up to the given number
+Answer: b) The product of all the numbers up to the given number
+
+24. What is the base case for computing the factorial of a number using recursion?
+a) n == 0
+b) n == 1
+c) n < 1
+d) n > 1
+Answer: b) n == 1
+
+25. What is the output of the following recursive function for n = 3?
+int recursiveFunc(int n) {
+    if (n == 1) {
+        return 1;
+    } else {
+        return n * recursiveFunc(n-1);
+    }
+}
+a) 1
+b) 2
+c) 3
+d) 6
+Answer: d) 6
+
+26. What is the output of the following recursive function for n = 4?
+int recursiveFunc(int n) {
+    if (n == 0) {
+        return 0;
+    } else {
+        return n + recursiveFunc(n-1);
+    }
+}
+a) 0
+b) 6
+c) 10
+d) 24
+Answer: c) 10
+
+27. What is the output of the following recursive function for n = 5?
+arduino
+Copy code
+int recursiveFunc(int n) {
+    if (n < 1) {
+        return 0;
+    } else {
+        return recursiveFunc(n-1) + n;
+    }
+}
+a) 0
+b) 10
+c) 15
+d) 25
+Answer: c) 15
+
+28. What is a recursive algorithm to compute the Fibonacci sequence?
+a) Check if n == 0 or n == 1, return 1, otherwise return fibonacci(n-2)
+b) Check if n == 0 or n == 1, return n, otherwise return fibonacci(n-1) + fibonacci(n-2)
+c) Check if n == 0 or n == 1, return 0, otherwise return fibonacci(n-1) - fibonacci(n-2)
+d) Check if n == 0 or n == 1, return 0, otherwise return fibonacci(n+1) + fibonacci(n-1)
+Answer: b) Check if n == 0 or n == 1, return n, otherwise return fibonacci(n-1) + fibonacci(n-2)
+
+29. What is the output of the following recursive function for n = 6?
+int recursiveFunc(int n) {
+if (n <= 0) {
+return 0;
+} else if (n % 2 == 0) {
+return recursiveFunc(n-1);
+} else {
+return n + recursiveFunc(n-2);
+}
+}
+a) 6
+b) 9
+c) 12
+d) 15
+Answer: d) 15
+
+30. What is tail recursion?
+a) A function that returns a value
+b) A function that calls itself at the end of the function
+c) A function that calls another function
+d) A function that uses a loop
+Answer: b) A function that calls itself at the end of the function
