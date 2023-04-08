@@ -1,184 +1,214 @@
 THEME - CYCLES.
 
-1. Which type of loop is best suited for executing a set of commands a certain number of times?
-a) for
-b) while
-c) do-while
-d) all of the above
+1. What is a loop in C++?
+a) A data type used to store multiple values
+b) A statement that executes a block of code repeatedly
+c) A function that takes input and returns output
+d) A conditional statement that controls program flow
+Answer: b) A statement that executes a block of code repeatedly
 
-2. Which condition must be specified in the for statement for the loop to be executed indefinitely?
-a) true
-b) false
-c) no condition
-d) any condition
+2. What is the syntax for a for loop in C++?
+a) for (i = 0; i < n; i++)
+b) for (i = n; i > 0; i--)
+c) for (i = 0; i <= n; i++)
+d) for (i = n; i >= 0; i--)
+Answer: a) for (i = 0; i < n; i++)
 
-3. What happens if you use the break statement in a loop?
-a) The loop will end immediately.
-b) The loop will continue to run, but the current iteration will be skipped.
-c) The program will end with an error.
-d) The break statement cannot be used in loops.
+3. What is the syntax for a while loop in C++?
+a) while (i < n) { }
+b) while (i > n) { }
+c) while (i <= n) { }
+d) while (i >= n) { }
+Answer: a) while (i < n) { }
 
-4. What happens if you use the continue statement in a loop?
-a) The current iteration of the loop will be skipped.
-b) The loop will end immediately.
-c) The program will end with an error.
-d) The continue statement cannot be used in loops.
+4. What is the syntax for a do-while loop in C++?
+a) do { } while (i < n);
+b) do { } while (i > n);
+c) do { } while (i <= n);
+d) do { } while (i >= n);
+Answer: a) do { } while (i < n);
 
-5. What happens if you use multiple break statements within the same loop?
-a) The loop will end when the first break statement is executed.
-b) The break statement cannot be used more than once in the same loop.
-c) The program will end with an error.
-d) The loop will continue to run until the last break statement is executed.
+5. How many times will a for loop with the condition i < 5 be executed if i is initially 0?
+a) 4
+b) 5
+c) 6
+d) 0
+Answer: b) 5
 
-6. How can you change the behavior of the while loop so that it is executed at least once?
-a) Change the condition of the loop.
-b) Use the break operator.
-c) Use the continue operator.
-d) Use the do-while loop.
+6. What is the purpose of the continue statement in C++?
+a) To exit a loop
+b) To skip the current iteration of a loop and continue with the next iteration
+c) To execute a block of code repeatedly
+d) To initialize a loop variable
+Answer: b) To skip the current iteration of a loop and continue with the next iteration
 
-7. What happens if you use the continue statement in a do-while loop?
-a) The current iteration of the loop will be skipped.
-b) The loop will end immediately.
-c) The program will end with an error.
-d) The continue statement cannot be used in loops.
+7. What is the purpose of the break statement in C++?
+a) To skip the current iteration of a loop and continue with the next iteration
+b) To execute a block of code repeatedly
+c) To exit a loop
+d) To initialize a loop variable
+Answer: c) To exit a loop
 
-8. How can you change the behavior of a for loop so that it runs indefinitely?
-a) Change the condition of the loop.
-b) Use the break statement.
-c) Use the continue statement.
-d) Remove the loop condition.
+8. What is the difference between a while loop and a do-while loop in C++?
+a) There is no difference
+b) A while loop always executes at least once, while a do-while loop may not execute at all
+c) A do-while loop always executes at least once, while a while loop may not execute at all
+d) A while loop and a do-while loop are used for different types of iterations
+Answer: c) A do-while loop always executes at least once, while a while loop may not execute at all
 
-9. What happens if you forget to increment a variable in a for loop?
-a) Nothing will happen.
-b) The loop will execute.
-c) The loop will execute infinitely.
-d) The program will end with an error.
+9. What is the difference between a for loop and a while loop in C++?
+a) There is no difference
+b) A for loop is used when the number of iterations is known in advance, while a while loop is used when the number of iterations is not known in advance
+c) A while loop is used when the number of iterations is known in advance, while a for loop is used when the number of iterations is not known in advance
+d) A for loop and a while loop are used for different types of iterations
+Answer: b) A for loop is used when the number of iterations is known in advance, while a while loop is used when the number of iterations is not known in advance
 
-10. Which type of loop is most suitable for executing a set of commands until the condition becomes false?
-a) for
-b) while
-c) do-while
-d) all of the above
+10. What is an infinite loop in C++?
+a) A loop that executes a block of code a fixed number of times
+b) A loop that executes a block of code an unknown number of times
+c) A loop that never terminates
+d) A loop that terminates after a certain condition is met
+Answer: c) A loop that never terminates
 
-11. How can you interrupt the execution of a nested loop within another loop?
-a) Use the break operator in a nested loop.
-b) Use continue in a nested loop.
-c) Use goto operator.
-d) It is not possible.
+11. What is the purpose of a nested loop in C++?
+a) To execute a block of code repeatedly
+b) To skip the current iteration of a loop and continue with the next iteration
+c) To exit a loop
+d) To perform iterations within iterations
+Answer: d) To perform iterations within iterations
 
-12. Which of the loops will necessarily execute at least once?
-a) for
-b) while
-c) do-while
-d) all of them
+12. What is the syntax for a nested for loop in C++?
+a) for (i = 0; i < n; i++) { for (j = 0; j < m; j++) { } }
+b) for (i = n; i > 0; i--) { for (j = m; j > 0; j--) { } }
+c) for (i = 0; i <= n; i++) { for (j = 0; j <= m; j++) { } }
+d) for (i = n; i >= 0; i--) { for (j = m; j >= 0; j--) { } }
+Answer: a) for (i = 0; i < n; i++) { for (j = 0; j < m; j++) { } }
 
-13. How can you change the behavior of the while loop so that it is executed before a certain condition is met?
-a) Use the continue operator.
-b) Change the condition of the loop.
-c) Use the break statement.
-d) Use the do-while loop.
+13. What is the purpose of a loop counter in C++?
+a) To control the number of iterations in a loop
+b) To execute a block of code repeatedly
+c) To exit a loop
+d) To initialize a loop variable
+Answer: a) To control the number of iterations in a loop
 
-14. How can you change the behavior of the do-while loop so that it is executed only once?
-a) Change the loop condition.
-b) Use the break operator.
-c) Use the continue operator.
-d) Change the body of the loop.
+14. What is the syntax for a range-based for loop in C++?
+a) for (i : container) { }
+b) for (i in container) { }
+c) for (i = 0; i < container.size(); i++) { }
+d) for (i = container.begin(); i != container.end(); i++) { }
+Answer: a) for (i : container) { }
 
-15. What values can the counter variable take in a for loop?
-a) Any values, including negative values.
-b) Only positive values.
-c) Only integer values.
-d) Only odd values.
+15. What is the purpose of the break statement in a nested loop in C++?
+a) To skip the current iteration of a loop and continue with the next iteration
+b) To execute a block of code repeatedly
+c) To exit the innermost loop
+d) To exit the outermost loop
+Answer: c) To exit the innermost loop
 
-16. What happens if you use more than one continue statement within the same loop?
-a) The current iteration of the loop will be skipped every time the continue statement is encountered.
-b) The continue statement cannot be used more than once in the same loop.
-c) The program will end with an error.
-d) The loop will continue to run until the last continue statement is executed.
+16. What is the purpose of the continue statement in a nested loop in C++?
+a) To exit the innermost loop
+b) To skip the current iteration of the innermost loop and continue with the next iteration of the outer loop
+c) To skip the current iteration of the outer loop and continue with the next iteration of the innermost loop
+d) To execute a block of code repeatedly
+Answer: b) To skip the current iteration of the innermost loop and continue with the next iteration of the outer loop
 
-17. How can you change the behavior of a for loop so that it is executed multiple times, but not up to the final counter value?
-a) Change the condition of the loop.
-b) Use the break operator.
-c) Use the continue statement.
-d) Change the body of the loop.
+17. What is the purpose of the do-while loop in C++?
+a) To execute a block of code repeatedly
+b) To skip the current iteration of a loop and continue with the next iteration
+c) To exit a loop
+d) To execute a block of code at least once, and then continue to execute it repeatedly as long as a certain condition is met
+Answer: d) To execute a block of code at least once, and then continue to execute it repeatedly as long as a certain condition is met
 
-18. What values can the counter variable take in the while loop?
-a) Any values, including negative values.
-b) Only positive values.
-c) Only integer values.
-d) Only odd values.
+18. What is the purpose of the while loop in C++?
+a) To execute a block of code repeatedly
+b) To execute a block of code as long as a certain condition is met
+c) To exit a loop
+d) To skip the current iteration of a loop and continue with the next iteration
+Answer: b) To execute a block of code as long as a certain condition is met
 
-19. How can you change the behavior of a do-while loop so that it runs indefinitely?
-a) Change the loop condition to false.
-b) Use the break operator.
-c) Use the continue operator.
-d) You must use a different type of loop.
+19. What is an infinite loop in C++?
+a) A loop that executes a block of code a fixed number of times
+b) A loop that executes a block of code an unknown number of times
+c) A loop that never terminates
+d) A loop that terminates after a certain condition is met
+Answer: c) A loop that never terminates
 
-20. Which operator is used to exit the loop before all iterations are complete?
-a) for
-b) while
-c) do-while
-d) break
+20. How can you prevent an infinite loop in C++?
+a) By using a break statement
+b) By using a continue statement
+c) By using a while loop instead of a for loop
+d) By ensuring that the loop condition eventually becomes false
+Answer: d) By ensuring that the loop condition eventually becomes false
 
-21. How can you change the behavior of the for loop so that it runs indefinitely?
-a) Change the loop condition to false.
-b) Use the break operator.
-c) Use the continue operator.
-d) You must use a different type of loop.
+21. What is the purpose of the do-while loop in C++?
+a) To execute a block of code repeatedly
+b) To skip the current iteration of a loop and continue with the next iteration
+c) To exit a loop
+d) To execute a block of code at least once, and then continue to execute it repeatedly as long as a certain condition is met
+Answer: d) To execute a block of code at least once, and then continue to execute it repeatedly as long as a certain condition is met
 
-22. Which operator is used to jump to a specific label in a program?
-a) for
-b) while
-c) do-while
-d) goto
+22. What is the difference between a while loop and a do-while loop in C++?
+a) A while loop only executes if the condition is initially true, while a do-while loop always executes at least once
+b) A while loop always executes at least once, while a do-while loop only executes if the condition is initially true
+c) A while loop and a do-while loop are interchangeable and can be used interchangeably
+d) There is no difference between a while loop and a do-while loop
+Answer: a) A while loop only executes if the condition is initially true, while a do-while loop always executes at least once
 
-23. How can you change the behavior of the while loop so that it runs indefinitely?
-a) Change the loop condition to false.
-b) Use the break operator.
-c) Use the continue operator.
-d) You must use a different type of loop.
+23. What is the syntax for a while loop in C++?
+a) while (condition) { }
+b) while (i < n) { }
+c) while (true) { }
+d) while (i > 0) { }
+Answer: a) while (condition) { }
 
-24. Which operator is used to continue executing the next iteration of the loop without executing the rest of the current iteration?
-a) for
-b) while
-c) do-while
-d) continue
+24. What is the syntax for a do-while loop in C++?
+a) do { } while (condition);
+b) while (condition) { }
+c) for (i = 0; i < n; i++) { }
+d) do while (condition) { }
+Answer: a) do { } while (condition);
 
-25. Which operator is used to interrupt the execution of a loop and move on to the next instruction after the loop?
-a) for
-b) while
-c) do-while
-d) break
+25. What is the purpose of the continue statement in a loop in C++?
+a) To exit the loop
+b) To skip the current iteration of the loop and continue with the next iteration
+c) To execute a block of code repeatedly
+d) To initialize a loop variable
+Answer: b) To skip the current iteration of the loop and continue with the next iteration
 
-26. How can you change the behavior of the do-while loop so that it is executed before a certain condition is met?
-a) Use the continue operator.
-b) Change the condition of the loop.
-c) Use the break statement.
-d) Use the while loop.
+26. What is the purpose of the break statement in a loop in C++?
+a) To skip the current iteration of the loop and continue with the next iteration
+b) To execute a block of code repeatedly
+c) To exit the loop
+d) To initialize a loop variable
+Answer: c) To exit the loop
 
-27. Which type of loop is best suited for executing a set of commands a certain number of times?
-a) for
-b) while
-c) do-while
-d) all of the above
+27. What is the difference between a for loop and a range-based for loop in C++?
+a) A for loop is used to iterate over a range of values, while a range-based for loop is used to iterate over a container or sequence
+b) A for loop and a range-based for loop are interchangeable and can be used interchangeably
+c) A for loop is used to iterate over a container or sequence, while a range-based for loop is used to iterate over a range of values
+d) There is no difference between a for loop and a range-based for loop
+Answer: a) A for loop is used to iterate over a range of values, while a range-based for loop is used to iterate over a container or sequence
 
-28. Which operator is used to set the initial value of a variable-counter in a for loop?
-a) for
-b) while
-c) do-while
-d) continue
+28. What is the purpose of a loop in programming?
+a) To execute a block of code repeatedly
+b) To skip the current iteration of a loop and continue with the next iteration
+c) To exit a loop
+d) To execute a block of code a fixed number of times or until a certain condition is met
+Answer: d) To execute a block of code a fixed number of times or until a certain condition is met
 
-29. Which operator is used to exit multiple levels of nested loops simultaneously?
-a) for
-b) while
-c) do-while
-d) break
+What is the difference between a do-while loop and a while loop in C++?
+a) A do-while loop executes the code block at least once, while a while loop may not execute at all if the condition is false initially.
+b) A do-while loop is used for iterating over a container or sequence, while a while loop is used for iterating over a range of values.
+c) A do-while loop executes the code block only if the condition is true initially, while a while loop always executes the code block at least once.
+d) There is no difference between a do-while loop and a while loop.
+Answer: a) A do-while loop executes the code block at least once, while a while loop may not execute at all if the condition is false initially.
 
-30. How can you change the behavior of the while loop so that it is executed a specific number of times?
-a) Change the condition of the loop.
-b) Use the break operator.
-c) Use the continue operator.
-d) You must use a different type of loop.
+What is the purpose of the switch statement in C++?
+a) To execute a block of code repeatedly
+b) To exit a loop
+c) To select one of several code blocks to execute based on the value of a variable
+d) To initialize a loop variable
+Answer: c) To select one of several code blocks to execute based on the value of a variable.
 
 THEME - ARRAYS (ONE- AND TWO-DIMENSIONAL).
 
