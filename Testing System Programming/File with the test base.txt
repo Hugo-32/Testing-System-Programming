@@ -1,181 +1,181 @@
-ТЕМА - ЦИКЛЫ
+THEME - CYCLES.
 
-1. Какой тип цикла наиболее подходит для выполнения набора команд определенное количество раз?
+1. Which type of loop is best suited for executing a set of commands a certain number of times?
 a) for
 b) while
 c) do-while
-d) все перечисленные
+d) all of the above
 
-2. Какое условие нужно указать в операторе for, чтобы цикл выполнялся бесконечно?
+2. Which condition must be specified in the for statement for the loop to be executed indefinitely?
 a) true
 b) false
-c) нет условия
-d) любое условие
+c) no condition
+d) any condition
 
-3. Что произойдет, если вы используете оператор break в цикле?
-a) Цикл будет завершен немедленно.
-b) Цикл продолжит выполняться, но текущая итерация будет пропущена.
-c) Программа завершится с ошибкой.
-d) Оператор break нельзя использовать в циклах.
+3. What happens if you use the break statement in a loop?
+a) The loop will end immediately.
+b) The loop will continue to run, but the current iteration will be skipped.
+c) The program will end with an error.
+d) The break statement cannot be used in loops.
 
-4. Что произойдет, если вы используете оператор continue в цикле?
-a) Текущая итерация цикла будет пропущена.
-b) Цикл будет завершен немедленно.
-c) Программа завершится с ошибкой.
-d) Оператор continue нельзя использовать в циклах.
+4. What happens if you use the continue statement in a loop?
+a) The current iteration of the loop will be skipped.
+b) The loop will end immediately.
+c) The program will end with an error.
+d) The continue statement cannot be used in loops.
 
-5. Что произойдет, если вы используете несколько операторов break внутри одного цикла?
-a) Цикл будет завершен при выполнении первого оператора break.
-b) Оператор break нельзя использовать несколько раз в одном цикле.
-c) Программа завершится с ошибкой.
-d) Цикл продолжит выполняться до тех пор, пока не будет выполнен последний оператор break.
+5. What happens if you use multiple break statements within the same loop?
+a) The loop will end when the first break statement is executed.
+b) The break statement cannot be used more than once in the same loop.
+c) The program will end with an error.
+d) The loop will continue to run until the last break statement is executed.
 
-6. Как можно изменить поведение цикла while, чтобы он выполнялся хотя бы один раз?
-a) Изменить условие цикла.
-b) Использовать оператор break.
-c) Использовать оператор continue.
-d) Использовать цикл do-while.
+6. How can you change the behavior of the while loop so that it is executed at least once?
+a) Change the condition of the loop.
+b) Use the break operator.
+c) Use the continue operator.
+d) Use the do-while loop.
 
-7. Что произойдет, если вы используете оператор continue в цикле do-while?
-a) Текущая итерация цикла будет пропущена.
-b) Цикл будет завершен немедленно.
-c) Программа завершится с ошибкой.
-d) Оператор continue нельзя использовать в циклах.
+7. What happens if you use the continue statement in a do-while loop?
+a) The current iteration of the loop will be skipped.
+b) The loop will end immediately.
+c) The program will end with an error.
+d) The continue statement cannot be used in loops.
 
-8. Как можно изменить поведение цикла for, чтобы он выполнялся бесконечно?
-a) Изменить условие цикла.
-b) Использовать оператор break.
-c) Использовать оператор continue.
-d) Убрать условие цикла.
+8. How can you change the behavior of a for loop so that it runs indefinitely?
+a) Change the condition of the loop.
+b) Use the break statement.
+c) Use the continue statement.
+d) Remove the loop condition.
 
-9. Что произойдет, если вы забудете инкрементировать переменную в цикле for?
-a) Ничего не произойдет.
-b) Цикл будет выполнять
-c) Цикл будет выполняться бесконечно.
-d) Программа завершится с ошибкой.
+9. What happens if you forget to increment a variable in a for loop?
+a) Nothing will happen.
+b) The loop will execute.
+c) The loop will execute infinitely.
+d) The program will end with an error.
 
-10. Какой тип цикла наиболее подходит для выполнения набора команд до тех пор, пока условие не станет ложным?
+10. Which type of loop is most suitable for executing a set of commands until the condition becomes false?
 a) for
 b) while
 c) do-while
-d) все перечисленные
+d) all of the above
 
-11. Как можно прервать выполнение вложенного цикла внутри другого цикла?
-a) Использовать оператор break во вложенном цикле.
-b) Использовать оператор continue во вложенном цикле.
-c) Использовать оператор goto.
-d) Это невозможно.
+11. How can you interrupt the execution of a nested loop within another loop?
+a) Use the break operator in a nested loop.
+b) Use continue in a nested loop.
+c) Use goto operator.
+d) It is not possible.
 
-12. Какой из циклов обязательно выполнится хотя бы один раз?
+12. Which of the loops will necessarily execute at least once?
 a) for
 b) while
 c) do-while
-d) все перечисленные
+d) all of them
 
-13. Как можно изменить поведение цикла while, чтобы он выполнялся до выполнения определенного условия?
-a) Использовать оператор continue.
-b) Изменить условие цикла.
-c) Использовать оператор break.
-d) Использовать цикл do-while.
+13. How can you change the behavior of the while loop so that it is executed before a certain condition is met?
+a) Use the continue operator.
+b) Change the condition of the loop.
+c) Use the break statement.
+d) Use the do-while loop.
 
-14. Как можно изменить поведение цикла do-while, чтобы он выполнялся только один раз?
-a) Изменить условие цикла.
-b) Использовать оператор break.
-c) Использовать оператор continue.
-d) Изменить тело цикла.
+14. How can you change the behavior of the do-while loop so that it is executed only once?
+a) Change the loop condition.
+b) Use the break operator.
+c) Use the continue operator.
+d) Change the body of the loop.
 
-15. Какие значения может принимать переменная-счетчик в цикле for?
-a) Любые значения, включая отрицательные.
-b) Только положительные значения.
-c) Только целочисленные значения.
-d) Только нечетные значения.
+15. What values can the counter variable take in a for loop?
+a) Any values, including negative values.
+b) Only positive values.
+c) Only integer values.
+d) Only odd values.
 
-16. Что произойдет, если вы используете несколько операторов continue внутри одного цикла?
-a) Текущая итерация цикла будет пропущена каждый раз, когда встречается оператор continue.
-b) Оператор continue нельзя использовать несколько раз в одном цикле.
-c) Программа завершится с ошибкой.
-d) Цикл продолжит выполняться до тех пор, пока не будет выполнен последний оператор continue.
+16. What happens if you use more than one continue statement within the same loop?
+a) The current iteration of the loop will be skipped every time the continue statement is encountered.
+b) The continue statement cannot be used more than once in the same loop.
+c) The program will end with an error.
+d) The loop will continue to run until the last continue statement is executed.
 
-17. Как можно изменить поведение цикла for, чтобы он выполнялся несколько раз, но не до конечного значения счетчика?
-a) Изменить условие цикла.
-b) Использовать оператор break.
-c) Использовать оператор continue.
-d) Изменить тело цикла.
+17. How can you change the behavior of a for loop so that it is executed multiple times, but not up to the final counter value?
+a) Change the condition of the loop.
+b) Use the break operator.
+c) Use the continue statement.
+d) Change the body of the loop.
 
-18. Какие значения может принимать переменная-счетчик в цикле while?
-a) Любые значения, включая отрицательные.
-b) Только положительные значения.
-c) Только целочисленные значения.
-d) Только нечетные значения.
+18. What values can the counter variable take in the while loop?
+a) Any values, including negative values.
+b) Only positive values.
+c) Only integer values.
+d) Only odd values.
 
-19. Как можно изменить поведение цикла do-while, чтобы он выполнялся бесконечно?
-a) Изменить условие цикла на false.
-b) Использовать оператор break.
-c) Использовать оператор continue.
-d) Необходимо использовать другой тип цикла.
+19. How can you change the behavior of a do-while loop so that it runs indefinitely?
+a) Change the loop condition to false.
+b) Use the break operator.
+c) Use the continue operator.
+d) You must use a different type of loop.
 
-20. Какой из операторов используется для выхода из цикла до завершения всех итераций?
+20. Which operator is used to exit the loop before all iterations are complete?
 a) for
 b) while
 c) do-while
 d) break
 
-21. Как можно изменить поведение цикла for, чтобы он выполнялся бесконечно?
-a) Изменить условие цикла на false.
-b) Использовать оператор break.
-c) Использовать оператор continue.
-d) Необходимо использовать другой тип цикла.
+21. How can you change the behavior of the for loop so that it runs indefinitely?
+a) Change the loop condition to false.
+b) Use the break operator.
+c) Use the continue operator.
+d) You must use a different type of loop.
 
-22. Какой из операторов используется для перехода на определенную метку в программе?
+22. Which operator is used to jump to a specific label in a program?
 a) for
 b) while
 c) do-while
 d) goto
 
-23. Как можно изменить поведение цикла while, чтобы он выполнялся бесконечно?
-a) Изменить условие цикла на false.
-b) Использовать оператор break.
-c) Использовать оператор continue.
-d) Необходимо использовать другой тип цикла.
+23. How can you change the behavior of the while loop so that it runs indefinitely?
+a) Change the loop condition to false.
+b) Use the break operator.
+c) Use the continue operator.
+d) You must use a different type of loop.
 
-24. Какой оператор используется для продолжения выполнения следующей итерации цикла без выполнения оставшейся части текущей итерации?
+24. Which operator is used to continue executing the next iteration of the loop without executing the rest of the current iteration?
 a) for
 b) while
 c) do-while
 d) continue
 
-25. Какой оператор используется для прерывания выполнения цикла и перехода к выполнению следующей команды после цикла?
+25. Which operator is used to interrupt the execution of a loop and move on to the next instruction after the loop?
 a) for
 b) while
 c) do-while
 d) break
 
-26. Как можно изменить поведение цикла do-while, чтобы он выполнялся до выполнения определенного условия?
-a) Использовать оператор continue.
-b) Изменить условие цикла.
-c) Использовать оператор break.
-d) Использовать цикл while.
+26. How can you change the behavior of the do-while loop so that it is executed before a certain condition is met?
+a) Use the continue operator.
+b) Change the condition of the loop.
+c) Use the break statement.
+d) Use the while loop.
 
-27. Какой тип цикла наиболее подходит для выполнения набора команд определенное количество раз?
+27. Which type of loop is best suited for executing a set of commands a certain number of times?
 a) for
 b) while
 c) do-while
-d) все перечисленные
+d) all of the above
 
-28. Какой оператор используется для задания начального значения переменной-счетчика в цикле for?
+28. Which operator is used to set the initial value of a variable-counter in a for loop?
 a) for
 b) while
 c) do-while
 d) continue
 
-29. Какой оператор используется для выхода из нескольких уровней вложенных циклов одновременно?
+29. Which operator is used to exit multiple levels of nested loops simultaneously?
 a) for
 b) while
 c) do-while
 d) break
 
-30. Как можно изменить поведение цикла while, чтобы он выполнялся определенное количество раз?
-a) Изменить условие цикла.
-b) Использовать оператор break.
-c) Использовать оператор continue.
-d) Необходимо использовать другой тип цикла.
+30. How can you change the behavior of the while loop so that it is executed a specific number of times?
+a) Change the condition of the loop.
+b) Use the break operator.
+c) Use the continue operator.
+d) You must use a different type of loop.
