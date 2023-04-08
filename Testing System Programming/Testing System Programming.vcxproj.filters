@@ -24,6 +24,9 @@
     <ClCompile Include="Students.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="authStudents.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Teacher.h">
@@ -31,6 +34,9 @@
     </ClInclude>
     <ClInclude Include="Students.h">
       <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="authStudents.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
