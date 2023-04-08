@@ -361,3 +361,215 @@ a) arr[i] = 0;
 b) erase(arr[i]);
 c) remove(arr, arr+i);
 d) for(int j=i; j<n-1; j++) arr[j] = arr[j+1]; n--;
+
+THEME - STRINGS.
+
+1. What is a string in C++?
+a) A data type used to store multiple characters
+b) A data type used to store a single character
+c) A data type used to store integers
+d) A data type used to store floating-point numbers
+Answer: a) A data type used to store multiple characters
+
+2. What is the syntax for declaring a string variable in C++?
+a) char str[];
+b) string str;
+c) str[] = "hello";
+d) str = "hello";
+Answer: b) string str;
+
+3. How do you assign a value to a string variable in C++?
+a) str = "hello";
+b) str[] = "hello";
+c) str = 'h';
+d) str = 1;
+Answer: a) str = "hello";
+
+4. How do you find the length of a string in C++?
+a) len(str);
+b) length(str);
+c) str.length();
+d) strlen(str);
+Answer: c) str.length();
+
+5. What is the difference between the C-style string and the C++ string?
+a) There is no difference
+b) C-style string is null-terminated, while C++ string is not
+c) C-style string is immutable, while C++ string is mutable
+d) C-style string is shorter, while C++ string is longer
+Answer: b) C-style string is null-terminated, while C++ string is not
+
+6. What is the function used to concatenate two strings in C++?
+a) strcat()
+b) strconcat()
+c) append()
+d) add()
+Answer: c) append()
+
+7. How do you access the character at a particular index in a string in C++?
+a) str[index]
+b) str.charAt(index)
+c) str.index(index)
+d) str.getChar(index)
+Answer: a) str[index]
+
+8. What is the function used to compare two strings in C++?
+a) strcmp()
+b) strcompare()
+c) compare()
+d) equals()
+Answer: c) compare()
+
+9. What is the return type of the compare() function in C++?
+a) int
+b) bool
+c) char
+d) float
+Answer: a) int
+
+10. What is the function used to find a substring in a string in C++?
+a) strfind()
+b) substr()
+c) find()
+d) search()
+Answer: c) find()
+
+11. What is the return type of the find() function in C++?
+a) int
+b) bool
+c) char
+d) float
+Answer: a) int
+
+12. What is the function used to insert a substring into a string in C++?
+a) strinsert()
+b) insert()
+c) substr()
+d) stradd()
+Answer: b) insert()
+
+13. What is the function used to erase a substring from a string in C++?
+a) strerase()
+b) erase()
+c) substr()
+d) strdelete()
+Answer: b) erase()
+
+14. What is the function used to replace a substring in a string with another substring in C++?
+a) strreplace()
+b) replace()
+c) substr()
+d) strswap()
+Answer: b) replace()
+
+15. What is the function used to convert a string to uppercase in C++?
+a) toupper()
+b) strupper()
+c) uppercase()
+d) toUpper()
+Answer: c) uppercase()
+
+16. What is the function used to convert a string to lowercase in C++?
+a) tolower()
+b) strlower()
+c) lowercase()
+d) toLower()
+Answer: c) lowercase()
+
+17. What is the function used to remove all occurrences of a character from a string in C++?
+a) remove_char()
+b) strremove()
+c) erase()
+d) remove()
+Answer: d) remove()
+
+18. What is the function used to reverse a string in C++?
+a) reverse()
+b) strreverse()
+c) flip()
+d) rotate()
+Answer: a) reverse()
+
+19. What is the function used to convert a string to an integer in C++?
+a) to_int()
+b) stoi()
+c) str_to_int()
+d) int_convert()
+Answer: b) stoi()
+
+20. What is the function used to convert an integer to a string in C++?
+a) to_string()
+b) int_to_str()
+c) convert_str()
+d) str_convert()
+Answer: a) to_string()
+
+21. What is the function used to trim whitespace from the beginning and end of a string in C++?
+a) strtrim()
+b) trim()
+c) trim_whitespace()
+d) remove_whitespace()
+Answer: b) trim()
+
+22. What is the function used to pad a string with a specific character to a certain length in C++?
+a) strpad()
+b) pad()
+c) pad_string()
+d) add_padding()
+Answer: b) pad()
+
+23. What is the function used to split a string into substrings based on a delimiter in C++?
+a) strsplit()
+b) split()
+c) split_string()
+d) substring()
+Answer: b) split()
+
+24. What is the return type of the split() function in C++?
+a) string
+b) vector<string>
+c) int
+d) bool
+Answer: b) vector<string>
+
+25. What is the function used to join a vector of strings into a single string with a delimiter in C++?
+a) strjoin()
+b) join()
+c) join_string()
+d) concatenate()
+Answer: b) join()
+
+26. What is the function used to check if a string starts with a specific prefix in C++?
+a) starts_with()
+b) strstarts()
+c) check_prefix()
+d) prefix()
+Answer: a) starts_with()
+
+27. What is the function used to check if a string ends with a specific suffix in C++?
+a) ends_with()
+b) strends()
+c) check_suffix()
+d) suffix()
+Answer: a) ends_with()
+
+28. What is the function used to find the first occurrence of a character in a string in C++?
+a) strfind()
+b) find_char()
+c) find()
+d) search()
+Answer: c) find()
+
+29. What is the function used to convert a string to a double in C++?
+a) to_double()
+b) stod()
+c) str_to_double()
+d) double_convert()
+Answer: b) stod()
+
+30. What is the function used to convert a double to a string in C++?
+a) to_string()
+b) double_to_str()
+c) convert_str()
+d) str_convert()
+Answer: a) to_string()
