@@ -930,3 +930,215 @@ b) A function that calls itself at the end of the function
 c) A function that calls another function
 d) A function that uses a loop
 Answer: b) A function that calls itself at the end of the function
+
+THEME - STRUCTURES.
+
+1. What is a data structure in C++?
+a) A way to store and organize data in memory
+b) A way to format data on the screen
+c) A way to input data from the keyboard
+d) A way to output data to a file
+Answer: a) A way to store and organize data in memory
+
+2. Which of the following is a linear data structure?
+a) Binary tree
+b) Stack
+c) Graph
+d) Heap
+Answer: b) Stack
+
+3. Which of the following is a non-linear data structure?
+a) Array
+b) Linked list
+c) Queue
+d) Tree
+Answer: d) Tree
+
+4. Which of the following is a dynamic data structure?
+a) Array
+b) Stack
+c) Queue
+d) Linked list
+Answer: d) Linked list
+
+5. What is a stack in C++?
+a) A data structure that stores elements in a first-in, first-out (FIFO) order
+b) A data structure that stores elements in a last-in, first-out (LIFO) order
+c) A data structure that stores elements in a sorted order
+d) A data structure that stores elements in a binary tree
+Answer: b) A data structure that stores elements in a last-in, first-out (LIFO) order
+
+6. What is a queue in C++?
+a) A data structure that stores elements in a first-in, first-out (FIFO) order
+b) A data structure that stores elements in a last-in, first-out (LIFO) order
+c) A data structure that stores elements in a sorted order
+d) A data structure that stores elements in a binary tree
+Answer: a) A data structure that stores elements in a first-in, first-out (FIFO) order
+
+7. What is a linked list in C++?
+a) A data structure that stores elements in an array
+b) A data structure that stores elements in a stack
+c) A data structure that stores elements in a queue
+d) A data structure that stores elements in a sequence of nodes linked together
+Answer: d) A data structure that stores elements in a sequence of nodes linked together
+
+8. What is a doubly linked list in C++?
+a) A linked list where each node has two pointers, one to the previous node and one to the next node
+b) A linked list where each node has two values, one for the key and one for the data
+c) A linked list where each node has two children, one to the left and one to the right
+d) A linked list where each node has two weights, one for the distance and one for the cost
+Answer: a) A linked list where each node has two pointers, one to the previous node and one to the next node
+
+9. What is a binary tree in C++?
+a) A tree where each node has two children
+b) A tree where each node has three children
+c) A tree where each node has four children
+d) A tree where each node has five children
+Answer: a) A tree where each node has two children
+
+10. What is a binary search tree in C++?
+a) A binary tree where each node has two children and the left child is smaller than the parent and the right child is greater than the parent
+b) A binary tree where each node has two children and the left child is greater than the parent and the right child is smaller than the parent
+c) A binary tree where each node has three children and the middle child is equal to the parent
+d) A binary tree where each node has four children and the two middle children are equal to the parent
+Answer: a) A binary tree where each node has two children and the left child is smaller than the parent and the right child is greater than the parent
+
+11. What is a balanced binary search tree?
+a) A binary search tree where each node has two children and the left child is smaller than the parent and the right child is greater than the parent
+b) A binary search tree where each node has two children and the left child is greater than the parent and the right child is smaller than the parent
+c) A binary search tree where the height of the left and right subtrees of each node differ by at most one
+d) A binary search tree where the height of the left subtree is always greater than the height of the right subtree
+Answer: c) A binary search tree where the height of the left and right subtrees of each node differ by at most one
+
+12. What is a heap in C++?
+a) A data structure that stores elements in a first-in, first-out (FIFO) order
+b) A data structure that stores elements in a last-in, first-out (LIFO) order
+c) A data structure that stores elements in a sorted order
+d) A complete binary tree where the parent node is greater than or equal to its child nodes
+Answer: d) A complete binary tree where the parent node is greater than or equal to its child nodes
+
+13. Which of the following is not a type of heap?
+a) Max heap
+b) Min heap
+c) Binary heap
+d) Quad heap
+Answer: d) Quad heap
+
+14. What is a priority queue in C++?
+a) A queue where elements are stored in a first-in, first-out (FIFO) order
+b) A queue where elements are stored in a last-in, first-out (LIFO) order
+c) A queue where elements are stored in a sorted order
+d) A queue where elements are stored based on their priority
+Answer: d) A queue where elements are stored based on their priority
+
+15. What is a hash table in C++?
+a) A data structure that stores elements in a first-in, first-out (FIFO) order
+b) A data structure that stores elements in a last-in, first-out (LIFO) order
+c) A data structure that stores elements in a sorted order
+d) A data structure that stores elements based on their hash values
+Answer: d) A data structure that stores elements based on their hash values
+
+16. What is collision resolution in hash tables?
+a) The process of finding the hash value of an element
+b) The process of storing an element in the hash table
+c) The process of handling cases where two elements have the same hash value
+d) The process of deleting an element from the hash table
+Answer: c) The process of handling cases where two elements have the same hash value
+
+17. Which of the following is not a collision resolution technique in hash tables?
+a) Chaining
+b) Linear probing
+c) Quadratic probing
+d) Binary search
+Answer: d) Binary search
+
+18. What is a graph in C++?
+a) A data structure that stores elements in a first-in, first-out (FIFO) order
+b) A data structure that stores elements in a last-in, first-out (LIFO) order
+c) A data structure that stores elements in a sorted order
+d) A collection of vertices and edges that connect them
+Answer: d) A collection of vertices and edges that connect them
+
+19. What is a directed graph in C++?
+a) A graph where each edge has a direction
+b) A graph where the edges have no direction
+c) A graph where each vertex has a direction
+d) A graph where the edges have weights
+Answer: a) A graph where each edge has a direction
+
+20. What is a spanning tree in a graph?
+a) A tree that includes all vertices of the graph and a subset of its edges, with no cycles
+b) A tree that includes only some vertices of the graph and all of its edges, with no cycles
+c) A tree that includes all vertices of the graph and all of its edges, with no cycles
+d) A tree that includes only some vertices of the graph and a subset of its edges, with no cycles
+Answer: a) A tree that includes all vertices of the graph and a subset of its edges, with no cycles
+
+21. What is a data structure in C++?
+a) A way to store and organize data in memory
+b) A way to format data on the screen
+c) A way to input data from the keyboard
+d) A way to output data to a file
+Answer: a) A way to store and organize data in memory
+
+22. Which of the following is a linear data structure?
+a) Binary tree
+b) Stack
+c) Graph
+d) Heap
+Answer: b) Stack
+
+23. Which of the following is a non-linear data structure?
+a) Array
+b) Linked list
+c) Queue
+d) Tree
+Answer: d) Tree
+
+24. Which of the following is a dynamic data structure?
+a) Array
+b) Stack
+c) Queue
+d) Linked list
+Answer: d) Linked list
+
+25. What is a stack in C++?
+a) A data structure that stores elements in a first-in, first-out (FIFO) order
+b) A data structure that stores elements in a last-in, first-out (LIFO) order
+c) A data structure that stores elements in a sorted order
+d) A data structure that stores elements in a binary tree
+Answer: b) A data structure that stores elements in a last-in, first-out (LIFO) order
+
+26. What is a queue in C++?
+a) A data structure that stores elements in a first-in, first-out (FIFO) order
+b) A data structure that stores elements in a last-in, first-out (LIFO) order
+c) A data structure that stores elements in a sorted order
+d) A data structure that stores elements in a binary tree
+Answer: a) A data structure that stores elements in a first-in, first-out (FIFO) order
+
+27. What is a linked list in C++?
+a) A data structure that stores elements in an array
+b) A data structure that stores elements in a stack
+c) A data structure that stores elements in a queue
+d) A data structure that stores elements in a sequence of nodes linked together
+Answer: d) A data structure that stores elements in a sequence of nodes linked together
+
+28. What is a doubly linked list in C++?
+a) A linked list where each node has two pointers, one to the previous node and one to the next node
+b) A linked list where each node has two values, one for the key and one for the data
+c) A linked list where each node has two children, one to the left and one to the right
+d) A linked list where each node has two weights, one for the distance and one for the cost
+Answer: a) A linked list where each node has two pointers, one to the previous node and one to the next node
+
+29. What is a binary tree in C++?
+a) A tree where each node has two children
+b) A tree where each node has three children
+c) A tree where each node has four children
+d) A tree where each node has five children
+Answer: a) A tree where each node has two children
+
+30. What is a binary search tree in C++?
+a) A binary tree where each node has two children and the left child is smaller than the parent and the right child is greater than the parent
+b) A binary tree where each node has two children and the left child is greater than the parent and the right child is smaller than the parent
+c) A binary tree where each node has three children and the middle child is equal to the parent
+d) A binary tree where each node has four children and the two middle children are equal to the parent
+Answer: a) A binary tree where each node has two children and the left child is smaller than the parent and the right child is greater than the parent
