@@ -1142,3 +1142,215 @@ b) A binary tree where each node has two children and the left child is greater 
 c) A binary tree where each node has three children and the middle child is equal to the parent
 d) A binary tree where each node has four children and the two middle children are equal to the parent
 Answer: a) A binary tree where each node has two children and the left child is smaller than the parent and the right child is greater than the parent
+
+THEME - FILES.
+
+1. What is the purpose of the fstream library in C++?
+a) To handle input and output of files
+b) To handle dynamic memory allocation
+c) To handle networking operations
+d) To handle user input/output from the console
+Answer: a) To handle input and output of files
+
+2. What is the difference between ifstream and ofstream?
+a) ifstream is used for writing to a file, and ofstream is used for reading from a file
+b) ifstream is used for reading from a file, and ofstream is used for writing to a file
+c) ifstream and ofstream are used for the same purpose
+d) ifstream is used for reading binary files, and ofstream is used for reading text files
+Answer: b) ifstream is used for reading from a file, and ofstream is used for writing to a file
+
+3. What is the purpose of the ios::in and ios::out flags in file stream operations?
+a) ios::in is used to specify that the file is being opened for input, and ios::out is used to specify that the file is being opened for output
+b) ios::in is used to specify that the file is being opened for output, and ios::out is used to specify that the file is being opened for input
+c) ios::in and ios::out are used to specify that the file is being opened for both input and output
+d) ios::in is used to specify that the file is being opened in binary mode, and ios::out is used to specify that the file is being opened in text mode
+Answer: a) ios::in is used to specify that the file is being opened for input, and ios::out is used to specify that the file is being opened for output
+
+4. What is the purpose of the ios::app flag in file stream operations?
+a) To open the file for both input and output
+b) To append data to the end of the file
+c) To create a new file if it doesn't exist
+d) To overwrite the existing file
+Answer: b) To append data to the end of the file
+
+5. Which of the following is the correct syntax for opening a file for reading in C++?
+a) ifstream file("filename", ios::out);
+b) ifstream file("filename", ios::in);
+c) ofstream file("filename", ios::in);
+d) ofstream file("filename", ios::out);
+Answer: b) ifstream file("filename", ios::in);
+
+6. Which of the following is the correct syntax for opening a file for writing in C++?
+a) ifstream file("filename", ios::out);
+b) ifstream file("filename", ios::in);
+c) ofstream file("filename", ios::in);
+d) ofstream file("filename", ios::out);
+Answer: d) ofstream file("filename", ios::out);
+
+7. What is the difference between text and binary files in C++?
+a) Text files are readable by humans, while binary files are not
+b) Text files contain characters, while binary files contain machine-readable data
+c) Text files are smaller than binary files
+d) Text files cannot be read or written to in C++
+Answer: b) Text files contain characters, while binary files contain machine-readable data
+
+8. Which of the following is the correct syntax for writing to a file in C++?
+a) file.write("data", sizeof(data));
+b) file.put("data");
+c) file << "data";
+d) file.write("data");
+Answer: c) file << "data";
+
+9. Which of the following is the correct syntax for reading from a file in C++?
+a) file.read("data", sizeof(data));
+b) file.get("data");
+c) file >> "data";
+d) file.read("data");
+Answer: b) file.get("data");
+
+10. What is the purpose of the seekg() function in file stream operations?
+a) To move the read/write pointer to a specified position in the file
+b) To close the file
+c) To delete the file
+d) To create a new file
+Answer: a) To move the read/write pointer to a specified position in the file
+
+11. What is the difference between the tellg() and tellp() functions in file stream operations?
+a) tellg() is used for output operations, while tellp() is used for input operations
+b) tellg() returns the position of the read pointer, while tellp() returns the position of the write pointer
+c) tellg() returns the position of the write pointer, while tellp() returns the position of the read pointer
+d) tellg() and tellp() are used for the same purpose
+Answer: b) tellg() returns the position of the read pointer, while tellp() returns the position of the write pointer
+
+12. What is the purpose of the flush() function in file stream operations?
+a) To close the file
+b) To move the read/write pointer to a specified position in the file
+c) To write any buffered data to the file
+d) To read any buffered data from the file
+Answer: c) To write any buffered data to the file
+
+13. What is the purpose of the close() function in file stream operations?
+a) To move the read/write pointer to a specified position in the file
+b) To delete the file
+c) To flush any buffered data to the file
+d) To close the file
+Answer: d) To close the file
+
+14. What is the purpose of the getline() function in file stream operations?
+a) To read a line of text from the console
+b) To read a line of text from a file
+c) To write a line of text to a file
+d) To write a line of text to the console
+Answer: b) To read a line of text from a file
+
+15. What is the difference between the get() and getline() functions in file stream operations?
+a) get() reads a single character, while getline() reads a line of text
+b) get() reads a line of text, while getline() reads a single character
+c) get() and getline() are used for the same purpose
+d) get() and getline() are not used for file stream operations
+Answer: a) get() reads a single character, while getline() reads a line of text
+
+16. What is the purpose of the write() function in file stream operations?
+a) To read a line of text from a file
+b) To write a line of text to a file
+c) To read binary data from a file
+d) To write binary data to a file
+Answer: d) To write binary data to a file
+
+17. What is the purpose of the read() function in file stream operations?
+a) To write a line of text to a file
+b) To read a line of text from a file
+c) To write binary data to a file
+d) To read binary data from a file
+Answer: d) To read binary data from a file
+
+18. What is the purpose of the eof() function in file stream operations?
+a) To check if the end of the file has been reached
+b) To check if an error has occurred while reading from or writing to the file
+c) To check if the file exists
+d) To check if the file is empty
+Answer: a) To check if the end of the file has been reached
+
+19. What is the purpose of the fail() function in file stream operations?
+a) To check if the end of the file has been reached
+b) To check if an error has occurred while reading from or writing to the file
+c) To check if the file exists
+d) To check if the file is empty
+Answer: b) To check if an error has occurred while reading from or writing to the file
+
+20. What is the purpose of the good() function in file stream operations?
+a) To check if the end of the file has been reached
+b) To check if an error has occurred while reading from or writing to the file
+c) To check if the file exists
+d) To check if the file is empty
+Answer: b) To check if an error has occurred while reading from or writing to the file
+
+21. What is a binary file?
+a) A file that contains only text characters
+b) A file that contains machine-readable data
+c) A file that contains executable code
+d) A file that contains both text and machine-readable data
+Answer: b) A file that contains machine-readable data
+
+22. What is the difference between reading and writing to a binary file and a text file?
+a) There is no difference between reading and writing to binary and text files
+b) Binary files can only be read and written using specialized functions, while text files can be read and written using standard text file functions
+c) Text files can only be read and written using specialized functions, while binary files can be read and written using standard binary file functions
+d) Binary files can only be read and written in binary format, while text files can be read and written in both binary and text format
+Answer: b) Binary files can only be read and written using specialized functions, while text files can be read and written using standard text file functions
+
+23. What is the purpose of the fstream library in C++?
+a) To handle input and output of files
+b) To handle dynamic memory allocation
+c) To handle networking operations
+d) To handle user input/output from the console
+Answer: a) To handle input and output of files
+
+24. What is the difference between ifstream and ofstream?
+a) ifstream is used for writing to a file, and ofstream is used for reading from a file
+b) ifstream is used for reading from a file, and ofstream is used for writing to a file
+c) ifstream and ofstream are used for the same purpose
+d) ifstream is used for reading binary files, and ofstream is used for reading text files
+Answer: b) ifstream is used for reading from a file, and ofstream is used for writing to a file
+
+25. What is the purpose of the ios::in and ios::out flags in file stream operations?
+a) ios::in is used to specify that the file is being opened for input, and ios::out is used to specify that the file is being opened for output
+b) ios::in is used to specify that the file is being opened for output, and ios::out is used to specify that the file is being opened for input
+c) ios::in and ios::out are used to specify that the file is being opened for both input and output
+d) ios::in is used to specify that the file is being opened in binary mode, and ios::out is used to specify that the file is being opened in text mode
+Answer: a) ios::in is used to specify that the file is being opened for input, and ios::out is used to specify that the file is being opened for output
+
+26. What is the purpose of the ios::app flag in file stream operations?
+a) To open the file for both input and output
+b) To append data to the end of the file
+c) To create a new file if it doesn't exist
+d) To overwrite the existing file
+Answer: b) To append data to the end of the file
+
+27. Which of the following is the correct syntax for opening a file for reading in C++?
+a) ifstream file("filename", ios::out);
+b) ifstream file("filename", ios::in);
+c) ofstream file("filename", ios::in);
+d) ofstream file("filename", ios::out);
+Answer: b) ifstream file("filename", ios::in);
+
+28. Which of the following is the correct syntax for opening a file for writing in C++?
+a) ifstream file("filename", ios::out);
+b) ifstream file("filename", ios::in);
+c) ofstream file("filename", ios::in);
+d) ofstream file("filename", ios::out);
+Answer: d) ofstream file("filename", ios::out);
+
+29. What is the difference between text and binary files in C++?
+a) Text files are readable by humans, while binary files are not
+b) Text files contain characters, while binary files contain machine-readable data
+c) Text files are smaller than binary files
+d) Text files cannot be read or written to in C++
+Answer: b) Text files contain characters, while binary files contain machine-readable data
+
+30. Which of the following is the correct syntax for writing to a file in C++?
+a) file.write("data", sizeof(data));
+b) file.put("data");
+c) file << "data";
+d) file.write("data");
+Answer: c) file << "data";
