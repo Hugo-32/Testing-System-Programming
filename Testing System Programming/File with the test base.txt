@@ -1566,3 +1566,215 @@ b) A smart pointer that can only be used to access memory allocated on the stack
 c) A smart pointer that can only be used to access memory allocated on the heap
 d) A smart pointer that can be used to access hardware resources
 Answer: a) A smart pointer that can be copied and shared between multiple objects
+
+THEME - DYNAMIC MEMORY.
+
+1. What is dynamic memory allocation in C++?
+a) Allocating memory at compile time
+b) Allocating memory at runtime
+c) Allocating memory on the stack
+d) Allocating memory on the heap
+Answer: b) Allocating memory at runtime
+
+2. Which operator is used to allocate memory on the heap in C++?
+a) new
+b) malloc
+c) delete
+d) free
+Answer: a) new
+
+3. What is the purpose of the delete operator in C++?
+a) To deallocate memory allocated with new
+b) To deallocate memory allocated with malloc
+c) To free up memory space on the stack
+d) To free up memory space on the heap
+Answer: a) To deallocate memory allocated with new
+
+4. What is the difference between malloc and new in C++?
+a) There is no difference between malloc and new
+b) Malloc allocates memory on the heap, while new allocates memory on the stack
+c) Malloc allocates memory on the stack, while new allocates memory on the heap
+d) New is used to allocate memory for objects, while malloc is used to allocate memory for primitive types
+Answer: d) New is used to allocate memory for objects, while malloc is used to allocate memory for primitive types
+
+5. What is a memory leak in C++?
+a) A situation where memory allocated on the heap is not deallocated
+b) A situation where memory allocated on the stack is not deallocated
+c) A situation where a program runs out of memory
+d) A situation where a program crashes due to memory allocation issues
+Answer: a) A situation where memory allocated on the heap is not deallocated
+
+6. What is a null pointer in C++?
+a) A pointer that points to the address 0
+b) A pointer that points to a location in memory that has been deallocated
+c) A pointer that points to a location in memory that has been initialized
+d) A pointer that points to a location in memory that is not accessible
+Answer: a) A pointer that points to the address 0
+
+7. What is a dangling pointer in C++?
+a) A pointer that points to a location in memory that has been deallocated
+b) A pointer that points to a location in memory that has been initialized
+c) A pointer that points to a location in memory that is not accessible
+d) A pointer that points to a memory location that may have been deallocated
+Answer: d) A pointer that points to a memory location that may have been deallocated
+
+8. What is a smart pointer in C++?
+a) A pointer that is automatically deallocated when it goes out of scope
+b) A pointer that can be used to access memory out of bounds
+c) A pointer that is used to access virtual memory
+d) A pointer that is used to access hardware resources
+Answer: a) A pointer that is automatically deallocated when it goes out of scope
+
+9. What is a unique pointer in C++?
+a) A smart pointer that can be copied
+b) A smart pointer that cannot be copied
+c) A smart pointer that can be used to access multiple memory locations
+d) A smart pointer that can be used to access memory out of bounds
+Answer: b) A smart pointer that cannot be copied
+
+10. What is a shared pointer in C++?
+a) A smart pointer that can be copied and shared between multiple objects
+b) A smart pointer that can only be used to access memory allocated on the stack
+c) A smart pointer that can only be used to access memory allocated on the heap
+d) A smart pointer that can be used to access hardware resources
+Answer: a) A smart pointer that can be copied and shared between multiple objects
+
+11. How does a unique pointer differ from a shared pointer in C++?
+a) A unique pointer cannot be copied, while a shared pointer can be copied
+b) A shared pointer cannot be used to access memory on the heap, while a unique pointer can
+c) A unique pointer can only be used to access memory on the stack, while a shared pointer can be used to access memory on the heap
+d) There is no difference between a unique pointer and a shared pointer
+Answer: a) A unique pointer cannot be copied, while a shared pointer can be copied
+
+12. What is the difference between a raw pointer and a smart pointer in C++?
+a) There is no difference between a raw pointer and a smart pointer
+b) A smart pointer automatically deallocates memory when it goes out of scope, while a raw pointer does not
+c) A raw pointer can only be used to access memory allocated on the stack, while a smart pointer can be used to access memory allocated on the heap
+d) A smart pointer can only be used to access memory allocated on the stack, while a raw pointer can be used to access memory allocated on the heap
+Answer: b) A smart pointer automatically deallocates memory when it goes out of scope, while a raw pointer does not
+
+13. What is a weak pointer in C++?
+a) A pointer that cannot be dereferenced
+b) A pointer that can be used to access memory on the stack
+c) A pointer that is automatically deallocated when it goes out of scope
+d) A pointer that does not increment the reference count of a shared pointer
+Answer: d) A pointer that does not increment the reference count of a shared pointer
+
+14. What is the difference between a const pointer and a pointer to const in C++?
+a) There is no difference between a const pointer and a pointer to const
+b) A const pointer cannot be used to modify the value it points to, while a pointer to const can
+c) A pointer to const cannot be used to modify the value it points to, while a const pointer can
+d) A const pointer and a pointer to const cannot be used to modify the value they point to
+Answer: c) A pointer to const cannot be used to modify the value it points to, while a const pointer can
+
+15. What is the difference between a reference and a pointer in C++?
+a) There is no difference between a reference and a pointer
+b) A pointer can be null, while a reference cannot
+c) A reference can be reassigned, while a pointer cannot
+d) A pointer can be used to access memory out of bounds, while a reference cannot
+Answer: b) A pointer can be null, while a reference cannot
+
+16. What is the difference between a shallow copy and a deep copy in C++?
+a) There is no difference between a shallow copy and a deep copy
+b) A shallow copy copies only the pointer values, while a deep copy copies the pointed-to values as well
+c) A deep copy copies only the pointer values, while a shallow copy copies the pointed-to values as well
+d) A shallow copy and a deep copy cannot be performed on dynamically allocated memory
+Answer: b) A shallow copy copies only the pointer values, while a deep copy copies the pointed-to values as well
+
+17. What is the difference between the stack and the heap in C++?
+a) There is no difference between the stack and the heap
+b) Memory allocated on the stack is automatically deallocated when the function it was allocated in returns, while memory allocated on the heap must be manually deallocated
+c) Memory allocated on the heap is faster to access than memory allocated on the stack
+d) Memory allocated on the stack can be shared between multiple threads, while memory allocated on the heap cannot
+Answer: b) Memory allocated on the stack is automatically deallocated when the function it was allocated in returns, while memory allocated on the heap must be manually deallocated
+
+18. What is a memory leak in C++?
+a) A situation where memory is allocated on the stack but not deallocated when it goes out of scope
+b) A situation where memory is allocated on the heap but not deallocated when it is no longer needed
+c) A situation where memory is allocated on the heap but deallocated too early, causing a segmentation fault
+d) A situation where memory is allocated on the stack but not initialized with a value
+Answer: b) A situation where memory is allocated on the heap but not deallocated when it is no longer needed
+
+19. How can you avoid a memory leak in C++?
+a) Always use raw pointers instead of smart pointers
+b) Always allocate memory on the stack instead of the heap
+c) Always manually deallocate memory after it is no longer needed
+d) Always use smart pointers instead of raw pointers, and make sure to release ownership of the memory when it is no longer needed
+Answer: d) Always use smart pointers instead of raw pointers, and make sure to release ownership of the memory when it is no longer needed
+
+20. What is a dangling pointer in C++?
+a) A pointer that is never initialized with a value
+b) A pointer that is initialized with a value that points to memory that has been deallocated
+c) A pointer that is initialized with a value that points to memory that has not been allocated
+d) A pointer that is initialized with a value that points to a valid memory address
+Answer: b) A pointer that is initialized with a value that points to memory that has been deallocated
+
+21. What is dynamic memory allocation in C++?
+a) Allocating memory at compile time
+b) Allocating memory at runtime
+c) Allocating memory on the stack
+d) Allocating memory on the heap
+Answer: b) Allocating memory at runtime
+
+22. Which operator is used to allocate memory on the heap in C++?
+a) new
+b) malloc
+c) delete
+d) free
+Answer: a) new
+
+23. What is the purpose of the delete operator in C++?
+a) To deallocate memory allocated with new
+b) To deallocate memory allocated with malloc
+c) To free up memory space on the stack
+d) To free up memory space on the heap
+Answer: a) To deallocate memory allocated with new
+
+24. What is the difference between malloc and new in C++?
+a) There is no difference between malloc and new
+b) Malloc allocates memory on the heap, while new allocates memory on the stack
+c) Malloc allocates memory on the stack, while new allocates memory on the heap
+d) New is used to allocate memory for objects, while malloc is used to allocate memory for primitive types
+Answer: d) New is used to allocate memory for objects, while malloc is used to allocate memory for primitive types
+
+25. What is a memory leak in C++?
+a) A situation where memory allocated on the heap is not deallocated
+b) A situation where memory allocated on the stack is not deallocated
+c) A situation where a program runs out of memory
+d) A situation where a program crashes due to memory allocation issues
+Answer: a) A situation where memory allocated on the heap is not deallocated
+
+26. What is a null pointer in C++?
+a) A pointer that points to the address 0
+b) A pointer that points to a location in memory that has been deallocated
+c) A pointer that points to a location in memory that has been initialized
+d) A pointer that points to a location in memory that is not accessible
+Answer: a) A pointer that points to the address 0
+
+27. What is a dangling pointer in C++?
+a) A pointer that points to a location in memory that has been deallocated
+b) A pointer that points to a location in memory that has been initialized
+c) A pointer that points to a location in memory that is not accessible
+d) A pointer that points to a memory location that may have been deallocated
+Answer: d) A pointer that points to a memory location that may have been deallocated
+
+28. What is a smart pointer in C++?
+a) A pointer that is automatically deallocated when it goes out of scope
+b) A pointer that can be used to access memory out of bounds
+c) A pointer that is used to access virtual memory
+d) A pointer that is used to access hardware resources
+Answer: a) A pointer that is automatically deallocated when it goes out of scope
+
+29. What is a unique pointer in C++?
+a) A smart pointer that can be copied
+b) A smart pointer that cannot be copied
+c) A smart pointer that can be used to access multiple memory locations
+d) A smart pointer that can be used to access memory out of bounds
+Answer: b) A smart pointer that cannot be copied
+
+30. What is a shared pointer in C++?
+a) A smart pointer that can be copied and shared between multiple objects
+b) A smart pointer that can only be used to access memory allocated on the stack
+c) A smart pointer that can only be used to access memory allocated on the heap
+d) A smart pointer that can be used to access hardware resources
+Answer: a) A smart pointer that can be copied and shared between multiple objects
