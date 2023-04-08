@@ -1,3 +1,10 @@
+//
+// authStudents.h
+// Васильев Артём
+//
+
+#define MAX_GRADES 8;
+
 struct Student {
 	string login;
 	string password;
@@ -8,5 +15,5 @@ struct Student {
 	float average;
 };
 int readStudents(Student* students);
-void calculateAverage(Student& student);
+double calculateAverage(Student students);
 void printStudent(Student& student);
