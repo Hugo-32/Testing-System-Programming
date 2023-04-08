@@ -1354,3 +1354,215 @@ b) file.put("data");
 c) file << "data";
 d) file.write("data");
 Answer: c) file << "data";
+
+THEME - ADDRESSESS AND SIGNS.
+
+1. What is an address in C++?
+a) A reference to a location in memory
+b) A keyword used to declare variables
+c) A pointer to a function
+d) A type of control structure
+Answer: a) A reference to a location in memory
+
+2. How is an address declared in C++?
+a) Using the address-of operator (&)
+b) Using the dereference operator (*)
+c) Using the new operator
+d) Using the delete operator
+Answer: a) Using the address-of operator (&)
+
+3. What is a pointer in C++?
+a) A variable that stores an address
+b) A variable that stores a value
+c) A type of control structure
+d) A keyword used to declare variables
+Answer: a) A variable that stores an address
+
+4. How is a pointer declared in C++?
+a) Using the pointer operator ()
+b) Using the address-of operator (&)
+c) Using the new operator
+d) Using the delete operator
+Answer: a) Using the pointer operator ()
+
+5. What is the difference between a pointer and an address in C++?
+a) There is no difference between a pointer and an address
+b) A pointer is a variable that stores an address, while an address is the actual location in memory
+c) An address is a variable that stores a pointer, while a pointer is the actual location in memory
+d) An address is used to reference functions, while a pointer is used to reference variables
+Answer: b) A pointer is a variable that stores an address, while an address is the actual location in memory
+
+6. What is the dereference operator in C++?
+a) The operator used to declare pointers
+b) The operator used to access the value at a pointer's address
+c) The operator used to compare two addresses
+d) The operator used to assign a value to an address
+Answer: b) The operator used to access the value at a pointer's address
+
+7. What is a null pointer in C++?
+a) A pointer that points to the beginning of memory
+b) A pointer that points to a specific address
+c) A pointer that has not been initialized
+d) A pointer that points to the end of memory
+Answer: c) A pointer that has not been initialized
+
+8. What is a void pointer in C++?
+a) A pointer that can only be used with specific data types
+b) A pointer that points to a function
+c) A pointer that points to a location in memory without a specific data type
+d) A pointer that cannot be dereferenced
+Answer: c) A pointer that points to a location in memory without a specific data type
+
+9. How is a void pointer declared in C++?
+a) Using the pointer operator (*)
+b) Using the address-of operator (&)
+c) Using the void keyword
+d) Using the delete operator
+Answer: c) Using the void keyword
+
+10. What is a function pointer in C++?
+a) A pointer that points to a specific location in memory
+b) A pointer that points to a specific function
+c) A pointer that points to an object
+d) A pointer that points to a variable
+Answer: b) A pointer that points to a specific function
+
+11. How is a function pointer declared in C++?
+a) Using the pointer operator ()
+b) Using the address-of operator (&)
+c) Using the void keyword
+d) Using the function keyword
+Answer: a) Using the pointer operator ()
+
+12. What is the purpose of a function pointer in C++?
+a) To store the address of a function
+b) To store the address of a variable
+c) To create a new function
+d) To control the flow of a program
+Answer: a) To store the address of a function
+
+13. What is a pointer arithmetic in C++?
+a) A way to perform mathematical operations on pointers
+b) A way to access memory addresses out of bounds
+c) A way to compare two pointers
+d) A way to create new pointers
+Answer: a) A way to perform mathematical operations on pointers
+
+14. What is the difference between prefix and postfix increment operators in C++?
+a) There is no difference between prefix and postfix increment operators
+b) The prefix operator increments the value of a variable before using it, while the postfix operator increments it after using it
+c) The prefix operator increments the value of a variable after using it, while the postfix operator increments it before using it
+d) The prefix operator increments the value of a variable by a larger amount than the postfix operator
+Answer: b) The prefix operator increments the value of a variable before using it, while the postfix operator increments it after using it
+
+15. What is a const pointer in C++?
+a) A pointer to a constant value
+b) A pointer that cannot be changed
+c) A pointer that points to a constant memory location
+d) A pointer that points to a constant function
+Answer: b) A pointer that cannot be changed
+
+16. What is a const pointer to const in C++?
+a) A pointer to a constant value
+b) A pointer that cannot be changed
+c) A pointer that points to a constant memory location
+d) A pointer that points to a constant function
+Answer: c) A pointer that points to a constant memory location
+
+17. What is a reference in C++?
+a) A variable that stores an address
+b) A way to access the value of a variable directly
+c) A keyword used to declare variables
+d) A type of control structure
+Answer: b) A way to access the value of a variable directly
+
+18. How is a reference declared in C++?
+a) Using the reference operator ()
+b) Using the address-of operator (&)
+c) Using the new operator
+d) Using the delete operator
+Answer: a) Using the reference operator ()
+
+19. What is the difference between a pointer and a reference in C++?
+a) There is no difference between a pointer and a reference
+b) A pointer is a variable that stores an address, while a reference is an alias for a variable
+c) A pointer is used to access the value of a variable directly, while a reference is used to store an address
+d) A pointer and a reference cannot be used interchangeably in C++
+Answer: b) A pointer is a variable that stores an address, while a reference is an alias for a variable
+
+20. What is a reference parameter in C++?
+a) A parameter that is passed by value
+b) A parameter that is passed by reference
+c) A parameter that is passed by pointer
+d) A parameter that is passed by const pointer
+Answer: b) A parameter that is passed by reference
+
+21. What is the advantage of using references over pointers in C++?
+a) References are easier to declare than pointers
+b) References are safer to use than pointers
+c) References can be used to access any memory location, while pointers cannot
+d) References are faster to access than pointers
+Answer: b) References are safer to use than pointers
+
+22. What is a dangling pointer in C++?
+a) A pointer that points to a location in memory that has been deallocated
+b) A pointer that points to a location in memory that has been initialized
+c) A pointer that has not been initialized with a valid memory address
+d) A pointer that points to a location in memory that is currently being used by another process
+Answer: a) A pointer that points to a location in memory that has been deallocated
+
+23. What is a null pointer in C++?
+a) A pointer that points to the address 0
+b) A pointer that points to a location in memory that has been deallocated
+c) A pointer that points to a location in memory that has been initialized
+d) A pointer that points to a location in memory that is not accessible
+Answer: a) A pointer that points to the address 0
+
+24. What is the difference between a void pointer and a null pointer in C++?
+a) There is no difference between a void pointer and a null pointer
+b) A void pointer points to a location in memory of unknown type, while a null pointer points to the address 0
+c) A null pointer points to a location in memory of unknown type, while a void pointer points to the address 0
+d) A void pointer and a null pointer cannot be used interchangeably in C++
+Answer: b) A void pointer points to a location in memory of unknown type, while a null pointer points to the address 0
+
+25. What is the sizeof operator in C++?
+a) An operator that returns the size of a variable in bytes
+b) An operator that returns the address of a variable
+c) An operator that returns the value of a variable
+d) An operator that returns the type of a variable
+Answer: a) An operator that returns the size of a variable in bytes
+
+26. What is the difference between malloc and new in C++?
+a) There is no difference between malloc and new
+b) Malloc allocates memory on the heap, while new allocates memory on the stack
+c) Malloc allocates memory on the stack, while new allocates memory on the heap
+d) New is used to allocate memory for objects, while malloc is used to allocate memory for primitive types
+Answer: b) Malloc allocates memory on the heap, while new allocates memory on the stack
+
+27. What is the delete operator in C++ used for?
+a) To deallocate memory allocated with new
+b) To deallocate memory allocated with malloc
+c) To free up memory space on the stack
+d) To free up memory space on the heap
+Answer: a) To deallocate memory allocated with new
+
+28. What is a smart pointer in C++?
+a) A pointer that is automatically deallocated when it goes out of scope
+b) A pointer that can be used to access memory out of bounds
+c) A pointer that is used to access virtual memory
+d) A pointer that is used to access hardware resources
+Answer: a) A pointer that is automatically deallocated when it goes out of scope
+
+29. What is a unique pointer in C++?
+a) A smart pointer that can be copied
+b) A smart pointer that cannot be copied
+c) A smart pointer that can be used to access multiple memory locations
+d) A smart pointer that can be used to access memory out of bounds
+Answer: b) A smart pointer that cannot be copied
+
+30. What is a shared pointer in C++?
+a) A smart pointer that can be copied and shared between multiple objects
+b) A smart pointer that can only be used to access memory allocated on the stack
+c) A smart pointer that can only be used to access memory allocated on the heap
+d) A smart pointer that can be used to access hardware resources
+Answer: a) A smart pointer that can be copied and shared between multiple objects
