@@ -6,6 +6,7 @@ using namespace std;
 void Students()
 {
 	int Pr = Proverka();
+
 }
 
 int Proverka()
@@ -131,7 +132,7 @@ void Test()
 
 void FinalTest()
 {
-	int n = 40, wrong, right;
+	int n = 40, wrong, right, wrongQuestions[10] = { 0 };
 	for (int i = 0; i <= n; i++)
 	{
 		cout << endl << " ¬ведите ответ: ";

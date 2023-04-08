@@ -6,8 +6,7 @@
 
 void Students();
 void Menu();
-void Trening();
-void FinalTest();
+int Proverka();
 void Trening();
 void Test();
 void FinalTest();
