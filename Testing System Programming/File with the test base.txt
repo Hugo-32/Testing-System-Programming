@@ -179,3 +179,185 @@ a) Change the condition of the loop.
 b) Use the break operator.
 c) Use the continue operator.
 d) You must use a different type of loop.
+
+THEME - ARRAYS (ONE- AND TWO-DIMENSIONAL).
+
+1. How do you declare an array of integers with a size of 5?
+a) int arr[5];
+b) int arr(5);
+c) int arr = {5};
+d) int arr = [5];
+
+2. What is the index of the last element in an array of size n?
+a) n
+b) n-1
+c) n+1
+d) n*2
+
+3. How do you get the address of the first element in an array arr?
+a) &arr
+b) *arr
+c) arr
+d) &arr[0]
+
+4. Which symbol is used to access array elements?
+a) $
+b) %
+c) #
+d) []
+
+5. What is the value of arr[2] in the array arr = {1, 2, 3, 4, 5}?
+a) 1
+b) 2
+c) 3
+d) 4
+
+6. How do you declare a 2D array with a size of 3 by 3?
+a) int arr[3,3];
+b) int arr[3][3];
+c) int arr(3,3);
+d) int arr(3)(3);
+
+7. How do you access the value of an element in a 2D array at arr[1][2]?
+a) arr(1,2);
+b) arr(2,1);
+c) arr[1][2];
+d) arr[2][1];
+
+8. How do you print the value of an element in a 2D array at arr[3][4]?
+a) cout << arr(3,4);
+b) cout << arr(4,3);
+c) cout << arr[3][4];
+d) cout << arr[4][3];
+
+9. What is the syntax for assigning a value of 10 to the third element in an array arr?
+a) arr[3] = 10;
+b) arr(3) = 10;
+c) arr{3} = 10;
+d) arr(10,3);
+
+10. How do you find the length of an array arr?
+a) sizeof(arr);
+b) length(arr);
+c) len(arr);
+d) size(arr);
+
+11. How do you declare an array of strings with a size of 4?
+a) string arr(4);
+b) string arr[4];
+c) string arr = {"", "", "", ""};
+d) string arr = [4];
+
+12. What is the difference between a one-dimensional and a two-dimensional array?
+a) A one-dimensional array has only one element, while a two-dimensional array has multiple elements.
+b) A one-dimensional array has a single row, while a two-dimensional array has multiple rows.
+c) A one-dimensional array has only one column, while a two-dimensional array has multiple columns.
+d) A one-dimensional array has a linear structure, while a two-dimensional array has a rectangular structure.
+
+13. How do you access the value of the last element in an array arr?
+a) arr[last];
+b) arr[n-1];
+c) arr[n];
+d) arr[n+1];
+
+14. How do you initialize an array arr with values 1, 2, 3, and 4?
+a) int arr = {1, 2, 3, 4};
+b) int arr[1, 2, 3, 4];
+c) int arr[4] = {1, 2, 3, 4};
+d) int arr = [1, 2, 3, 4];
+
+15. How do you declare a 2D array arr with n rows and m columns in C++?
+a) int arr[n][m];
+b) int arr[n, m];
+c) int arr(n, m);
+d) int arr[][];
+
+16. How do you find the maximum value in an array arr?
+a) max(arr);
+b) arr[max];
+c) *max(arr);
+d) *max_element(arr, arr+n);
+
+17. How do you find the sum of all elements in an array arr?
+a) sum(arr);
+b) arr[sum];
+c) *sum(arr);
+d) accumulate(arr, arr+n, 0);
+
+18. How do you sort an array arr in descending order?
+a) sort(arr);
+b) sort(arr, arr+n);
+c) sort(arr, arr+n, greater<int>());
+d) sort(arr, arr+n, less<int>());
+
+19. How do you initialize a two-dimensional array arr with dimensions m x n?
+a) int arr[m][n];
+b) int arr[mn];
+c) int arr[m][n] = {0};
+d) int arr[mn] = {0};
+
+20. How do you access the element in row i and column j of a two-dimensional array arr?
+a) arr[i,j];
+b) arr(i,j);
+c) arr[i][j];
+d) arr(i)(j);
+
+21. How do you initialize a two-dimensional array arr with all elements set to a value of 1?
+a) int arr[][] = {1};
+b) int arr[][] = {1,1};
+c) int arr[][] = {1,1,1};
+d) int arr[m][n] = {{1}};
+
+22. How do you find the sum of all elements in a two-dimensional array arr with dimensions m x n?
+a) sum(arr);
+b) arr[sum];
+c) *sum(arr);
+d) accumulate(&arr[0][0], &arr[m-1][n-1]+1, 0);
+
+23. How do you find the maximum value in a two-dimensional array arr with dimensions m x n?
+a) max(arr);
+b) arr[max];
+c) *max(arr);
+d) *max_element(&arr[0][0], &arr[m-1][n-1]+1);
+
+24. How do you sort the rows of a two-dimensional array arr in ascending order?
+a) sort(arr);
+b) sort(arr, arr+n);
+c) sort(arr[0], arr[m], less<int>());
+d) sort(arr[0], arr[m], greater<int>());
+
+25. How do you sort the columns of a two-dimensional array arr in descending order?
+a) sort(arr);
+b) sort(arr, arr+n);
+c) sort(&arr[0][0], &arr[m-1][n-1]+1, greater<int>());
+d) sort(&arr[0][0], &arr[m-1][n-1]+1, less<int>());
+
+26. How do you copy the contents of one array arr1 to another array arr2 of the same size?
+a) arr2 = arr1;
+b) memcpy(arr2, arr1, sizeof(arr1));
+c) copy(arr1, arr1+n, arr2);
+d) for(int i=0; i<n; i++) arr2[i] = arr1[i];
+
+27. How do you compare two arrays arr1 and arr2 to check if they have the same values?
+a) arr1 == arr2;
+b) memcmp(arr1, arr2, sizeof(arr1));
+c) equal(arr1, arr1+n, arr2);
+d) for(int i=0; i<n; i++) if(arr1[i]!=arr2[i]) return false;
+
+28. How do you find the index of the first occurrence of a value x in an array arr?
+a) find(x, arr);
+b) find(arr, x);
+c) find(arr, arr+n, x);
+d) find_if(arr, arr+n, [x](int i){return i==x;});
+
+29. How do you find the index of the last occurrence of a value of a value x in an array arr?
+a) find_last(arr, x);
+b) find_last(x, arr);
+c) find_last_of(arr, x);
+d) find_last_of(x, arr);
+
+30. How do you delete an element at index i in an array arr?
+a) arr[i] = 0;
+b) erase(arr[i]);
+c) remove(arr, arr+i);
+d) for(int j=i; j<n-1; j++) arr[j] = arr[j+1]; n--;
