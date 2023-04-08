@@ -12,7 +12,6 @@ int main(int argc, char** argv)
 	int choice;
 	do
 	{
-		system("cls");
 		cout << " Система тестирования по курсу программирование" << endl;
 		cout << " =============================================" << endl;
 		cout << " Выберите режим работы: " << endl;
@@ -25,10 +24,12 @@ int main(int argc, char** argv)
 		switch (choice)
 		{
 		case 1:
-			Teacher();
+			Teachers();
+			system("cls");
 			break;
 		case 2:
 			Students();
+			system("cls");
 			break;
 		case 0:
 			cout << "Выход из программы." << endl;
