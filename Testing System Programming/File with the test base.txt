@@ -196,201 +196,231 @@ c) To exit a loop
 d) To execute a block of code a fixed number of times or until a certain condition is met
 Answer: d) To execute a block of code a fixed number of times or until a certain condition is met
 
-What is the difference between a do-while loop and a while loop in C++?
-a) A do-while loop executes the code block at least once, while a while loop may not execute at all if the condition is false initially.
-b) A do-while loop is used for iterating over a container or sequence, while a while loop is used for iterating over a range of values.
-c) A do-while loop executes the code block only if the condition is true initially, while a while loop always executes the code block at least once.
-d) There is no difference between a do-while loop and a while loop.
-Answer: a) A do-while loop executes the code block at least once, while a while loop may not execute at all if the condition is false initially.
+29. What is the difference between a do-while loop and a while loop in C++?
+a) A do-while loop executes the code block at least once, while a while loop may not execute at all if the condition is false initially
+b) A do-while loop is used for iterating over a container or sequence, while a while loop is used for iterating over a range of values
+c) A do-while loop executes the code block only if the condition is true initially, while a while loop always executes the code block at least once
+d) There is no difference between a do-while loop and a while loop
+Answer: a) A do-while loop executes the code block at least once, while a while loop may not execute at all if the condition is false initially
 
-What is the purpose of the switch statement in C++?
+30. What is the purpose of the switch statement in C++?
 a) To execute a block of code repeatedly
 b) To exit a loop
 c) To select one of several code blocks to execute based on the value of a variable
 d) To initialize a loop variable
-Answer: c) To select one of several code blocks to execute based on the value of a variable.
+Answer: c) To select one of several code blocks to execute based on the value of a variable
 
 THEME - ARRAYS (ONE- AND TWO-DIMENSIONAL).
 
-1. How do you declare an array of integers with a size of 5?
-a) int arr[5];
-b) int arr(5);
-c) int arr = {5};
-d) int arr = [5];
+1. What is an array in C++?
+a) A data structure used to store a collection of elements of the same data type
+b) A loop construct used to iterate over a sequence of values
+c) A function used to perform a specific task
+d) A conditional statement used to control program flow
+Answer: a) A data structure used to store a collection of elements of the same data type
 
-2. What is the index of the last element in an array of size n?
-a) n
-b) n-1
-c) n+1
-d) n*2
+2. How is an array declared in C++?
+a) int array[10];
+b) array<int> arr(10);
+c) int [] array = {1, 2, 3, 4, 5};
+d) int array = new int[10];
+Answer: a) int array[10];
 
-3. How do you get the address of the first element in an array arr?
-a) &arr
-b) *arr
-c) arr
-d) &arr[0]
+3. What is the maximum number of elements that an array can hold in C++?
+a) 100
+b) 1000
+c) 10000
+d) There is no fixed maximum limit
+Answer: d) There is no fixed maximum limit
 
-4. Which symbol is used to access array elements?
-a) $
-b) %
-c) #
-d) []
+4. How can you access an element in an array in C++?
+a) Using the index of the element inside square brackets
+b) Using the name of the array
+c) Using a pointer to the array
+d) Using the sizeof operator
+Answer: a) Using the index of the element inside square brackets
 
-5. What is the value of arr[2] in the array arr = {1, 2, 3, 4, 5}?
-a) 1
-b) 2
-c) 3
-d) 4
+5. How is a two-dimensional array declared in C++?
+a) int array[10][10];
+b) int *array = new int[10];
+c) array<int, 2> arr;
+d) int array = new int[10][10];
+Answer: a) int array[10][10];
 
-6. How do you declare a 2D array with a size of 3 by 3?
-a) int arr[3,3];
-b) int arr[3][3];
-c) int arr(3,3);
-d) int arr(3)(3);
+6. What is the syntax for accessing an element in a two-dimensional array in C++?
+a) array[i, j]
+b) array[i][j]
+c) array[i; j]
+d) array(i, j)
+Answer: b) array[i][j]
 
-7. How do you access the value of an element in a 2D array at arr[1][2]?
-a) arr(1,2);
-b) arr(2,1);
-c) arr[1][2];
-d) arr[2][1];
+7. What is the purpose of a loop when working with arrays in C++?
+a) To access each element in the array
+b) To declare the array
+c) To initialize the array
+d) To sort the array
+Answer: a) To access each element in the array
 
-8. How do you print the value of an element in a 2D array at arr[3][4]?
-a) cout << arr(3,4);
-b) cout << arr(4,3);
-c) cout << arr[3][4];
-d) cout << arr[4][3];
+8. What is the difference between a one-dimensional array and a two-dimensional array in C++?
+a) A one-dimensional array has a single row of elements, while a two-dimensional array has multiple rows and columns of elements
+b) A one-dimensional array has multiple rows and columns of elements, while a two-dimensional array has a single row of elements
+c) There is no difference between a one-dimensional array and a two-dimensional array
+d) A one-dimensional array can only store integers, while a two-dimensional array can store any data type
+Answer: a) A one-dimensional array has a single row of elements, while a two-dimensional array has multiple rows and columns of elements
 
-9. What is the syntax for assigning a value of 10 to the third element in an array arr?
-a) arr[3] = 10;
-b) arr(3) = 10;
-c) arr{3} = 10;
-d) arr(10,3);
+9. What is the syntax for initializing an array in C++?
+a) int array[5] = {1, 2, 3, 4, 5};
+b) int [] array = {1, 2, 3, 4, 5};
+c) array<int> arr = {1, 2, 3, 4, 5};
+d) int array = new int[5]{1, 2, 3, 4, 5};
+Answer: a) int array[5] = {1, 2, 3, 4, 5};
 
-10. How do you find the length of an array arr?
-a) sizeof(arr);
-b) length(arr);
-c) len(arr);
-d) size(arr);
+10. How can you find the length of an array in C++?
+a) Using the sizeof operator
+b) Using the length() function
+c) Using the size() function
+d) Using a loop to count the number of elements in the array
+Answer: a) Using the sizeof operator
 
-11. How do you declare an array of strings with a size of 4?
-a) string arr(4);
-b) string arr[4];
-c) string arr = {"", "", "", ""};
-d) string arr = [4];
+11. What is the syntax for iterating over a one-dimensional array in C++?
+a) for (int i = 0; i < array.size(); i++)
+b) for (int i = 0; i <= array.length(); i++)
+c) for (int i = 0; i < sizeof(array)/sizeof(array[0]); i++)
+d) for (int i = 0; i <= sizeof(array); i++)
+Answer: c) for (int i = 0; i < sizeof(array)/sizeof(array[0]); i++)
 
-12. What is the difference between a one-dimensional and a two-dimensional array?
-a) A one-dimensional array has only one element, while a two-dimensional array has multiple elements.
-b) A one-dimensional array has a single row, while a two-dimensional array has multiple rows.
-c) A one-dimensional array has only one column, while a two-dimensional array has multiple columns.
-d) A one-dimensional array has a linear structure, while a two-dimensional array has a rectangular structure.
+12. What is the syntax for iterating over a two-dimensional array in C++?
+a) for (int i = 0; i < array.length(); i++) for (int j = 0; j < array.length(); j++)
+b) for (int i = 0; i <= array.size(); i++) for (int j = 0; j <= array.size(); j++)
+c) for (int i = 0; i < sizeof(array)/sizeof(array[0]); i++) for (int j = 0; j < sizeof(array[0])/sizeof(array[0][0]); j++)
+d) for (int i = 0; i <= sizeof(array); i++) for (int j = 0; j <= sizeof(array[0]); j++)
+Answer: c) for (int i = 0; i < sizeof(array)/sizeof(array[0]); i++) for (int j = 0; j < sizeof(array[0])/sizeof(array[0][0]); j++)
 
-13. How do you access the value of the last element in an array arr?
-a) arr[last];
-b) arr[n-1];
-c) arr[n];
-d) arr[n+1];
+13. What is the syntax for passing an array to a function in C++?
+a) void function(int array[]) {...}
+b) void function(array<int> arr) {...}
+c) void function(int *array) {...}
+d) void function(int &array) {...}
+Answer: a) void function(int array[]) {...}
 
-14. How do you initialize an array arr with values 1, 2, 3, and 4?
-a) int arr = {1, 2, 3, 4};
-b) int arr[1, 2, 3, 4];
-c) int arr[4] = {1, 2, 3, 4};
-d) int arr = [1, 2, 3, 4];
+14. How is memory allocated for an array in C++?
+a) The programmer specifies the amount of memory to allocate
+b) Memory is allocated dynamically at runtime
+c) The operating system allocates memory automatically
+d) The compiler allocates memory at compile time
+Answer: b) Memory is allocated dynamically at runtime
 
-15. How do you declare a 2D array arr with n rows and m columns in C++?
-a) int arr[n][m];
-b) int arr[n, m];
-c) int arr(n, m);
-d) int arr[][];
+15. What is the syntax for deallocating memory for an array in C++?
+a) delete array;
+b) delete[] array;
+c) free(array);
+d) free[] array;
+Answer: b) delete[] array;
 
-16. How do you find the maximum value in an array arr?
-a) max(arr);
-b) arr[max];
-c) *max(arr);
-d) *max_element(arr, arr+n);
+16. What is the purpose of the sizeof operator in C++?
+a) To return the number of bytes occupied by a variable or data type
+b) To return the value of a variable or expression
+c) To return the address of a variable or function
+d) To perform bitwise operations on variables
+Answer: a) To return the number of bytes occupied by a variable or data type
 
-17. How do you find the sum of all elements in an array arr?
-a) sum(arr);
-b) arr[sum];
-c) *sum(arr);
-d) accumulate(arr, arr+n, 0);
+17. What is the difference between a static and dynamic array in C++?
+a) A static array is declared at runtime, while a dynamic array is declared at compile time
+b) A static array has a fixed size, while a dynamic array can be resized at runtime
+c) There is no difference between a static and dynamic array
+d) A static array is stored on the stack, while a dynamic array is stored on the heap
+Answer: b) A static array has a fixed size, while a dynamic array can be resized at runtime
 
-18. How do you sort an array arr in descending order?
-a) sort(arr);
-b) sort(arr, arr+n);
-c) sort(arr, arr+n, greater<int>());
-d) sort(arr, arr+n, less<int>());
+18. What is the syntax for resizing a dynamic array in C++?
+a) array.resize(size);
+b) array.reserve(size);
+c) realloc(array, size);
+d) new int[size];
+Answer: b) array.reserve(size);
 
-19. How do you initialize a two-dimensional array arr with dimensions m x n?
-a) int arr[m][n];
-b) int arr[mn];
-c) int arr[m][n] = {0};
-d) int arr[mn] = {0};
+19. What is the difference between an array and a vector in C++?
+a) An array is a fixed-size collection of elements, while a vector is a dynamically resizable collection of elements.
+b) An array is a collection of elements stored on the stack, while a vector is a collection of elements stored on the heap.
+c) An array is a collection of elements of the same data type, while a vector can hold elements of different data types.
+d) There is no difference between an array and a vector.
+Answer: a) An array is a fixed-size collection of elements, while a vector is a dynamically resizable collection of elements.
 
-20. How do you access the element in row i and column j of a two-dimensional array arr?
-a) arr[i,j];
-b) arr(i,j);
-c) arr[i][j];
-d) arr(i)(j);
+20. What is a multi-dimensional array in C++?
+a) An array that contains elements of multiple data types
+b) An array that is allocated dynamically at runtime
+c) An array that contains arrays as its elements, forming a matrix-like structure
+d) An array that can be resized at runtime
+Answer: c) An array that contains arrays as its elements, forming a matrix-like structure
 
-21. How do you initialize a two-dimensional array arr with all elements set to a value of 1?
-a) int arr[][] = {1};
-b) int arr[][] = {1,1};
-c) int arr[][] = {1,1,1};
-d) int arr[m][n] = {{1}};
+21. How do you declare a multi-dimensional array in C++?
+a) int arr[5,5];
+b) int arr[5][5];
+c) int arr<5,5>;
+d) int arr{5,5};
+Answer: b) int arr[5][5];
 
-22. How do you find the sum of all elements in a two-dimensional array arr with dimensions m x n?
-a) sum(arr);
-b) arr[sum];
-c) *sum(arr);
-d) accumulate(&arr[0][0], &arr[m-1][n-1]+1, 0);
+22. How do you access a specific element in a multi-dimensional array in C++?
+a) arr[3,4]
+b) arr[3][4]
+c) arr[4,3]
+d) arr[4][3]
+Answer: b) arr[3][4]
 
-23. How do you find the maximum value in a two-dimensional array arr with dimensions m x n?
-a) max(arr);
-b) arr[max];
-c) *max(arr);
-d) *max_element(&arr[0][0], &arr[m-1][n-1]+1);
+23. How do you initialize a multi-dimensional array in C++?
+a) int arr[5][5] = {0};
+b) int arr[5][5] = {{0}};
+c) int arr[5][5] = {0,0,0,0,0};
+d) int arr[5][5] = {{0,0,0,0,0}};
+answer: d) int arr[5][5] = {{0,0,0,0,0}};
 
-24. How do you sort the rows of a two-dimensional array arr in ascending order?
-a) sort(arr);
-b) sort(arr, arr+n);
-c) sort(arr[0], arr[m], less<int>());
-d) sort(arr[0], arr[m], greater<int>());
+24. Can the size of a multi-dimensional array be changed at runtime in C++?
+a) Yes
+b) No
+c) Idk
+d) What?
+Answer: b) No
 
-25. How do you sort the columns of a two-dimensional array arr in descending order?
-a) sort(arr);
-b) sort(arr, arr+n);
-c) sort(&arr[0][0], &arr[m-1][n-1]+1, greater<int>());
-d) sort(&arr[0][0], &arr[m-1][n-1]+1, less<int>());
+25. How do you pass a multi-dimensional array to a function in C++?
+a) void function(int arr[][]) {...}
+b) void function(int arr[5][5]) {...}
+c) void function(int **arr) {...}
+d) void function(int &arr[][]) {...}
+Answer: b) void function(int arr[5][5]) {...}
 
-26. How do you copy the contents of one array arr1 to another array arr2 of the same size?
-a) arr2 = arr1;
-b) memcpy(arr2, arr1, sizeof(arr1));
-c) copy(arr1, arr1+n, arr2);
-d) for(int i=0; i<n; i++) arr2[i] = arr1[i];
+26. How do you return a multi-dimensional array from a function in C++?
+a) int** function() {...}
+b) int function[][] {...}
+c) int function()[][] {...}
+d) int function[] {...}
+Answer: a) int** function() {...}
 
-27. How do you compare two arrays arr1 and arr2 to check if they have the same values?
-a) arr1 == arr2;
-b) memcmp(arr1, arr2, sizeof(arr1));
-c) equal(arr1, arr1+n, arr2);
-d) for(int i=0; i<n; i++) if(arr1[i]!=arr2[i]) return false;
+27. How do you allocate memory for a multi-dimensional array in C++?
+a) int arr[5][5];
+b) int** arr = new int*[5]; for(int i = 0; i < 5; i++) arr[i] = new int[5];
+c) int* arr = new int[5][5];
+d) int arr[][] = new int[5][5];
+Answer: b) int** arr = new int*[5]; for(int i = 0; i < 5; i++) arr[i] = new int[5];
 
-28. How do you find the index of the first occurrence of a value x in an array arr?
-a) find(x, arr);
-b) find(arr, x);
-c) find(arr, arr+n, x);
-d) find_if(arr, arr+n, [x](int i){return i==x;});
+28. How do you deallocate memory for a multi-dimensional array in C++?
+a) delete[] arr;
+b) delete[][] arr;
+c) for(int i = 0; i < 5; i++) delete[] arr[i]; delete[] arr;
+d) free(arr);
+Answer: c) for(int i = 0; i < 5; i++) delete[] arr[i]; delete[] arr;
 
-29. How do you find the index of the last occurrence of a value of a value x in an array arr?
-a) find_last(arr, x);
-b) find_last(x, arr);
-c) find_last_of(arr, x);
-d) find_last_of(x, arr);
+29. How do you find the number of rows in a multi-dimensional array in C++?
+a) sizeof(arr)/sizeof(arr[0]);
+b) sizeof(arr)/sizeof(int);
+c) sizeof(arr)/sizeof(arr[0][0]);
+d) sizeof(arr)/sizeof(*arr);
+Answer: a) sizeof(arr)/sizeof(arr[0]);
 
-30. How do you delete an element at index i in an array arr?
-a) arr[i] = 0;
-b) erase(arr[i]);
-c) remove(arr, arr+i);
-d) for(int j=i; j<n-1; j++) arr[j] = arr[j+1]; n--;
+30.How do you find the number of columns in a multi-dimensional array in C++?
+a) sizeof(arr)/sizeof(arr[0]);
+b) sizeof(arr)/sizeof(int);
+c) sizeof(arr)/sizeof(arr[0][0]);
+d) sizeof(arr)/sizeof(*arr[0]);
+Answer: d) sizeof(arr)/sizeof(*arr[0]);
 
 THEME - STRINGS.
 
