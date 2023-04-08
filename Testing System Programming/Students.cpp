@@ -7,3 +7,18 @@ void Students()
 {
 
 }
+
+void Menu()
+{
+
+}
+
+void Trening()
+{
+
+}
+
+void FinalTest()
+{
+
+}

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void Teacher()
+void Teachers()
 {
 
 }

@@ -4,4 +4,4 @@
 #include <locale>
 #include <conio.h>
 
-void Teacher();
+void Teachers();
