@@ -8,3 +8,6 @@ void Students();
 void Menu();
 void Trening();
 void FinalTest();
+void Trening();
+void Test();
+void FinalTest();
