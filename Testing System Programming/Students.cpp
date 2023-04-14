@@ -5,7 +5,7 @@ using namespace std;
 
 void Students()
 {
-	Student students[100];
+	Student students[MAX_STUDENTS];
 	cout << " Режим студента " << endl;
 	cout << " ==============" << endl;
 	int NumberOfStudents = readStudents(students);
@@ -13,7 +13,7 @@ void Students()
 	do
 	{
 		Pr = Proverka(students, NumberOfStudents);
-		if (Pr == -1) { cout << " Студент не найден" << endl << endl; }
+		if (Pr == -1) { cout << " Неверный логин или пароль" << endl << endl; }
 		else 
 		{ 
 			cout << " Студент найден: "; 
@@ -27,7 +27,7 @@ void Students()
 	} while (Pr == -1);
 }
 
-int Proverka(Student students[100], int NumberOfStudents)
+int Proverka(Student students[MAX_STUDENTS], int NumberOfStudents)
 {
 	char Login[255], Password[255];
 	int NumberSt = -1;
@@ -51,10 +51,10 @@ int Proverka(Student students[100], int NumberOfStudents)
 	else { return -1; }
 }
 
-void Menu(Student students[100], int Pr)
+void Menu(Student students[MAX_STUDENTS], int Pr)
 {
 	int choice;
-	TestResult TestRes;
+	vector<Question> questions = readQuestionsFromFile("decrypted.txt");
 	do
 	{
 		cout << " " << students[Pr].firstName << " " << students[Pr].lastName << endl;
@@ -70,25 +70,16 @@ void Menu(Student students[100], int Pr)
 		switch (choice)
 		{
 		case 1:
-			Trening(TestRes);
-
-
-
-			system("cls");
+			system("cls"); 
+			trainingMode(questions);
 			break;
 		case 2:
-			Test(TestRes);
-
-
-
-			system("cls");
+			system("cls"); 
+			testingMode(questions);
 			break;
 		case 3:
-			FinalTest(TestRes);
-
-
-
-			system("cls");
+			system("cls"); 
+			finalTest(questions);
 			break;
 		case 0:
 			cout << "Выход из программы." << endl;
@@ -101,101 +92,147 @@ void Menu(Student students[100], int Pr)
 	} while (choice != 0);
 }
 
-void Trening(TestResult &TestRes)
+void trainingMode(const vector<Question>& questions)
 {
-	int n = 10, Otvet, StopList[10] = { 0 };
-	cout << " Выберите тему тренинга:" << endl
-		<< " 1. Циклы" << endl
-		<< " 2. Массивы (одномерные и двумерные)" << endl
-		<< " 3. Строки" << endl
-		<< " 4. Рекурсия" << endl
-		<< " 5. Структуры" << endl
-		<< " 6. Файлы" << endl
-		<< " 7. Адреса и указатели" << endl
-		<< " 8. Динамическая память" << endl
-		<< " => ";
-	cin >> TestRes.Title;
+	string theme = chooseTheme();
+	vector<Question> theme_questions = filterQuestionsByTheme(questions, theme);
+	vector<Question> random_questions = selectRandomQuestions(theme_questions, 10);
+	char finish;
 
-	for (int i = 0; i <= n; i++)
-	{
-		
-		//do
-		//{
-		//	cout << endl << " Введите ответ: ";
-		//	cin >> Otvet;
-		//	if (Otvet != Question[i].Result)
-		//	{
-		//		cout << " Ошибка. " << endl;
-		//	}
-		//} while (Otvet != Question[i].Result);
+	system("cls");
+	cout << theme << endl << endl;
+
+	for (const auto& question : random_questions) {
+		cout << question.text << endl;
+		for (const auto& answer : question.answers) {
+			cout << answer << endl;
+		}
+
+		bool flag_right_answer = false;
+		string user_answer;
+		cout << "Введите ваш ответ (a, b, c или d): ";
+
+		do {
+			cin >> user_answer;
+			string user_answer_str = user_answer + ")";
+
+			if (user_answer_str == question.correct_answer.substr(0, 2)) {
+				cout << "Верно!" << endl << endl;
+				flag_right_answer = true;
+			}
+			else {
+				cout << "Неверно. Попробуйте ещё раз: ";
+			}
+		} while (!flag_right_answer);
 	}
+
+	theme.erase(theme.find("."), 1);
+
+	cout << "Тренинг по теме '" << theme << "' завершён." << endl;
+
+	cout << "Для продолжения нажмите любую клавишу: ";
+	_getch();
+	system("cls");
 }
 
-void Test (TestResult &TestRes)
-{
-	int Title, n = 10, wrong = 0, wrongQuestions[10] = {0}, StopList[10] = { 0 };
-	cout << " Выберите тему тренинга:" << endl
-		<< " 1. Циклы" << endl
-		<< " 2. Массивы (одномерные и двумерные)" << endl
-		<< " 3. Строки" << endl
-		<< " 4. Рекурсия" << endl
-		<< " 5. Структуры" << endl
-		<< " 6. Файлы" << endl
-		<< " 7. Адреса и указатели" << endl
-		<< " 8. Динамическая память" << endl
-		<< " => ";
-	cin >> TestRes.Title;
+void testingMode(const vector<Question>& questions) {
+	string theme = chooseTheme();
+	vector<Question> theme_questions = filterQuestionsByTheme(questions, theme);
+	vector<Question> random_questions = selectRandomQuestions(theme_questions, 10);
+	vector<string> wrong_questions;
+	int wrong_answers = 0, test_result;
+	char finish;
 
-	for (int i = 0; i <= n; i++)
-	{
-		cout << endl << " Введите ответ: ";
-		int Otvet;
-		cin >> Otvet;
-		//if (Otvet == Question[i].Result)
-		//{
-		//	cout << " Верно! " << endl << endl;
-		//}
-		//else
-		//{
-		//	cout << " Ошибка. " << endl << endl;
-		//	wrong++;
-		//	wrongQuestions[i] = 1;
-		//}
+	system("cls");
+	cout << theme << endl << endl;
+
+
+	for (const auto& question : random_questions) {
+		cout << question.text << endl;
+		for (const auto& answer : question.answers) {
+			cout << answer << endl;
+		}
+
+		cout << "Введите ваш ответ (a, b, c или d): ";
+		string user_answer;
+		do {
+			cin >> user_answer;
+		} while ((user_answer != "a") && (user_answer != "b") && (user_answer != "c") && (user_answer != "d"));
+		cout << endl;
+
+		string user_answer_str = user_answer + ")";
+
+		if (user_answer_str != question.correct_answer.substr(0, 2)) {
+			wrong_questions.push_back(question.text);
+			wrong_answers++;
+		}
 	}
-	cout << " Оценка: ";
-	if (n - wrong >= 9) { cout << " 5 " << endl; TestRes.Res = 5; }
-	else if (n - wrong >= 7) { cout << " 4 " << endl; TestRes.Res = 4;}
-	else if (n - wrong >= 5) { cout << " 3 " << endl; TestRes.Res = 3;}
-	else { cout << " 2 " << endl; TestRes.Res = 2;}
-	cout << " Для продолжения нажмите любую клавишу: ";
+
+	if (wrong_answers <= 2) test_result = 5;
+	else if (wrong_answers == 3) test_result = 4;
+	else if (wrong_answers > 3 && wrong_answers <= 5) test_result = 3;
+	else test_result = 2;
+
+	cout << "=============================================" << endl;
+	cout << "Количество ошибок: " << wrong_answers << "." << endl;
+	cout << "Оценка за тест: " << test_result << "." << endl;
+	cout << "=============================================" << endl;
+	cout << "\tВопросы, в которых допущены ошибки:" << endl;
+	for (const auto& wrong_questions : wrong_questions) {
+		cout << wrong_questions << endl;
+	}
+	cout << "=============================================" << endl;
+	cout << "Для продолжения нажмите любую клавишу: ";
 	_getch();
+	system("cls");
 }
 
-void FinalTest(TestResult &TestRes)
-{
-	int n = 40, wrong = 0, right, wrongQuestions[10] = { 0 };
-	for (int i = 0; i <= n; i++)
-	{
-		cout << endl << " Введите ответ: ";
-		int Otvet;
-		cin >> Otvet;
-		//if (Otvet == Question[i].Result)
-		//{
-		//	cout << " Верно! " << endl << endl;
-		//	right++;
-		//}
-		//else
-		//{
-		//	cout << " Ошибка. " << endl << endl;
-		//	wrong++;
-		//	wrongQuestions[i] = 1;
-		//}
+void finalTest(const vector<Question>& questions) {
+	vector<Question> random_questions = selectRandomQuestions(questions, 40);
+	vector<string> wrong_questions;
+	int wrong_answers = 0, test_result;
+	char finish;
+
+	system("cls");
+	cout << "Итоговый тест " << endl;
+	cout << "================" << endl;
+
+	for (const auto& question : random_questions) {
+		cout << question.text << endl;
+		for (const auto& answer : question.answers) {
+			cout << answer << endl;
+		}
+
+		cout << "Введите ваш ответ (a, b, c или d): ";
+		string user_answer;
+		do {
+			cin >> user_answer;
+		} while ((user_answer != "a") && (user_answer != "b") && (user_answer != "c") && (user_answer != "d"));
+		cout << endl;
+
+		string user_answer_str = user_answer + ")";
+
+		if (user_answer_str != question.correct_answer.substr(0, 2)) {
+			wrong_questions.push_back(question.text);
+			wrong_answers++;
+		}
 	}
-	cout << " Оценка: ";
-	if (n - wrong >= 9) { cout << " 5 " << endl; TestRes.Res = 5; }
-	else if (n - wrong >= 7) { cout << " 4 " << endl; TestRes.Res = 4; }
-	else if (n - wrong >= 5) { cout << " 3 " << endl; TestRes.Res = 3; }
-	else { cout << " 2 " << endl; TestRes.Res = 2; }
-	cout << " Для продолжения нажмите любую клавишу: ";
+
+	if (wrong_answers <= 7) test_result = 5;
+	else if (wrong_answers > 7 && wrong_answers <= 13) test_result = 4;
+	else if (wrong_answers > 13 && wrong_answers <= 20) test_result = 3;
+	else test_result = 2;
+
+	cout << "=============================================" << endl;
+	cout << "\tКоличество ошибок: " << wrong_answers << "." << endl;
+	cout << "\tОценка за тест: " << test_result << "." << endl;
+	cout << "=============================================" << endl;
+	cout << "Вопросы, в которых допущены ошибки:" << endl;
+	for (const auto& wrong_questions : wrong_questions) {
+		cout << wrong_questions << endl;
+	}
+	cout << "=============================================" << endl;
+	cout << "Для продолжения нажмите любую клавишу: ";
 	_getch();
+	system("cls");
 }

@@ -97,7 +97,7 @@ string chooseTheme() {
 	string theme;
 	char choice;
 
-	cout << "Выберите тему:" << endl;
+	cout << "Список тем:" << endl;
 	cout << "1. CYCLES" << endl;
 	cout << "2. ARRAYS (ONE- AND TWO-DIMENSIONAL)" << endl;
 	cout << "3. STRINGS" << endl;
@@ -106,6 +106,7 @@ string chooseTheme() {
 	cout << "6. FILES" << endl;
 	cout << "7. ADDRESSES AND SIGNS" << endl;
 	cout << "8. DYNAMIC MEMORY" << endl;
+	cout << "Выберите тему: ";
 	cin >> choice;
 
 	switch (choice) {

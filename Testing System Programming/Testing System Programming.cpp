@@ -33,7 +33,7 @@ int main(int argc, char** argv)
 			system("cls");
 			break;
 		case 0:
-			cout << " Выход из программы." << endl;
+			cout << " Выход из программы " << endl;
 			break;
 		default:
 			system("cls");
