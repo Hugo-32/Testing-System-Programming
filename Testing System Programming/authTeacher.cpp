@@ -1,18 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <cstring>
-#include <locale>
 #include "authTeacher.h"
-
-using namespace std;
-
-const int MAX_TEACHERS = 10; // Максимальное количество учителей
-
-// Структура для хранения информации об учителе
-struct Teacher {
-    string login;
-    string password;
-};
 
 // Функция для считывания данных из файла и создания массива учителей
 int readTeachers(Teacher* teachers) {

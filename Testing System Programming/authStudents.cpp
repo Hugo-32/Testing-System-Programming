@@ -1,18 +1,4 @@
-//
-// authStudents.cpp
-// Васильев Артём
-//
-
-#include <iostream>
-#include <fstream>
-#include <cstring>
-#include <locale>
 #include "authStudents.h"
-
-using namespace std;
-
-const int MAX_STUDENTS = 100; // Максимальное количество студентов
-//const int MAX_GRADES = 8; // Максимальное количество оценок по темам
 
 // Функция для считывания данных из файла и создания массива студентов
 double calculateAverage(Student student) {

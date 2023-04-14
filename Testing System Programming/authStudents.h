@@ -1,9 +1,12 @@
-//
-// authStudents.h
-// Васильев Артём
-//
+#include <iostream>
+#include <fstream>
+#include <cstring>
+#include <locale>
 
-#define MAX_GRADES 8;
+using namespace std;
+
+const int MAX_STUDENTS = 100; // Максимальное количество студентов
+const int MAX_GRADES = 8; // Максимальное количество оценок по темам
 
 struct Student {
 	string login;
@@ -14,6 +17,7 @@ struct Student {
 	int testGrade;
 	float average;
 };
+
 int readStudents(Student* students);
 double calculateAverage(Student students);
 void printStudent(Student& student);

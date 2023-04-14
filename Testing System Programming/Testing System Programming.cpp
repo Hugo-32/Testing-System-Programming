@@ -3,7 +3,6 @@
 #include "Students.h"
 #include "Teacher.h"
 
-
 using namespace std;
 
 int main(int argc, char** argv)
@@ -21,6 +20,8 @@ int main(int argc, char** argv)
 		cout << endl;
 		cout << " Выберите режим: ";
 		cin >> choice;
+		cin.get();
+		system("cls");
 		switch (choice)
 		{
 		case 1:
@@ -32,7 +33,7 @@ int main(int argc, char** argv)
 			system("cls");
 			break;
 		case 0:
-			cout << "Выход из программы." << endl;
+			cout << " Выход из программы." << endl;
 			break;
 		default:
 			system("cls");

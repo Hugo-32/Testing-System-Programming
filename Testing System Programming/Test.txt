@@ -1,0 +1,635 @@
+THEME - CYCLES.
+
+1. What is a loop in C++?
+a) A data type used to store multiple values
+b) A statement that executes a block of code repeatedly
+c) A function that takes input and returns output
+d) A conditional statement that controls program flow
+b
+
+2. What is the syntax for a for loop in C++?
+a) for (i = 0; i < n; i++)
+b) for (i = n; i > 0; i--)
+c) for (i = 0; i <= n; i++)
+d) for (i = n; i >= 0; i--)
+a
+
+3. What is the syntax for a while loop in C++?
+a) while (i < n) { }
+b) while (i > n) { }
+c) while (i <= n) { }
+d) while (i >= n) { }
+a
+
+4. What is the syntax for a do-while loop in C++?
+a) do { } while (i < n);
+b) do { } while (i > n);
+c) do { } while (i <= n);
+d) do { } while (i >= n);
+a
+
+5. How many times will a for loop with the condition i < 5 be executed if i is initially 0?
+a) 4
+b) 5
+c) 6
+d) 0
+b
+
+6. What is the purpose of the continue statement in C++?
+a) To exit a loop
+b) To skip the current iteration of a loop and continue with the next iteration
+c) To execute a block of code repeatedly
+d) To initialize a loop variable
+b
+
+7. What is the purpose of the break statement in C++?
+a) To skip the current iteration of a loop and continue with the next iteration
+b) To execute a block of code repeatedly
+c) To exit a loop
+d) To initialize a loop variable
+c
+
+8. What is the difference between a while loop and a do-while loop in C++?
+a) There is no difference
+b) A while loop always executes at least once, while a do-while loop may not execute at all
+c) A do-while loop always executes at least once, while a while loop may not execute at all
+d) A while loop and a do-while loop are used for different types of iterations
+c
+
+9. What is the difference between a for loop and a while loop in C++?
+a) There is no difference
+b) A for loop is used when the number of iterations is known in advance, while a while loop is used when the number of iterations is not known in advance
+c) A while loop is used when the number of iterations is known in advance, while a for loop is used when the number of iterations is not known in advance
+d) A for loop and a while loop are used for different types of iterations
+b
+
+10. What is an infinite loop in C++?
+a) A loop that executes a block of code a fixed number of times
+b) A loop that executes a block of code an unknown number of times
+c) A loop that never terminates
+d) A loop that terminates after a certain condition is met
+c
+
+11. What is the purpose of a nested loop in C++?
+a) To execute a block of code repeatedly
+b) To skip the current iteration of a loop and continue with the next iteration
+c) To exit a loop
+d) To perform iterations within iterations
+d
+
+12. What is the syntax for a nested for loop in C++?
+a) for (i = 0; i < n; i++) { for (j = 0; j < m; j++) { } }
+b) for (i = n; i > 0; i--) { for (j = m; j > 0; j--) { } }
+c) for (i = 0; i <= n; i++) { for (j = 0; j <= m; j++) { } }
+d) for (i = n; i >= 0; i--) { for (j = m; j >= 0; j--) { } }
+a
+
+13. What is the purpose of a loop counter in C++?
+a) To control the number of iterations in a loop
+b) To execute a block of code repeatedly
+c) To exit a loop
+d) To initialize a loop variable
+a
+
+14. What is the syntax for a range-based for loop in C++?
+a) for (i : container) { }
+b) for (i in container) { }
+c) for (i = 0; i < container.size(); i++) { }
+d) for (i = container.begin(); i != container.end(); i++) { }
+a
+
+15. What is the purpose of the break statement in a nested loop in C++?
+a) To skip the current iteration of a loop and continue with the next iteration
+b) To execute a block of code repeatedly
+c) To exit the innermost loop
+d) To exit the outermost loop
+c
+
+16. What is the purpose of the continue statement in a nested loop in C++?
+a) To exit the innermost loop
+b) To skip the current iteration of the innermost loop and continue with the next iteration of the outer loop
+c) To skip the current iteration of the outer loop and continue with the next iteration of the innermost loop
+d) To execute a block of code repeatedly
+b
+
+17. What is the purpose of the do-while loop in C++?
+a) To execute a block of code repeatedly
+b) To skip the current iteration of a loop and continue with the next iteration
+c) To exit a loop
+d) To execute a block of code at least once, and then continue to execute it repeatedly as long as a certain condition is met
+d
+
+18. What is the purpose of the while loop in C++?
+a) To execute a block of code repeatedly
+b) To execute a block of code as long as a certain condition is met
+c) To exit a loop
+d) To skip the current iteration of a loop and continue with the next iteration
+b
+
+19. What is an infinite loop in C++?
+a) A loop that executes a block of code a fixed number of times
+b) A loop that executes a block of code an unknown number of times
+c) A loop that never terminates
+d) A loop that terminates after a certain condition is met
+c
+
+20. How can you prevent an infinite loop in C++?
+a) By using a break statement
+b) By using a continue statement
+c) By using a while loop instead of a for loop
+d) By ensuring that the loop condition eventually becomes false
+d
+
+21. What is the purpose of the do-while loop in C++?
+a) To execute a block of code repeatedly
+b) To skip the current iteration of a loop and continue with the next iteration
+c) To exit a loop
+d) To execute a block of code at least once, and then continue to execute it repeatedly as long as a certain condition is met
+d
+
+22. What is the difference between a while loop and a do-while loop in C++?
+a) A while loop only executes if the condition is initially true, while a do-while loop always executes at least once
+b) A while loop always executes at least once, while a do-while loop only executes if the condition is initially true
+c) A while loop and a do-while loop are interchangeable and can be used interchangeably
+d) There is no difference between a while loop and a do-while loop
+a
+
+23. What is the syntax for a while loop in C++?
+a) while (condition) { }
+b) while (i < n) { }
+c) while (true) { }
+d) while (i > 0) { }
+a
+
+24. What is the syntax for a do-while loop in C++?
+a) do { } while (condition);
+b) while (condition) { }
+c) for (i = 0; i < n; i++) { }
+d) do while (condition) { }
+a
+
+25. What is the purpose of the continue statement in a loop in C++?
+a) To exit the loop
+b) To skip the current iteration of the loop and continue with the next iteration
+c) To execute a block of code repeatedly
+d) To initialize a loop variable
+b
+
+26. What is the purpose of the break statement in a loop in C++?
+a) To skip the current iteration of the loop and continue with the next iteration
+b) To execute a block of code repeatedly
+c) To exit the loop
+d) To initialize a loop variable
+c
+
+27. What is the difference between a for loop and a range-based for loop in C++?
+a) A for loop is used to iterate over a range of values, while a range-based for loop is used to iterate over a container or sequence
+b) A for loop and a range-based for loop are interchangeable and can be used interchangeably
+c) A for loop is used to iterate over a container or sequence, while a range-based for loop is used to iterate over a range of values
+d) There is no difference between a for loop and a range-based for loop
+a
+
+28. What is the purpose of a loop in programming?
+a) To execute a block of code repeatedly
+b) To skip the current iteration of a loop and continue with the next iteration
+c) To exit a loop
+d) To execute a block of code a fixed number of times or until a certain condition is met
+d
+
+29. What is the difference between a do-while loop and a while loop in C++?
+a) A do-while loop executes the code block at least once, while a while loop may not execute at all if the condition is false initially
+b) A do-while loop is used for iterating over a container or sequence, while a while loop is used for iterating over a range of values
+c) A do-while loop executes the code block only if the condition is true initially, while a while loop always executes the code block at least once
+d) There is no difference between a do-while loop and a while loop
+a
+
+30. What is the purpose of the switch statement in C++?
+a) To execute a block of code repeatedly
+b) To exit a loop
+c) To select one of several code blocks to execute based on the value of a variable
+d) To initialize a loop variable
+c
+
+THEME - ARRAYS (ONE- AND TWO-DIMENSIONAL).
+
+1. What is an array in C++?
+a) A data structure used to store a collection of elements of the same data type
+b) A loop construct used to iterate over a sequence of values
+c) A function used to perform a specific task
+d) A conditional statement used to control program flow
+a
+
+2. How is an array declared in C++?
+a) int array[10];
+b) array<int> arr(10);
+c) int [] array = {1, 2, 3, 4, 5};
+d) int array = new int[10];
+a
+
+3. What is the maximum number of elements that an array can hold in C++?
+a) 100
+b) 1000
+c) 10000
+d) There is no fixed maximum limit
+d
+
+4. How can you access an element in an array in C++?
+a) Using the index of the element inside square brackets
+b) Using the name of the array
+c) Using a pointer to the array
+d) Using the sizeof operator
+a
+
+5. How is a two-dimensional array declared in C++?
+a) int array[10][10];
+b) int *array = new int[10];
+c) array<int, 2> arr;
+d) int array = new int[10][10];
+a
+
+6. What is the syntax for accessing an element in a two-dimensional array in C++?
+a) array[i, j]
+b) array[i][j]
+c) array[i; j]
+d) array(i, j)
+b
+
+7. What is the purpose of a loop when working with arrays in C++?
+a) To access each element in the array
+b) To declare the array
+c) To initialize the array
+d) To sort the array
+a
+
+8. What is the difference between a one-dimensional array and a two-dimensional array in C++?
+a) A one-dimensional array has a single row of elements, while a two-dimensional array has multiple rows and columns of elements
+b) A one-dimensional array has multiple rows and columns of elements, while a two-dimensional array has a single row of elements
+c) There is no difference between a one-dimensional array and a two-dimensional array
+d) A one-dimensional array can only store integers, while a two-dimensional array can store any data type
+a
+
+9. What is the syntax for initializing an array in C++?
+a) int array[5] = {1, 2, 3, 4, 5};
+b) int [] array = {1, 2, 3, 4, 5};
+c) array<int> arr = {1, 2, 3, 4, 5};
+d) int array = new int[5]{1, 2, 3, 4, 5};
+a
+
+10. How can you find the length of an array in C++?
+a) Using the sizeof operator
+b) Using the length() function
+c) Using the size() function
+d) Using a loop to count the number of elements in the array
+a
+
+11. What is the syntax for iterating over a one-dimensional array in C++?
+a) for (int i = 0; i < array.size(); i++)
+b) for (int i = 0; i <= array.length(); i++)
+c) for (int i = 0; i < sizeof(array)/sizeof(array[0]); i++)
+d) for (int i = 0; i <= sizeof(array); i++)
+c
+
+12. What is the syntax for iterating over a two-dimensional array in C++?
+a) for (int i = 0; i < array.length(); i++) for (int j = 0; j < array.length(); j++)
+b) for (int i = 0; i <= array.size(); i++) for (int j = 0; j <= array.size(); j++)
+c) for (int i = 0; i < sizeof(array)/sizeof(array[0]); i++) for (int j = 0; j < sizeof(array[0])/sizeof(array[0][0]); j++)
+d) for (int i = 0; i <= sizeof(array); i++) for (int j = 0; j <= sizeof(array[0]); j++)
+c
+
+13. What is the syntax for passing an array to a function in C++?
+a) void function(int array[]) {...}
+b) void function(array<int> arr) {...}
+c) void function(int *array) {...}
+d) void function(int &array) {...}
+a
+
+14. How is memory allocated for an array in C++?
+a) The programmer specifies the amount of memory to allocate
+b) Memory is allocated dynamically at runtime
+c) The operating system allocates memory automatically
+d) The compiler allocates memory at compile time
+b
+
+15. What is the syntax for deallocating memory for an array in C++?
+a) delete array;
+b) delete[] array;
+c) free(array);
+d) free[] array;
+b
+
+16. What is the purpose of the sizeof operator in C++?
+a) To return the number of bytes occupied by a variable or data type
+b) To return the value of a variable or expression
+c) To return the address of a variable or function
+d) To perform bitwise operations on variables
+a
+
+17. What is the difference between a static and dynamic array in C++?
+a) A static array is declared at runtime, while a dynamic array is declared at compile time
+b) A static array has a fixed size, while a dynamic array can be resized at runtime
+c) There is no difference between a static and dynamic array
+d) A static array is stored on the stack, while a dynamic array is stored on the heap
+b
+
+18. What is the syntax for resizing a dynamic array in C++?
+a) array.resize(size);
+b) array.reserve(size);
+c) realloc(array, size);
+d) new int[size];
+b
+
+19. What is the difference between an array and a vector in C++?
+a) An array is a fixed-size collection of elements, while a vector is a dynamically resizable collection of elements.
+b) An array is a collection of elements stored on the stack, while a vector is a collection of elements stored on the heap.
+c) An array is a collection of elements of the same data type, while a vector can hold elements of different data types.
+d) There is no difference between an array and a vector.
+a
+
+20. What is a multi-dimensional array in C++?
+a) An array that contains elements of multiple data types
+b) An array that is allocated dynamically at runtime
+c) An array that contains arrays as its elements, forming a matrix-like structure
+d) An array that can be resized at runtime
+c
+
+21. How do you declare a multi-dimensional array in C++?
+a) int arr[5,5];
+b) int arr[5][5];
+c) int arr<5,5>;
+d) int arr{5,5};
+b
+
+22. How do you access a specific element in a multi-dimensional array in C++?
+a) arr[3,4]
+b) arr[3][4]
+c) arr[4,3]
+d) arr[4][3]
+b
+
+23. How do you initialize a multi-dimensional array in C++?
+a) int arr[5][5] = {0};
+b) int arr[5][5] = {{0}};
+c) int arr[5][5] = {0,0,0,0,0};
+d) int arr[5][5] = {{0,0,0,0,0}};
+d
+
+24. Can the size of a multi-dimensional array be changed at runtime in C++?
+a) Yes
+b) No
+c) Idk
+d) What?
+b
+
+25. How do you pass a multi-dimensional array to a function in C++?
+a) void function(int arr[][]) {...}
+b) void function(int arr[5][5]) {...}
+c) void function(int **arr) {...}
+d) void function(int &arr[][]) {...}
+b
+
+26. How do you return a multi-dimensional array from a function in C++?
+a) int** function() {...}
+b) int function[][] {...}
+c) int function()[][] {...}
+d) int function[] {...}
+a
+
+27. How do you allocate memory for a multi-dimensional array in C++?
+a) int arr[5][5];
+b) int** arr = new int*[5]; for(int i = 0; i < 5; i++) arr[i] = new int[5];
+c) int* arr = new int[5][5];
+d) int arr[][] = new int[5][5];
+b
+
+28. How do you deallocate memory for a multi-dimensional array in C++?
+a) delete[] arr;
+b) delete[][] arr;
+c) for(int i = 0; i < 5; i++) delete[] arr[i]; delete[] arr;
+d) free(arr);
+c
+
+29. How do you find the number of rows in a multi-dimensional array in C++?
+a) sizeof(arr)/sizeof(arr[0]);
+b) sizeof(arr)/sizeof(int);
+c) sizeof(arr)/sizeof(arr[0][0]);
+d) sizeof(arr)/sizeof(*arr);
+a
+
+30.How do you find the number of columns in a multi-dimensional array in C++?
+a) sizeof(arr)/sizeof(arr[0]);
+b) sizeof(arr)/sizeof(int);
+c) sizeof(arr)/sizeof(arr[0][0]);
+d) sizeof(arr)/sizeof(*arr[0]);
+d
+
+THEME - STRINGS.
+
+1. What is a string in C++?
+a) A data type used to store multiple characters
+b) A data type used to store a single character
+c) A data type used to store integers
+d) A data type used to store floating-point numbers
+a
+
+2. What is the syntax for declaring a string variable in C++?
+a) char str[];
+b) string str;
+c) str[] = "hello";
+d) str = "hello";
+b
+
+3. How do you assign a value to a string variable in C++?
+a) str = "hello";
+b) str[] = "hello";
+c) str = 'h';
+d) str = 1;
+a
+
+4. How do you find the length of a string in C++?
+a) len(str);
+b) length(str);
+c) str.length();
+d) strlen(str);
+c
+
+5. What is the difference between the C-style string and the C++ string?
+a) There is no difference
+b) C-style string is null-terminated, while C++ string is not
+c) C-style string is immutable, while C++ string is mutable
+d) C-style string is shorter, while C++ string is longer
+b
+
+6. What is the function used to concatenate two strings in C++?
+a) strcat()
+b) strconcat()
+c) append()
+d) add()
+c
+
+7. How do you access the character at a particular index in a string in C++?
+a) str[index]
+b) str.charAt(index)
+c) str.index(index)
+d) str.getChar(index)
+a
+
+8. What is the function used to compare two strings in C++?
+a) strcmp()
+b) strcompare()
+c) compare()
+d) equals()
+c
+
+9. What is the return type of the compare() function in C++?
+a) int
+b) bool
+c) char
+d) float
+a
+
+10. What is the function used to find a substring in a string in C++?
+a) strfind()
+b) substr()
+c) find()
+d) search()
+c
+
+11. What is the return type of the find() function in C++?
+a) int
+b) bool
+c) char
+d) float
+a
+
+12. What is the function used to insert a substring into a string in C++?
+a) strinsert()
+b) insert()
+c) substr()
+d) stradd()
+b
+
+13. What is the function used to erase a substring from a string in C++?
+a) strerase()
+b) erase()
+c) substr()
+d) strdelete()
+b
+
+14. What is the function used to replace a substring in a string with another substring in C++?
+a) strreplace()
+b) replace()
+c) substr()
+d) strswap()
+b
+
+15. What is the function used to convert a string to uppercase in C++?
+a) toupper()
+b) strupper()
+c) uppercase()
+d) toUpper()
+c
+
+16. What is the function used to convert a string to lowercase in C++?
+a) tolower()
+b) strlower()
+c) lowercase()
+d) toLower()
+c
+
+17. What is the function used to remove all occurrences of a character from a string in C++?
+a) remove_char()
+b) strremove()
+c) erase()
+d) remove()
+d
+
+18. What is the function used to reverse a string in C++?
+a) reverse()
+b) strreverse()
+c) flip()
+d) rotate()
+a
+
+19. What is the function used to convert a string to an integer in C++?
+a) to_int()
+b) stoi()
+c) str_to_int()
+d) int_convert()
+b
+
+20. What is the function used to convert an integer to a string in C++?
+a) to_string()
+b) int_to_str()
+c) convert_str()
+d) str_convert()
+a
+
+21. What is the function used to trim whitespace from the beginning and end of a string in C++?
+a) strtrim()
+b) trim()
+c) trim_whitespace()
+d) remove_whitespace()
+b
+
+22. What is the function used to pad a string with a specific character to a certain length in C++?
+a) strpad()
+b) pad()
+c) pad_string()
+d) add_padding()
+b
+
+23. What is the function used to split a string into substrings based on a delimiter in C++?
+a) strsplit()
+b) split()
+c) split_string()
+d) substring()
+b
+
+24. What is the return type of the split() function in C++?
+a) string
+b) vector<string>
+c) int
+d) bool
+b
+
+25. What is the function used to join a vector of strings into a single string with a delimiter in C++?
+a) strjoin()
+b) join()
+c) join_string()
+d) concatenate()
+b
+
+26. What is the function used to check if a string starts with a specific prefix in C++?
+a) starts_with()
+b) strstarts()
+c) check_prefix()
+d) prefix()
+a
+
+27. What is the function used to check if a string ends with a specific suffix in C++?
+a) ends_with()
+b) strends()
+c) check_suffix()
+d) suffix()
+a
+
+28. What is the function used to find the first occurrence of a character in a string in C++?
+a) strfind()
+b) find_char()
+c) find()
+d) search()
+c
+
+29. What is the function used to convert a string to a double in C++?
+a) to_double()
+b) stod()
+c) str_to_double()
+d) double_convert()
+b
+
+30. What is the function used to convert a double to a string in C++?
+a) to_string()
+b) double_to_str()
+c) convert_str()
+d) str_convert()
+a
