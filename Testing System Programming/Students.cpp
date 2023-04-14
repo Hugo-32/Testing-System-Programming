@@ -227,11 +227,6 @@ void finalTest(const vector<Question>& questions) {
 	cout << "\tКоличество ошибок: " << wrong_answers << "." << endl;
 	cout << "\tОценка за тест: " << test_result << "." << endl;
 	cout << "=============================================" << endl;
-	cout << "Вопросы, в которых допущены ошибки:" << endl;
-	for (const auto& wrong_questions : wrong_questions) {
-		cout << wrong_questions << endl;
-	}
-	cout << "=============================================" << endl;
 	cout << "Для продолжения нажмите любую клавишу: ";
 	_getch();
 	system("cls");
