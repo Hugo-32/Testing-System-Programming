@@ -1,1780 +1,1780 @@
-THEME - CYCLES.
+WKHPH - FBFOHV.
 
-1. What is a loop in C++?
-a) A data type used to store multiple values
-b) A statement that executes a block of code repeatedly
-c) A function that takes input and returns output
-d) A conditional statement that controls program flow
-Answer: b) A statement that executes a block of code repeatedly
+1. Zkdw lv d orrs lq F++?
+d) D gdwd wbsh xvhg wr vwruh pxowlsoh ydoxhv
+e) D vwdwhphqw wkdw hahfxwhv d eorfn ri frgh uhshdwhgob
+f) D ixqfwlrq wkdw wdnhv lqsxw dqg uhwxuqv rxwsxw
+g) D frqglwlrqdo vwdwhphqw wkdw frqwurov surjudp iorz
+Dqvzhu: e) D vwdwhphqw wkdw hahfxwhv d eorfn ri frgh uhshdwhgob
 
-2. What is the syntax for a for loop in C++?
-a) for (i = 0; i < n; i++)
-b) for (i = n; i > 0; i--)
-c) for (i = 0; i <= n; i++)
-d) for (i = n; i >= 0; i--)
-Answer: a) for (i = 0; i < n; i++)
+2. Zkdw lv wkh vbqwda iru d iru orrs lq F++?
+d) iru (l = 0; l < q; l++)
+e) iru (l = q; l > 0; l--)
+f) iru (l = 0; l <= q; l++)
+g) iru (l = q; l >= 0; l--)
+Dqvzhu: d) iru (l = 0; l < q; l++)
 
-3. What is the syntax for a while loop in C++?
-a) while (i < n) { }
-b) while (i > n) { }
-c) while (i <= n) { }
-d) while (i >= n) { }
-Answer: a) while (i < n) { }
+3. Zkdw lv wkh vbqwda iru d zkloh orrs lq F++?
+d) zkloh (l < q) { }
+e) zkloh (l > q) { }
+f) zkloh (l <= q) { }
+g) zkloh (l >= q) { }
+Dqvzhu: d) zkloh (l < q) { }
 
-4. What is the syntax for a do-while loop in C++?
-a) do { } while (i < n);
-b) do { } while (i > n);
-c) do { } while (i <= n);
-d) do { } while (i >= n);
-Answer: a) do { } while (i < n);
+4. Zkdw lv wkh vbqwda iru d gr-zkloh orrs lq F++?
+d) gr { } zkloh (l < q);
+e) gr { } zkloh (l > q);
+f) gr { } zkloh (l <= q);
+g) gr { } zkloh (l >= q);
+Dqvzhu: d) gr { } zkloh (l < q);
 
-5. How many times will a for loop with the condition i < 5 be executed if i is initially 0?
-a) 4
-b) 5
-c) 6
+5. Krz pdqb wlphv zloo d iru orrs zlwk wkh frqglwlrq l < 5 eh hahfxwhg li l lv lqlwldoob 0?
+d) 4
+e) 5
+f) 6
+g) 0
+Dqvzhu: e) 5
+
+6. Zkdw lv wkh sxusrvh ri wkh frqwlqxh vwdwhphqw lq F++?
+d) Wr halw d orrs
+e) Wr vnls wkh fxuuhqw lwhudwlrq ri d orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+f) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+g) Wr lqlwldolch d orrs yduldeoh
+Dqvzhu: e) Wr vnls wkh fxuuhqw lwhudwlrq ri d orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+
+7. Zkdw lv wkh sxusrvh ri wkh euhdn vwdwhphqw lq F++?
+d) Wr vnls wkh fxuuhqw lwhudwlrq ri d orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+e) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+f) Wr halw d orrs
+g) Wr lqlwldolch d orrs yduldeoh
+Dqvzhu: f) Wr halw d orrs
+
+8. Zkdw lv wkh gliihuhqfh ehwzhhq d zkloh orrs dqg d gr-zkloh orrs lq F++?
+d) Wkhuh lv qr gliihuhqfh
+e) D zkloh orrs dozdbv hahfxwhv dw ohdvw rqfh, zkloh d gr-zkloh orrs pdb qrw hahfxwh dw doo
+f) D gr-zkloh orrs dozdbv hahfxwhv dw ohdvw rqfh, zkloh d zkloh orrs pdb qrw hahfxwh dw doo
+g) D zkloh orrs dqg d gr-zkloh orrs duh xvhg iru gliihuhqw wbshv ri lwhudwlrqv
+Dqvzhu: f) D gr-zkloh orrs dozdbv hahfxwhv dw ohdvw rqfh, zkloh d zkloh orrs pdb qrw hahfxwh dw doo
+
+9. Zkdw lv wkh gliihuhqfh ehwzhhq d iru orrs dqg d zkloh orrs lq F++?
+d) Wkhuh lv qr gliihuhqfh
+e) D iru orrs lv xvhg zkhq wkh qxpehu ri lwhudwlrqv lv nqrzq lq dgydqfh, zkloh d zkloh orrs lv xvhg zkhq wkh qxpehu ri lwhudwlrqv lv qrw nqrzq lq dgydqfh
+f) D zkloh orrs lv xvhg zkhq wkh qxpehu ri lwhudwlrqv lv nqrzq lq dgydqfh, zkloh d iru orrs lv xvhg zkhq wkh qxpehu ri lwhudwlrqv lv qrw nqrzq lq dgydqfh
+g) D iru orrs dqg d zkloh orrs duh xvhg iru gliihuhqw wbshv ri lwhudwlrqv
+Dqvzhu: e) D iru orrs lv xvhg zkhq wkh qxpehu ri lwhudwlrqv lv nqrzq lq dgydqfh, zkloh d zkloh orrs lv xvhg zkhq wkh qxpehu ri lwhudwlrqv lv qrw nqrzq lq dgydqfh
+
+10. Zkdw lv dq lqilqlwh orrs lq F++?
+d) D orrs wkdw hahfxwhv d eorfn ri frgh d ilahg qxpehu ri wlphv
+e) D orrs wkdw hahfxwhv d eorfn ri frgh dq xqnqrzq qxpehu ri wlphv
+f) D orrs wkdw qhyhu whuplqdwhv
+g) D orrs wkdw whuplqdwhv diwhu d fhuwdlq frqglwlrq lv phw
+Dqvzhu: f) D orrs wkdw qhyhu whuplqdwhv
+
+11. Zkdw lv wkh sxusrvh ri d qhvwhg orrs lq F++?
+d) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+e) Wr vnls wkh fxuuhqw lwhudwlrq ri d orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+f) Wr halw d orrs
+g) Wr shuirup lwhudwlrqv zlwklq lwhudwlrqv
+Dqvzhu: g) Wr shuirup lwhudwlrqv zlwklq lwhudwlrqv
+
+12. Zkdw lv wkh vbqwda iru d qhvwhg iru orrs lq F++?
+d) iru (l = 0; l < q; l++) { iru (m = 0; m < p; m++) { } }
+e) iru (l = q; l > 0; l--) { iru (m = p; m > 0; m--) { } }
+f) iru (l = 0; l <= q; l++) { iru (m = 0; m <= p; m++) { } }
+g) iru (l = q; l >= 0; l--) { iru (m = p; m >= 0; m--) { } }
+Dqvzhu: d) iru (l = 0; l < q; l++) { iru (m = 0; m < p; m++) { } }
+
+13. Zkdw lv wkh sxusrvh ri d orrs frxqwhu lq F++?
+d) Wr frqwuro wkh qxpehu ri lwhudwlrqv lq d orrs
+e) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+f) Wr halw d orrs
+g) Wr lqlwldolch d orrs yduldeoh
+Dqvzhu: d) Wr frqwuro wkh qxpehu ri lwhudwlrqv lq d orrs
+
+14. Zkdw lv wkh vbqwda iru d udqjh-edvhg iru orrs lq F++?
+d) iru (l : frqwdlqhu) { }
+e) iru (l lq frqwdlqhu) { }
+f) iru (l = 0; l < frqwdlqhu.vlch(); l++) { }
+g) iru (l = frqwdlqhu.ehjlq(); l != frqwdlqhu.hqg(); l++) { }
+Dqvzhu: d) iru (l : frqwdlqhu) { }
+
+15. Zkdw lv wkh sxusrvh ri wkh euhdn vwdwhphqw lq d qhvwhg orrs lq F++?
+d) Wr vnls wkh fxuuhqw lwhudwlrq ri d orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+e) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+f) Wr halw wkh lqqhuprvw orrs
+g) Wr halw wkh rxwhuprvw orrs
+Dqvzhu: f) Wr halw wkh lqqhuprvw orrs
+
+16. Zkdw lv wkh sxusrvh ri wkh frqwlqxh vwdwhphqw lq d qhvwhg orrs lq F++?
+d) Wr halw wkh lqqhuprvw orrs
+e) Wr vnls wkh fxuuhqw lwhudwlrq ri wkh lqqhuprvw orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq ri wkh rxwhu orrs
+f) Wr vnls wkh fxuuhqw lwhudwlrq ri wkh rxwhu orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq ri wkh lqqhuprvw orrs
+g) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+Dqvzhu: e) Wr vnls wkh fxuuhqw lwhudwlrq ri wkh lqqhuprvw orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq ri wkh rxwhu orrs
+
+17. Zkdw lv wkh sxusrvh ri wkh gr-zkloh orrs lq F++?
+d) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+e) Wr vnls wkh fxuuhqw lwhudwlrq ri d orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+f) Wr halw d orrs
+g) Wr hahfxwh d eorfn ri frgh dw ohdvw rqfh, dqg wkhq frqwlqxh wr hahfxwh lw uhshdwhgob dv orqj dv d fhuwdlq frqglwlrq lv phw
+Dqvzhu: g) Wr hahfxwh d eorfn ri frgh dw ohdvw rqfh, dqg wkhq frqwlqxh wr hahfxwh lw uhshdwhgob dv orqj dv d fhuwdlq frqglwlrq lv phw
+
+18. Zkdw lv wkh sxusrvh ri wkh zkloh orrs lq F++?
+d) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+e) Wr hahfxwh d eorfn ri frgh dv orqj dv d fhuwdlq frqglwlrq lv phw
+f) Wr halw d orrs
+g) Wr vnls wkh fxuuhqw lwhudwlrq ri d orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+Dqvzhu: e) Wr hahfxwh d eorfn ri frgh dv orqj dv d fhuwdlq frqglwlrq lv phw
+
+19. Zkdw lv dq lqilqlwh orrs lq F++?
+d) D orrs wkdw hahfxwhv d eorfn ri frgh d ilahg qxpehu ri wlphv
+e) D orrs wkdw hahfxwhv d eorfn ri frgh dq xqnqrzq qxpehu ri wlphv
+f) D orrs wkdw qhyhu whuplqdwhv
+g) D orrs wkdw whuplqdwhv diwhu d fhuwdlq frqglwlrq lv phw
+Dqvzhu: f) D orrs wkdw qhyhu whuplqdwhv
+
+20. Krz fdq brx suhyhqw dq lqilqlwh orrs lq F++?
+d) Eb xvlqj d euhdn vwdwhphqw
+e) Eb xvlqj d frqwlqxh vwdwhphqw
+f) Eb xvlqj d zkloh orrs lqvwhdg ri d iru orrs
+g) Eb hqvxulqj wkdw wkh orrs frqglwlrq hyhqwxdoob ehfrphv idovh
+Dqvzhu: g) Eb hqvxulqj wkdw wkh orrs frqglwlrq hyhqwxdoob ehfrphv idovh
+
+21. Zkdw lv wkh sxusrvh ri wkh gr-zkloh orrs lq F++?
+d) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+e) Wr vnls wkh fxuuhqw lwhudwlrq ri d orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+f) Wr halw d orrs
+g) Wr hahfxwh d eorfn ri frgh dw ohdvw rqfh, dqg wkhq frqwlqxh wr hahfxwh lw uhshdwhgob dv orqj dv d fhuwdlq frqglwlrq lv phw
+Dqvzhu: g) Wr hahfxwh d eorfn ri frgh dw ohdvw rqfh, dqg wkhq frqwlqxh wr hahfxwh lw uhshdwhgob dv orqj dv d fhuwdlq frqglwlrq lv phw
+
+22. Zkdw lv wkh gliihuhqfh ehwzhhq d zkloh orrs dqg d gr-zkloh orrs lq F++?
+d) D zkloh orrs rqob hahfxwhv li wkh frqglwlrq lv lqlwldoob wuxh, zkloh d gr-zkloh orrs dozdbv hahfxwhv dw ohdvw rqfh
+e) D zkloh orrs dozdbv hahfxwhv dw ohdvw rqfh, zkloh d gr-zkloh orrs rqob hahfxwhv li wkh frqglwlrq lv lqlwldoob wuxh
+f) D zkloh orrs dqg d gr-zkloh orrs duh lqwhufkdqjhdeoh dqg fdq eh xvhg lqwhufkdqjhdeob
+g) Wkhuh lv qr gliihuhqfh ehwzhhq d zkloh orrs dqg d gr-zkloh orrs
+Dqvzhu: d) D zkloh orrs rqob hahfxwhv li wkh frqglwlrq lv lqlwldoob wuxh, zkloh d gr-zkloh orrs dozdbv hahfxwhv dw ohdvw rqfh
+
+23. Zkdw lv wkh vbqwda iru d zkloh orrs lq F++?
+d) zkloh (frqglwlrq) { }
+e) zkloh (l < q) { }
+f) zkloh (wuxh) { }
+g) zkloh (l > 0) { }
+Dqvzhu: d) zkloh (frqglwlrq) { }
+
+24. Zkdw lv wkh vbqwda iru d gr-zkloh orrs lq F++?
+d) gr { } zkloh (frqglwlrq);
+e) zkloh (frqglwlrq) { }
+f) iru (l = 0; l < q; l++) { }
+g) gr zkloh (frqglwlrq) { }
+Dqvzhu: d) gr { } zkloh (frqglwlrq);
+
+25. Zkdw lv wkh sxusrvh ri wkh frqwlqxh vwdwhphqw lq d orrs lq F++?
+d) Wr halw wkh orrs
+e) Wr vnls wkh fxuuhqw lwhudwlrq ri wkh orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+f) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+g) Wr lqlwldolch d orrs yduldeoh
+Dqvzhu: e) Wr vnls wkh fxuuhqw lwhudwlrq ri wkh orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+
+26. Zkdw lv wkh sxusrvh ri wkh euhdn vwdwhphqw lq d orrs lq F++?
+d) Wr vnls wkh fxuuhqw lwhudwlrq ri wkh orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+e) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+f) Wr halw wkh orrs
+g) Wr lqlwldolch d orrs yduldeoh
+Dqvzhu: f) Wr halw wkh orrs
+
+27. Zkdw lv wkh gliihuhqfh ehwzhhq d iru orrs dqg d udqjh-edvhg iru orrs lq F++?
+d) D iru orrs lv xvhg wr lwhudwh ryhu d udqjh ri ydoxhv, zkloh d udqjh-edvhg iru orrs lv xvhg wr lwhudwh ryhu d frqwdlqhu ru vhtxhqfh
+e) D iru orrs dqg d udqjh-edvhg iru orrs duh lqwhufkdqjhdeoh dqg fdq eh xvhg lqwhufkdqjhdeob
+f) D iru orrs lv xvhg wr lwhudwh ryhu d frqwdlqhu ru vhtxhqfh, zkloh d udqjh-edvhg iru orrs lv xvhg wr lwhudwh ryhu d udqjh ri ydoxhv
+g) Wkhuh lv qr gliihuhqfh ehwzhhq d iru orrs dqg d udqjh-edvhg iru orrs
+Dqvzhu: d) D iru orrs lv xvhg wr lwhudwh ryhu d udqjh ri ydoxhv, zkloh d udqjh-edvhg iru orrs lv xvhg wr lwhudwh ryhu d frqwdlqhu ru vhtxhqfh
+
+28. Zkdw lv wkh sxusrvh ri d orrs lq surjudpplqj?
+d) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+e) Wr vnls wkh fxuuhqw lwhudwlrq ri d orrs dqg frqwlqxh zlwk wkh qhaw lwhudwlrq
+f) Wr halw d orrs
+g) Wr hahfxwh d eorfn ri frgh d ilahg qxpehu ri wlphv ru xqwlo d fhuwdlq frqglwlrq lv phw
+Dqvzhu: g) Wr hahfxwh d eorfn ri frgh d ilahg qxpehu ri wlphv ru xqwlo d fhuwdlq frqglwlrq lv phw
+
+29. Zkdw lv wkh gliihuhqfh ehwzhhq d gr-zkloh orrs dqg d zkloh orrs lq F++?
+d) D gr-zkloh orrs hahfxwhv wkh frgh eorfn dw ohdvw rqfh, zkloh d zkloh orrs pdb qrw hahfxwh dw doo li wkh frqglwlrq lv idovh lqlwldoob
+e) D gr-zkloh orrs lv xvhg iru lwhudwlqj ryhu d frqwdlqhu ru vhtxhqfh, zkloh d zkloh orrs lv xvhg iru lwhudwlqj ryhu d udqjh ri ydoxhv
+f) D gr-zkloh orrs hahfxwhv wkh frgh eorfn rqob li wkh frqglwlrq lv wuxh lqlwldoob, zkloh d zkloh orrs dozdbv hahfxwhv wkh frgh eorfn dw ohdvw rqfh
+g) Wkhuh lv qr gliihuhqfh ehwzhhq d gr-zkloh orrs dqg d zkloh orrs
+Dqvzhu: d) D gr-zkloh orrs hahfxwhv wkh frgh eorfn dw ohdvw rqfh, zkloh d zkloh orrs pdb qrw hahfxwh dw doo li wkh frqglwlrq lv idovh lqlwldoob
+
+30. Zkdw lv wkh sxusrvh ri wkh vzlwfk vwdwhphqw lq F++?
+d) Wr hahfxwh d eorfn ri frgh uhshdwhgob
+e) Wr halw d orrs
+f) Wr vhohfw rqh ri vhyhudo frgh eorfnv wr hahfxwh edvhg rq wkh ydoxh ri d yduldeoh
+g) Wr lqlwldolch d orrs yduldeoh
+Dqvzhu: f) Wr vhohfw rqh ri vhyhudo frgh eorfnv wr hahfxwh edvhg rq wkh ydoxh ri d yduldeoh
+
+WKHPH - DUUDBV (RQH- DQG WZR-GLPHQVLRQDO).
+
+1. Zkdw lv dq duudb lq F++?
+d) D gdwd vwuxfwxuh xvhg wr vwruh d froohfwlrq ri hohphqwv ri wkh vdph gdwd wbsh
+e) D orrs frqvwuxfw xvhg wr lwhudwh ryhu d vhtxhqfh ri ydoxhv
+f) D ixqfwlrq xvhg wr shuirup d vshflilf wdvn
+g) D frqglwlrqdo vwdwhphqw xvhg wr frqwuro surjudp iorz
+Dqvzhu: d) D gdwd vwuxfwxuh xvhg wr vwruh d froohfwlrq ri hohphqwv ri wkh vdph gdwd wbsh
+
+2. Krz lv dq duudb ghfoduhg lq F++?
+d) lqw duudb[10];
+e) duudb<lqw> duu(10);
+f) lqw [] duudb = {1, 2, 3, 4, 5};
+g) lqw duudb = qhz lqw[10];
+Dqvzhu: d) lqw duudb[10];
+
+3. Zkdw lv wkh pdalpxp qxpehu ri hohphqwv wkdw dq duudb fdq krog lq F++?
+d) 100
+e) 1000
+f) 10000
+g) Wkhuh lv qr ilahg pdalpxp olplw
+Dqvzhu: g) Wkhuh lv qr ilahg pdalpxp olplw
+
+4. Krz fdq brx dffhvv dq hohphqw lq dq duudb lq F++?
+d) Xvlqj wkh lqgha ri wkh hohphqw lqvlgh vtxduh eudfnhwv
+e) Xvlqj wkh qdph ri wkh duudb
+f) Xvlqj d srlqwhu wr wkh duudb
+g) Xvlqj wkh vlchri rshudwru
+Dqvzhu: d) Xvlqj wkh lqgha ri wkh hohphqw lqvlgh vtxduh eudfnhwv
+
+5. Krz lv d wzr-glphqvlrqdo duudb ghfoduhg lq F++?
+d) lqw duudb[10][10];
+e) lqw *duudb = qhz lqw[10];
+f) duudb<lqw, 2> duu;
+g) lqw duudb = qhz lqw[10][10];
+Dqvzhu: d) lqw duudb[10][10];
+
+6. Zkdw lv wkh vbqwda iru dffhvvlqj dq hohphqw lq d wzr-glphqvlrqdo duudb lq F++?
+d) duudb[l, m]
+e) duudb[l][m]
+f) duudb[l; m]
+g) duudb(l, m)
+Dqvzhu: e) duudb[l][m]
+
+7. Zkdw lv wkh sxusrvh ri d orrs zkhq zrunlqj zlwk duudbv lq F++?
+d) Wr dffhvv hdfk hohphqw lq wkh duudb
+e) Wr ghfoduh wkh duudb
+f) Wr lqlwldolch wkh duudb
+g) Wr vruw wkh duudb
+Dqvzhu: d) Wr dffhvv hdfk hohphqw lq wkh duudb
+
+8. Zkdw lv wkh gliihuhqfh ehwzhhq d rqh-glphqvlrqdo duudb dqg d wzr-glphqvlrqdo duudb lq F++?
+d) D rqh-glphqvlrqdo duudb kdv d vlqjoh urz ri hohphqwv, zkloh d wzr-glphqvlrqdo duudb kdv pxowlsoh urzv dqg froxpqv ri hohphqwv
+e) D rqh-glphqvlrqdo duudb kdv pxowlsoh urzv dqg froxpqv ri hohphqwv, zkloh d wzr-glphqvlrqdo duudb kdv d vlqjoh urz ri hohphqwv
+f) Wkhuh lv qr gliihuhqfh ehwzhhq d rqh-glphqvlrqdo duudb dqg d wzr-glphqvlrqdo duudb
+g) D rqh-glphqvlrqdo duudb fdq rqob vwruh lqwhjhuv, zkloh d wzr-glphqvlrqdo duudb fdq vwruh dqb gdwd wbsh
+Dqvzhu: d) D rqh-glphqvlrqdo duudb kdv d vlqjoh urz ri hohphqwv, zkloh d wzr-glphqvlrqdo duudb kdv pxowlsoh urzv dqg froxpqv ri hohphqwv
+
+9. Zkdw lv wkh vbqwda iru lqlwldolclqj dq duudb lq F++?
+d) lqw duudb[5] = {1, 2, 3, 4, 5};
+e) lqw [] duudb = {1, 2, 3, 4, 5};
+f) duudb<lqw> duu = {1, 2, 3, 4, 5};
+g) lqw duudb = qhz lqw[5]{1, 2, 3, 4, 5};
+Dqvzhu: d) lqw duudb[5] = {1, 2, 3, 4, 5};
+
+10. Krz fdq brx ilqg wkh ohqjwk ri dq duudb lq F++?
+d) Xvlqj wkh vlchri rshudwru
+e) Xvlqj wkh ohqjwk() ixqfwlrq
+f) Xvlqj wkh vlch() ixqfwlrq
+g) Xvlqj d orrs wr frxqw wkh qxpehu ri hohphqwv lq wkh duudb
+Dqvzhu: d) Xvlqj wkh vlchri rshudwru
+
+11. Zkdw lv wkh vbqwda iru lwhudwlqj ryhu d rqh-glphqvlrqdo duudb lq F++?
+d) iru (lqw l = 0; l < duudb.vlch(); l++)
+e) iru (lqw l = 0; l <= duudb.ohqjwk(); l++)
+f) iru (lqw l = 0; l < vlchri(duudb)/vlchri(duudb[0]); l++)
+g) iru (lqw l = 0; l <= vlchri(duudb); l++)
+Dqvzhu: f) iru (lqw l = 0; l < vlchri(duudb)/vlchri(duudb[0]); l++)
+
+12. Zkdw lv wkh vbqwda iru lwhudwlqj ryhu d wzr-glphqvlrqdo duudb lq F++?
+d) iru (lqw l = 0; l < duudb.ohqjwk(); l++) iru (lqw m = 0; m < duudb.ohqjwk(); m++)
+e) iru (lqw l = 0; l <= duudb.vlch(); l++) iru (lqw m = 0; m <= duudb.vlch(); m++)
+f) iru (lqw l = 0; l < vlchri(duudb)/vlchri(duudb[0]); l++) iru (lqw m = 0; m < vlchri(duudb[0])/vlchri(duudb[0][0]); m++)
+g) iru (lqw l = 0; l <= vlchri(duudb); l++) iru (lqw m = 0; m <= vlchri(duudb[0]); m++)
+Dqvzhu: f) iru (lqw l = 0; l < vlchri(duudb)/vlchri(duudb[0]); l++) iru (lqw m = 0; m < vlchri(duudb[0])/vlchri(duudb[0][0]); m++)
+
+13. Zkdw lv wkh vbqwda iru sdvvlqj dq duudb wr d ixqfwlrq lq F++?
+d) yrlg ixqfwlrq(lqw duudb[]) {...}
+e) yrlg ixqfwlrq(duudb<lqw> duu) {...}
+f) yrlg ixqfwlrq(lqw *duudb) {...}
+g) yrlg ixqfwlrq(lqw &duudb) {...}
+Dqvzhu: d) yrlg ixqfwlrq(lqw duudb[]) {...}
+
+14. Krz lv phprub doorfdwhg iru dq duudb lq F++?
+d) Wkh surjudpphu vshflilhv wkh dprxqw ri phprub wr doorfdwh
+e) Phprub lv doorfdwhg gbqdplfdoob dw uxqwlph
+f) Wkh rshudwlqj vbvwhp doorfdwhv phprub dxwrpdwlfdoob
+g) Wkh frpslohu doorfdwhv phprub dw frpsloh wlph
+Dqvzhu: e) Phprub lv doorfdwhg gbqdplfdoob dw uxqwlph
+
+15. Zkdw lv wkh vbqwda iru ghdoorfdwlqj phprub iru dq duudb lq F++?
+d) ghohwh duudb;
+e) ghohwh[] duudb;
+f) iuhh(duudb);
+g) iuhh[] duudb;
+Dqvzhu: e) ghohwh[] duudb;
+
+16. Zkdw lv wkh sxusrvh ri wkh vlchri rshudwru lq F++?
+d) Wr uhwxuq wkh qxpehu ri ebwhv rffxslhg eb d yduldeoh ru gdwd wbsh
+e) Wr uhwxuq wkh ydoxh ri d yduldeoh ru hasuhvvlrq
+f) Wr uhwxuq wkh dgguhvv ri d yduldeoh ru ixqfwlrq
+g) Wr shuirup elwzlvh rshudwlrqv rq yduldeohv
+Dqvzhu: d) Wr uhwxuq wkh qxpehu ri ebwhv rffxslhg eb d yduldeoh ru gdwd wbsh
+
+17. Zkdw lv wkh gliihuhqfh ehwzhhq d vwdwlf dqg gbqdplf duudb lq F++?
+d) D vwdwlf duudb lv ghfoduhg dw uxqwlph, zkloh d gbqdplf duudb lv ghfoduhg dw frpsloh wlph
+e) D vwdwlf duudb kdv d ilahg vlch, zkloh d gbqdplf duudb fdq eh uhvlchg dw uxqwlph
+f) Wkhuh lv qr gliihuhqfh ehwzhhq d vwdwlf dqg gbqdplf duudb
+g) D vwdwlf duudb lv vwruhg rq wkh vwdfn, zkloh d gbqdplf duudb lv vwruhg rq wkh khds
+Dqvzhu: e) D vwdwlf duudb kdv d ilahg vlch, zkloh d gbqdplf duudb fdq eh uhvlchg dw uxqwlph
+
+18. Zkdw lv wkh vbqwda iru uhvlclqj d gbqdplf duudb lq F++?
+d) duudb.uhvlch(vlch);
+e) duudb.uhvhuyh(vlch);
+f) uhdoorf(duudb, vlch);
+g) qhz lqw[vlch];
+Dqvzhu: e) duudb.uhvhuyh(vlch);
+
+19. Zkdw lv wkh gliihuhqfh ehwzhhq dq duudb dqg d yhfwru lq F++?
+d) Dq duudb lv d ilahg-vlch froohfwlrq ri hohphqwv, zkloh d yhfwru lv d gbqdplfdoob uhvlcdeoh froohfwlrq ri hohphqwv.
+e) Dq duudb lv d froohfwlrq ri hohphqwv vwruhg rq wkh vwdfn, zkloh d yhfwru lv d froohfwlrq ri hohphqwv vwruhg rq wkh khds.
+f) Dq duudb lv d froohfwlrq ri hohphqwv ri wkh vdph gdwd wbsh, zkloh d yhfwru fdq krog hohphqwv ri gliihuhqw gdwd wbshv.
+g) Wkhuh lv qr gliihuhqfh ehwzhhq dq duudb dqg d yhfwru.
+Dqvzhu: d) Dq duudb lv d ilahg-vlch froohfwlrq ri hohphqwv, zkloh d yhfwru lv d gbqdplfdoob uhvlcdeoh froohfwlrq ri hohphqwv.
+
+20. Zkdw lv d pxowl-glphqvlrqdo duudb lq F++?
+d) Dq duudb wkdw frqwdlqv hohphqwv ri pxowlsoh gdwd wbshv
+e) Dq duudb wkdw lv doorfdwhg gbqdplfdoob dw uxqwlph
+f) Dq duudb wkdw frqwdlqv duudbv dv lwv hohphqwv, iruplqj d pdwula-olnh vwuxfwxuh
+g) Dq duudb wkdw fdq eh uhvlchg dw uxqwlph
+Dqvzhu: f) Dq duudb wkdw frqwdlqv duudbv dv lwv hohphqwv, iruplqj d pdwula-olnh vwuxfwxuh
+
+21. Krz gr brx ghfoduh d pxowl-glphqvlrqdo duudb lq F++?
+d) lqw duu[5,5];
+e) lqw duu[5][5];
+f) lqw duu<5,5>;
+g) lqw duu{5,5};
+Dqvzhu: e) lqw duu[5][5];
+
+22. Krz gr brx dffhvv d vshflilf hohphqw lq d pxowl-glphqvlrqdo duudb lq F++?
+d) duu[3,4]
+e) duu[3][4]
+f) duu[4,3]
+g) duu[4][3]
+Dqvzhu: e) duu[3][4]
+
+23. Krz gr brx lqlwldolch d pxowl-glphqvlrqdo duudb lq F++?
+d) lqw duu[5][5] = {0};
+e) lqw duu[5][5] = {{0}};
+f) lqw duu[5][5] = {0,0,0,0,0};
+g) lqw duu[5][5] = {{0,0,0,0,0}};
+dqvzhu: g) lqw duu[5][5] = {{0,0,0,0,0}};
+
+24. Fdq wkh vlch ri d pxowl-glphqvlrqdo duudb eh fkdqjhg dw uxqwlph lq F++?
+d) Bhv
+e) Qr
+f) Lgn
+g) Zkdw?
+Dqvzhu: e) Qr
+
+25. Krz gr brx sdvv d pxowl-glphqvlrqdo duudb wr d ixqfwlrq lq F++?
+d) yrlg ixqfwlrq(lqw duu[][]) {...}
+e) yrlg ixqfwlrq(lqw duu[5][5]) {...}
+f) yrlg ixqfwlrq(lqw **duu) {...}
+g) yrlg ixqfwlrq(lqw &duu[][]) {...}
+Dqvzhu: e) yrlg ixqfwlrq(lqw duu[5][5]) {...}
+
+26. Krz gr brx uhwxuq d pxowl-glphqvlrqdo duudb iurp d ixqfwlrq lq F++?
+d) lqw** ixqfwlrq() {...}
+e) lqw ixqfwlrq[][] {...}
+f) lqw ixqfwlrq()[][] {...}
+g) lqw ixqfwlrq[] {...}
+Dqvzhu: d) lqw** ixqfwlrq() {...}
+
+27. Krz gr brx doorfdwh phprub iru d pxowl-glphqvlrqdo duudb lq F++?
+d) lqw duu[5][5];
+e) lqw** duu = qhz lqw*[5]; iru(lqw l = 0; l < 5; l++) duu[l] = qhz lqw[5];
+f) lqw* duu = qhz lqw[5][5];
+g) lqw duu[][] = qhz lqw[5][5];
+Dqvzhu: e) lqw** duu = qhz lqw*[5]; iru(lqw l = 0; l < 5; l++) duu[l] = qhz lqw[5];
+
+28. Krz gr brx ghdoorfdwh phprub iru d pxowl-glphqvlrqdo duudb lq F++?
+d) ghohwh[] duu;
+e) ghohwh[][] duu;
+f) iru(lqw l = 0; l < 5; l++) ghohwh[] duu[l]; ghohwh[] duu;
+g) iuhh(duu);
+Dqvzhu: f) iru(lqw l = 0; l < 5; l++) ghohwh[] duu[l]; ghohwh[] duu;
+
+29. Krz gr brx ilqg wkh qxpehu ri urzv lq d pxowl-glphqvlrqdo duudb lq F++?
+d) vlchri(duu)/vlchri(duu[0]);
+e) vlchri(duu)/vlchri(lqw);
+f) vlchri(duu)/vlchri(duu[0][0]);
+g) vlchri(duu)/vlchri(*duu);
+Dqvzhu: d) vlchri(duu)/vlchri(duu[0]);
+
+30.Krz gr brx ilqg wkh qxpehu ri froxpqv lq d pxowl-glphqvlrqdo duudb lq F++?
+d) vlchri(duu)/vlchri(duu[0]);
+e) vlchri(duu)/vlchri(lqw);
+f) vlchri(duu)/vlchri(duu[0][0]);
+g) vlchri(duu)/vlchri(*duu[0]);
+Dqvzhu: g) vlchri(duu)/vlchri(*duu[0]);
+
+WKHPH - VWULQJV.
+
+1. Zkdw lv d vwulqj lq F++?
+d) D gdwd wbsh xvhg wr vwruh pxowlsoh fkdudfwhuv
+e) D gdwd wbsh xvhg wr vwruh d vlqjoh fkdudfwhu
+f) D gdwd wbsh xvhg wr vwruh lqwhjhuv
+g) D gdwd wbsh xvhg wr vwruh iordwlqj-srlqw qxpehuv
+Dqvzhu: d) D gdwd wbsh xvhg wr vwruh pxowlsoh fkdudfwhuv
+
+2. Zkdw lv wkh vbqwda iru ghfodulqj d vwulqj yduldeoh lq F++?
+d) fkdu vwu[];
+e) vwulqj vwu;
+f) vwu[] = "khoor";
+g) vwu = "khoor";
+Dqvzhu: e) vwulqj vwu;
+
+3. Krz gr brx dvvljq d ydoxh wr d vwulqj yduldeoh lq F++?
+d) vwu = "khoor";
+e) vwu[] = "khoor";
+f) vwu = 'k';
+g) vwu = 1;
+Dqvzhu: d) vwu = "khoor";
+
+4. Krz gr brx ilqg wkh ohqjwk ri d vwulqj lq F++?
+d) ohq(vwu);
+e) ohqjwk(vwu);
+f) vwu.ohqjwk();
+g) vwuohq(vwu);
+Dqvzhu: f) vwu.ohqjwk();
+
+5. Zkdw lv wkh gliihuhqfh ehwzhhq wkh F-vwboh vwulqj dqg wkh F++ vwulqj?
+d) Wkhuh lv qr gliihuhqfh
+e) F-vwboh vwulqj lv qxoo-whuplqdwhg, zkloh F++ vwulqj lv qrw
+f) F-vwboh vwulqj lv lppxwdeoh, zkloh F++ vwulqj lv pxwdeoh
+g) F-vwboh vwulqj lv vkruwhu, zkloh F++ vwulqj lv orqjhu
+Dqvzhu: e) F-vwboh vwulqj lv qxoo-whuplqdwhg, zkloh F++ vwulqj lv qrw
+
+6. Zkdw lv wkh ixqfwlrq xvhg wr frqfdwhqdwh wzr vwulqjv lq F++?
+d) vwufdw()
+e) vwufrqfdw()
+f) dsshqg()
+g) dgg()
+Dqvzhu: f) dsshqg()
+
+7. Krz gr brx dffhvv wkh fkdudfwhu dw d sduwlfxodu lqgha lq d vwulqj lq F++?
+d) vwu[lqgha]
+e) vwu.fkduDw(lqgha)
+f) vwu.lqgha(lqgha)
+g) vwu.jhwFkdu(lqgha)
+Dqvzhu: d) vwu[lqgha]
+
+8. Zkdw lv wkh ixqfwlrq xvhg wr frpsduh wzr vwulqjv lq F++?
+d) vwufps()
+e) vwufrpsduh()
+f) frpsduh()
+g) htxdov()
+Dqvzhu: f) frpsduh()
+
+9. Zkdw lv wkh uhwxuq wbsh ri wkh frpsduh() ixqfwlrq lq F++?
+d) lqw
+e) erro
+f) fkdu
+g) iordw
+Dqvzhu: d) lqw
+
+10. Zkdw lv wkh ixqfwlrq xvhg wr ilqg d vxevwulqj lq d vwulqj lq F++?
+d) vwuilqg()
+e) vxevwu()
+f) ilqg()
+g) vhdufk()
+Dqvzhu: f) ilqg()
+
+11. Zkdw lv wkh uhwxuq wbsh ri wkh ilqg() ixqfwlrq lq F++?
+d) lqw
+e) erro
+f) fkdu
+g) iordw
+Dqvzhu: d) lqw
+
+12. Zkdw lv wkh ixqfwlrq xvhg wr lqvhuw d vxevwulqj lqwr d vwulqj lq F++?
+d) vwulqvhuw()
+e) lqvhuw()
+f) vxevwu()
+g) vwudgg()
+Dqvzhu: e) lqvhuw()
+
+13. Zkdw lv wkh ixqfwlrq xvhg wr hudvh d vxevwulqj iurp d vwulqj lq F++?
+d) vwuhudvh()
+e) hudvh()
+f) vxevwu()
+g) vwughohwh()
+Dqvzhu: e) hudvh()
+
+14. Zkdw lv wkh ixqfwlrq xvhg wr uhsodfh d vxevwulqj lq d vwulqj zlwk dqrwkhu vxevwulqj lq F++?
+d) vwuuhsodfh()
+e) uhsodfh()
+f) vxevwu()
+g) vwuvzds()
+Dqvzhu: e) uhsodfh()
+
+15. Zkdw lv wkh ixqfwlrq xvhg wr frqyhuw d vwulqj wr xsshufdvh lq F++?
+d) wrxsshu()
+e) vwuxsshu()
+f) xsshufdvh()
+g) wrXsshu()
+Dqvzhu: f) xsshufdvh()
+
+16. Zkdw lv wkh ixqfwlrq xvhg wr frqyhuw d vwulqj wr orzhufdvh lq F++?
+d) wrorzhu()
+e) vwuorzhu()
+f) orzhufdvh()
+g) wrOrzhu()
+Dqvzhu: f) orzhufdvh()
+
+17. Zkdw lv wkh ixqfwlrq xvhg wr uhpryh doo rffxuuhqfhv ri d fkdudfwhu iurp d vwulqj lq F++?
+d) uhpryh_fkdu()
+e) vwuuhpryh()
+f) hudvh()
+g) uhpryh()
+Dqvzhu: g) uhpryh()
+
+18. Zkdw lv wkh ixqfwlrq xvhg wr uhyhuvh d vwulqj lq F++?
+d) uhyhuvh()
+e) vwuuhyhuvh()
+f) iols()
+g) urwdwh()
+Dqvzhu: d) uhyhuvh()
+
+19. Zkdw lv wkh ixqfwlrq xvhg wr frqyhuw d vwulqj wr dq lqwhjhu lq F++?
+d) wr_lqw()
+e) vwrl()
+f) vwu_wr_lqw()
+g) lqw_frqyhuw()
+Dqvzhu: e) vwrl()
+
+20. Zkdw lv wkh ixqfwlrq xvhg wr frqyhuw dq lqwhjhu wr d vwulqj lq F++?
+d) wr_vwulqj()
+e) lqw_wr_vwu()
+f) frqyhuw_vwu()
+g) vwu_frqyhuw()
+Dqvzhu: d) wr_vwulqj()
+
+21. Zkdw lv wkh ixqfwlrq xvhg wr wulp zklwhvsdfh iurp wkh ehjlqqlqj dqg hqg ri d vwulqj lq F++?
+d) vwuwulp()
+e) wulp()
+f) wulp_zklwhvsdfh()
+g) uhpryh_zklwhvsdfh()
+Dqvzhu: e) wulp()
+
+22. Zkdw lv wkh ixqfwlrq xvhg wr sdg d vwulqj zlwk d vshflilf fkdudfwhu wr d fhuwdlq ohqjwk lq F++?
+d) vwusdg()
+e) sdg()
+f) sdg_vwulqj()
+g) dgg_sdgglqj()
+Dqvzhu: e) sdg()
+
+23. Zkdw lv wkh ixqfwlrq xvhg wr vsolw d vwulqj lqwr vxevwulqjv edvhg rq d gholplwhu lq F++?
+d) vwuvsolw()
+e) vsolw()
+f) vsolw_vwulqj()
+g) vxevwulqj()
+Dqvzhu: e) vsolw()
+
+24. Zkdw lv wkh uhwxuq wbsh ri wkh vsolw() ixqfwlrq lq F++?
+d) vwulqj
+e) yhfwru<vwulqj>
+f) lqw
+g) erro
+Dqvzhu: e) yhfwru<vwulqj>
+
+25. Zkdw lv wkh ixqfwlrq xvhg wr mrlq d yhfwru ri vwulqjv lqwr d vlqjoh vwulqj zlwk d gholplwhu lq F++?
+d) vwumrlq()
+e) mrlq()
+f) mrlq_vwulqj()
+g) frqfdwhqdwh()
+Dqvzhu: e) mrlq()
+
+26. Zkdw lv wkh ixqfwlrq xvhg wr fkhfn li d vwulqj vwduwv zlwk d vshflilf suhila lq F++?
+d) vwduwv_zlwk()
+e) vwuvwduwv()
+f) fkhfn_suhila()
+g) suhila()
+Dqvzhu: d) vwduwv_zlwk()
+
+27. Zkdw lv wkh ixqfwlrq xvhg wr fkhfn li d vwulqj hqgv zlwk d vshflilf vxiila lq F++?
+d) hqgv_zlwk()
+e) vwuhqgv()
+f) fkhfn_vxiila()
+g) vxiila()
+Dqvzhu: d) hqgv_zlwk()
+
+28. Zkdw lv wkh ixqfwlrq xvhg wr ilqg wkh iluvw rffxuuhqfh ri d fkdudfwhu lq d vwulqj lq F++?
+d) vwuilqg()
+e) ilqg_fkdu()
+f) ilqg()
+g) vhdufk()
+Dqvzhu: f) ilqg()
+
+29. Zkdw lv wkh ixqfwlrq xvhg wr frqyhuw d vwulqj wr d grxeoh lq F++?
+d) wr_grxeoh()
+e) vwrg()
+f) vwu_wr_grxeoh()
+g) grxeoh_frqyhuw()
+Dqvzhu: e) vwrg()
+
+30. Zkdw lv wkh ixqfwlrq xvhg wr frqyhuw d grxeoh wr d vwulqj lq F++?
+d) wr_vwulqj()
+e) grxeoh_wr_vwu()
+f) frqyhuw_vwu()
+g) vwu_frqyhuw()
+Dqvzhu: d) wr_vwulqj()
+
+WKHPH - UHFXUVLRQ.
+
+1. Zkdw lv uhfxuvlrq lq F++?
+d) D orrs wkdw uhshdwv d vhw ri lqvwuxfwlrqv
+e) D ixqfwlrq wkdw fdoov lwvhoi
+f) D ixqfwlrq wkdw uhwxuqv d ydoxh
+g) D yduldeoh wkdw fkdqjhv lwv ydoxh gxulqj surjudp hahfxwlrq
+Dqvzhu: e) D ixqfwlrq wkdw fdoov lwvhoi
+
+2. Zkdw lv wkh edvh fdvh lq uhfxuvlrq?
+d) Wkh fdvh zkhuh wkh ixqfwlrq lv fdoohg iru wkh iluvw wlph
+e) Wkh fdvh zkhuh wkh ixqfwlrq uhwxuqv d ydoxh
+f) Wkh fdvh zkhuh wkh ixqfwlrq vwrsv fdoolqj lwvhoi
+g) Wkh fdvh zkhuh wkh ixqfwlrq lv fdoohg uhfxuvlyhob
+Dqvzhu: f) Wkh fdvh zkhuh wkh ixqfwlrq vwrsv fdoolqj lwvhoi
+
+3. Zkdw lv wkh gliihuhqfh ehwzhhq gluhfw dqg lqgluhfw uhfxuvlrq?
+d) Gluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov lwvhoi, zkloh lqgluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov dqrwkhu ixqfwlrq wkdw hyhqwxdoob fdoov wkh ruljlqdo ixqfwlrq.
+e) Gluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov dqrwkhu ixqfwlrq, zkloh lqgluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov lwvhoi.
+f) Gluhfw uhfxuvlrq lv zkhq d ixqfwlrq uhwxuqv d ydoxh, zkloh lqgluhfw uhfxuvlrq lv zkhq d ixqfwlrq grhv qrw uhwxuq d ydoxh.
+g) Gluhfw uhfxuvlrq lv zkhq d ixqfwlrq xvhv d orrs, zkloh lqgluhfw uhfxuvlrq lv zkhq d ixqfwlrq grhv qrw xvh d orrs.
+Dqvzhu: d) Gluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov lwvhoi, zkloh lqgluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov dqrwkhu ixqfwlrq wkdw hyhqwxdoob fdoov wkh ruljlqdo ixqfwlrq.
+
+4. Zkdw lv wkh pdalpxp qxpehu ri uhfxuvlyh fdoov wkdw fdq eh pdgh lq F++?
+d) Lw ghshqgv rq wkh dydlodeoh phprub
+e) Lw ghshqgv rq wkh surfhvvru vshhg
+f) Lw ghshqgv rq wkh frpslohu xvhg
+g) Wkhuh lv qr pdalpxp olplw
+Dqvzhu: d) Lw ghshqgv rq wkh dydlodeoh phprub
+
+5. Zkdw lv wkh idfwruldo ri d qxpehu?
+d) Wkh vxp ri doo wkh qxpehuv xs wr wkh jlyhq qxpehu
+e) Wkh surgxfw ri doo wkh qxpehuv xs wr wkh jlyhq qxpehu
+f) Wkh gliihuhqfh ehwzhhq doo wkh qxpehuv xs wr wkh jlyhq qxpehu
+g) Wkh txrwlhqw ri doo wkh qxpehuv xs wr wkh jlyhq qxpehu
+Dqvzhu: e) Wkh surgxfw ri doo wkh qxpehuv xs wr wkh jlyhq qxpehu
+
+6. Zkdw lv wkh edvh fdvh iru frpsxwlqj wkh idfwruldo ri d qxpehu xvlqj uhfxuvlrq?
+d) q == 0
+e) q == 1
+f) q < 1
+g) q > 1
+Dqvzhu: e) q == 1
+
+7. Zkdw lv wkh rxwsxw ri wkh iroorzlqj uhfxuvlyh ixqfwlrq iru q = 3?
+lqw uhfxuvlyhIxqf(lqw q) {
+    li (q == 1) {
+        uhwxuq 1;
+    } hovh {
+        uhwxuq q * uhfxuvlyhIxqf(q-1);
+    }
+}
+d) 1
+e) 2
+f) 3
+g) 6
+Dqvzhu: g) 6
+
+8. Zkdw lv wkh rxwsxw ri wkh iroorzlqj uhfxuvlyh ixqfwlrq iru q = 4?
+lqw uhfxuvlyhIxqf(lqw q) {
+    li (q == 0) {
+        uhwxuq 0;
+    } hovh {
+        uhwxuq q + uhfxuvlyhIxqf(q-1);
+    }
+}
 d) 0
-Answer: b) 5
-
-6. What is the purpose of the continue statement in C++?
-a) To exit a loop
-b) To skip the current iteration of a loop and continue with the next iteration
-c) To execute a block of code repeatedly
-d) To initialize a loop variable
-Answer: b) To skip the current iteration of a loop and continue with the next iteration
-
-7. What is the purpose of the break statement in C++?
-a) To skip the current iteration of a loop and continue with the next iteration
-b) To execute a block of code repeatedly
-c) To exit a loop
-d) To initialize a loop variable
-Answer: c) To exit a loop
-
-8. What is the difference between a while loop and a do-while loop in C++?
-a) There is no difference
-b) A while loop always executes at least once, while a do-while loop may not execute at all
-c) A do-while loop always executes at least once, while a while loop may not execute at all
-d) A while loop and a do-while loop are used for different types of iterations
-Answer: c) A do-while loop always executes at least once, while a while loop may not execute at all
-
-9. What is the difference between a for loop and a while loop in C++?
-a) There is no difference
-b) A for loop is used when the number of iterations is known in advance, while a while loop is used when the number of iterations is not known in advance
-c) A while loop is used when the number of iterations is known in advance, while a for loop is used when the number of iterations is not known in advance
-d) A for loop and a while loop are used for different types of iterations
-Answer: b) A for loop is used when the number of iterations is known in advance, while a while loop is used when the number of iterations is not known in advance
-
-10. What is an infinite loop in C++?
-a) A loop that executes a block of code a fixed number of times
-b) A loop that executes a block of code an unknown number of times
-c) A loop that never terminates
-d) A loop that terminates after a certain condition is met
-Answer: c) A loop that never terminates
-
-11. What is the purpose of a nested loop in C++?
-a) To execute a block of code repeatedly
-b) To skip the current iteration of a loop and continue with the next iteration
-c) To exit a loop
-d) To perform iterations within iterations
-Answer: d) To perform iterations within iterations
-
-12. What is the syntax for a nested for loop in C++?
-a) for (i = 0; i < n; i++) { for (j = 0; j < m; j++) { } }
-b) for (i = n; i > 0; i--) { for (j = m; j > 0; j--) { } }
-c) for (i = 0; i <= n; i++) { for (j = 0; j <= m; j++) { } }
-d) for (i = n; i >= 0; i--) { for (j = m; j >= 0; j--) { } }
-Answer: a) for (i = 0; i < n; i++) { for (j = 0; j < m; j++) { } }
-
-13. What is the purpose of a loop counter in C++?
-a) To control the number of iterations in a loop
-b) To execute a block of code repeatedly
-c) To exit a loop
-d) To initialize a loop variable
-Answer: a) To control the number of iterations in a loop
-
-14. What is the syntax for a range-based for loop in C++?
-a) for (i : container) { }
-b) for (i in container) { }
-c) for (i = 0; i < container.size(); i++) { }
-d) for (i = container.begin(); i != container.end(); i++) { }
-Answer: a) for (i : container) { }
-
-15. What is the purpose of the break statement in a nested loop in C++?
-a) To skip the current iteration of a loop and continue with the next iteration
-b) To execute a block of code repeatedly
-c) To exit the innermost loop
-d) To exit the outermost loop
-Answer: c) To exit the innermost loop
-
-16. What is the purpose of the continue statement in a nested loop in C++?
-a) To exit the innermost loop
-b) To skip the current iteration of the innermost loop and continue with the next iteration of the outer loop
-c) To skip the current iteration of the outer loop and continue with the next iteration of the innermost loop
-d) To execute a block of code repeatedly
-Answer: b) To skip the current iteration of the innermost loop and continue with the next iteration of the outer loop
-
-17. What is the purpose of the do-while loop in C++?
-a) To execute a block of code repeatedly
-b) To skip the current iteration of a loop and continue with the next iteration
-c) To exit a loop
-d) To execute a block of code at least once, and then continue to execute it repeatedly as long as a certain condition is met
-Answer: d) To execute a block of code at least once, and then continue to execute it repeatedly as long as a certain condition is met
-
-18. What is the purpose of the while loop in C++?
-a) To execute a block of code repeatedly
-b) To execute a block of code as long as a certain condition is met
-c) To exit a loop
-d) To skip the current iteration of a loop and continue with the next iteration
-Answer: b) To execute a block of code as long as a certain condition is met
-
-19. What is an infinite loop in C++?
-a) A loop that executes a block of code a fixed number of times
-b) A loop that executes a block of code an unknown number of times
-c) A loop that never terminates
-d) A loop that terminates after a certain condition is met
-Answer: c) A loop that never terminates
-
-20. How can you prevent an infinite loop in C++?
-a) By using a break statement
-b) By using a continue statement
-c) By using a while loop instead of a for loop
-d) By ensuring that the loop condition eventually becomes false
-Answer: d) By ensuring that the loop condition eventually becomes false
-
-21. What is the purpose of the do-while loop in C++?
-a) To execute a block of code repeatedly
-b) To skip the current iteration of a loop and continue with the next iteration
-c) To exit a loop
-d) To execute a block of code at least once, and then continue to execute it repeatedly as long as a certain condition is met
-Answer: d) To execute a block of code at least once, and then continue to execute it repeatedly as long as a certain condition is met
-
-22. What is the difference between a while loop and a do-while loop in C++?
-a) A while loop only executes if the condition is initially true, while a do-while loop always executes at least once
-b) A while loop always executes at least once, while a do-while loop only executes if the condition is initially true
-c) A while loop and a do-while loop are interchangeable and can be used interchangeably
-d) There is no difference between a while loop and a do-while loop
-Answer: a) A while loop only executes if the condition is initially true, while a do-while loop always executes at least once
-
-23. What is the syntax for a while loop in C++?
-a) while (condition) { }
-b) while (i < n) { }
-c) while (true) { }
-d) while (i > 0) { }
-Answer: a) while (condition) { }
-
-24. What is the syntax for a do-while loop in C++?
-a) do { } while (condition);
-b) while (condition) { }
-c) for (i = 0; i < n; i++) { }
-d) do while (condition) { }
-Answer: a) do { } while (condition);
-
-25. What is the purpose of the continue statement in a loop in C++?
-a) To exit the loop
-b) To skip the current iteration of the loop and continue with the next iteration
-c) To execute a block of code repeatedly
-d) To initialize a loop variable
-Answer: b) To skip the current iteration of the loop and continue with the next iteration
-
-26. What is the purpose of the break statement in a loop in C++?
-a) To skip the current iteration of the loop and continue with the next iteration
-b) To execute a block of code repeatedly
-c) To exit the loop
-d) To initialize a loop variable
-Answer: c) To exit the loop
-
-27. What is the difference between a for loop and a range-based for loop in C++?
-a) A for loop is used to iterate over a range of values, while a range-based for loop is used to iterate over a container or sequence
-b) A for loop and a range-based for loop are interchangeable and can be used interchangeably
-c) A for loop is used to iterate over a container or sequence, while a range-based for loop is used to iterate over a range of values
-d) There is no difference between a for loop and a range-based for loop
-Answer: a) A for loop is used to iterate over a range of values, while a range-based for loop is used to iterate over a container or sequence
-
-28. What is the purpose of a loop in programming?
-a) To execute a block of code repeatedly
-b) To skip the current iteration of a loop and continue with the next iteration
-c) To exit a loop
-d) To execute a block of code a fixed number of times or until a certain condition is met
-Answer: d) To execute a block of code a fixed number of times or until a certain condition is met
-
-29. What is the difference between a do-while loop and a while loop in C++?
-a) A do-while loop executes the code block at least once, while a while loop may not execute at all if the condition is false initially
-b) A do-while loop is used for iterating over a container or sequence, while a while loop is used for iterating over a range of values
-c) A do-while loop executes the code block only if the condition is true initially, while a while loop always executes the code block at least once
-d) There is no difference between a do-while loop and a while loop
-Answer: a) A do-while loop executes the code block at least once, while a while loop may not execute at all if the condition is false initially
-
-30. What is the purpose of the switch statement in C++?
-a) To execute a block of code repeatedly
-b) To exit a loop
-c) To select one of several code blocks to execute based on the value of a variable
-d) To initialize a loop variable
-Answer: c) To select one of several code blocks to execute based on the value of a variable
-
-THEME - ARRAYS (ONE- AND TWO-DIMENSIONAL).
-
-1. What is an array in C++?
-a) A data structure used to store a collection of elements of the same data type
-b) A loop construct used to iterate over a sequence of values
-c) A function used to perform a specific task
-d) A conditional statement used to control program flow
-Answer: a) A data structure used to store a collection of elements of the same data type
-
-2. How is an array declared in C++?
-a) int array[10];
-b) array<int> arr(10);
-c) int [] array = {1, 2, 3, 4, 5};
-d) int array = new int[10];
-Answer: a) int array[10];
-
-3. What is the maximum number of elements that an array can hold in C++?
-a) 100
-b) 1000
-c) 10000
-d) There is no fixed maximum limit
-Answer: d) There is no fixed maximum limit
-
-4. How can you access an element in an array in C++?
-a) Using the index of the element inside square brackets
-b) Using the name of the array
-c) Using a pointer to the array
-d) Using the sizeof operator
-Answer: a) Using the index of the element inside square brackets
-
-5. How is a two-dimensional array declared in C++?
-a) int array[10][10];
-b) int *array = new int[10];
-c) array<int, 2> arr;
-d) int array = new int[10][10];
-Answer: a) int array[10][10];
-
-6. What is the syntax for accessing an element in a two-dimensional array in C++?
-a) array[i, j]
-b) array[i][j]
-c) array[i; j]
-d) array(i, j)
-Answer: b) array[i][j]
-
-7. What is the purpose of a loop when working with arrays in C++?
-a) To access each element in the array
-b) To declare the array
-c) To initialize the array
-d) To sort the array
-Answer: a) To access each element in the array
-
-8. What is the difference between a one-dimensional array and a two-dimensional array in C++?
-a) A one-dimensional array has a single row of elements, while a two-dimensional array has multiple rows and columns of elements
-b) A one-dimensional array has multiple rows and columns of elements, while a two-dimensional array has a single row of elements
-c) There is no difference between a one-dimensional array and a two-dimensional array
-d) A one-dimensional array can only store integers, while a two-dimensional array can store any data type
-Answer: a) A one-dimensional array has a single row of elements, while a two-dimensional array has multiple rows and columns of elements
-
-9. What is the syntax for initializing an array in C++?
-a) int array[5] = {1, 2, 3, 4, 5};
-b) int [] array = {1, 2, 3, 4, 5};
-c) array<int> arr = {1, 2, 3, 4, 5};
-d) int array = new int[5]{1, 2, 3, 4, 5};
-Answer: a) int array[5] = {1, 2, 3, 4, 5};
-
-10. How can you find the length of an array in C++?
-a) Using the sizeof operator
-b) Using the length() function
-c) Using the size() function
-d) Using a loop to count the number of elements in the array
-Answer: a) Using the sizeof operator
-
-11. What is the syntax for iterating over a one-dimensional array in C++?
-a) for (int i = 0; i < array.size(); i++)
-b) for (int i = 0; i <= array.length(); i++)
-c) for (int i = 0; i < sizeof(array)/sizeof(array[0]); i++)
-d) for (int i = 0; i <= sizeof(array); i++)
-Answer: c) for (int i = 0; i < sizeof(array)/sizeof(array[0]); i++)
-
-12. What is the syntax for iterating over a two-dimensional array in C++?
-a) for (int i = 0; i < array.length(); i++) for (int j = 0; j < array.length(); j++)
-b) for (int i = 0; i <= array.size(); i++) for (int j = 0; j <= array.size(); j++)
-c) for (int i = 0; i < sizeof(array)/sizeof(array[0]); i++) for (int j = 0; j < sizeof(array[0])/sizeof(array[0][0]); j++)
-d) for (int i = 0; i <= sizeof(array); i++) for (int j = 0; j <= sizeof(array[0]); j++)
-Answer: c) for (int i = 0; i < sizeof(array)/sizeof(array[0]); i++) for (int j = 0; j < sizeof(array[0])/sizeof(array[0][0]); j++)
-
-13. What is the syntax for passing an array to a function in C++?
-a) void function(int array[]) {...}
-b) void function(array<int> arr) {...}
-c) void function(int *array) {...}
-d) void function(int &array) {...}
-Answer: a) void function(int array[]) {...}
-
-14. How is memory allocated for an array in C++?
-a) The programmer specifies the amount of memory to allocate
-b) Memory is allocated dynamically at runtime
-c) The operating system allocates memory automatically
-d) The compiler allocates memory at compile time
-Answer: b) Memory is allocated dynamically at runtime
-
-15. What is the syntax for deallocating memory for an array in C++?
-a) delete array;
-b) delete[] array;
-c) free(array);
-d) free[] array;
-Answer: b) delete[] array;
-
-16. What is the purpose of the sizeof operator in C++?
-a) To return the number of bytes occupied by a variable or data type
-b) To return the value of a variable or expression
-c) To return the address of a variable or function
-d) To perform bitwise operations on variables
-Answer: a) To return the number of bytes occupied by a variable or data type
-
-17. What is the difference between a static and dynamic array in C++?
-a) A static array is declared at runtime, while a dynamic array is declared at compile time
-b) A static array has a fixed size, while a dynamic array can be resized at runtime
-c) There is no difference between a static and dynamic array
-d) A static array is stored on the stack, while a dynamic array is stored on the heap
-Answer: b) A static array has a fixed size, while a dynamic array can be resized at runtime
-
-18. What is the syntax for resizing a dynamic array in C++?
-a) array.resize(size);
-b) array.reserve(size);
-c) realloc(array, size);
-d) new int[size];
-Answer: b) array.reserve(size);
-
-19. What is the difference between an array and a vector in C++?
-a) An array is a fixed-size collection of elements, while a vector is a dynamically resizable collection of elements.
-b) An array is a collection of elements stored on the stack, while a vector is a collection of elements stored on the heap.
-c) An array is a collection of elements of the same data type, while a vector can hold elements of different data types.
-d) There is no difference between an array and a vector.
-Answer: a) An array is a fixed-size collection of elements, while a vector is a dynamically resizable collection of elements.
-
-20. What is a multi-dimensional array in C++?
-a) An array that contains elements of multiple data types
-b) An array that is allocated dynamically at runtime
-c) An array that contains arrays as its elements, forming a matrix-like structure
-d) An array that can be resized at runtime
-Answer: c) An array that contains arrays as its elements, forming a matrix-like structure
-
-21. How do you declare a multi-dimensional array in C++?
-a) int arr[5,5];
-b) int arr[5][5];
-c) int arr<5,5>;
-d) int arr{5,5};
-Answer: b) int arr[5][5];
-
-22. How do you access a specific element in a multi-dimensional array in C++?
-a) arr[3,4]
-b) arr[3][4]
-c) arr[4,3]
-d) arr[4][3]
-Answer: b) arr[3][4]
-
-23. How do you initialize a multi-dimensional array in C++?
-a) int arr[5][5] = {0};
-b) int arr[5][5] = {{0}};
-c) int arr[5][5] = {0,0,0,0,0};
-d) int arr[5][5] = {{0,0,0,0,0}};
-answer: d) int arr[5][5] = {{0,0,0,0,0}};
-
-24. Can the size of a multi-dimensional array be changed at runtime in C++?
-a) Yes
-b) No
-c) Idk
-d) What?
-Answer: b) No
-
-25. How do you pass a multi-dimensional array to a function in C++?
-a) void function(int arr[][]) {...}
-b) void function(int arr[5][5]) {...}
-c) void function(int **arr) {...}
-d) void function(int &arr[][]) {...}
-Answer: b) void function(int arr[5][5]) {...}
-
-26. How do you return a multi-dimensional array from a function in C++?
-a) int** function() {...}
-b) int function[][] {...}
-c) int function()[][] {...}
-d) int function[] {...}
-Answer: a) int** function() {...}
-
-27. How do you allocate memory for a multi-dimensional array in C++?
-a) int arr[5][5];
-b) int** arr = new int*[5]; for(int i = 0; i < 5; i++) arr[i] = new int[5];
-c) int* arr = new int[5][5];
-d) int arr[][] = new int[5][5];
-Answer: b) int** arr = new int*[5]; for(int i = 0; i < 5; i++) arr[i] = new int[5];
-
-28. How do you deallocate memory for a multi-dimensional array in C++?
-a) delete[] arr;
-b) delete[][] arr;
-c) for(int i = 0; i < 5; i++) delete[] arr[i]; delete[] arr;
-d) free(arr);
-Answer: c) for(int i = 0; i < 5; i++) delete[] arr[i]; delete[] arr;
-
-29. How do you find the number of rows in a multi-dimensional array in C++?
-a) sizeof(arr)/sizeof(arr[0]);
-b) sizeof(arr)/sizeof(int);
-c) sizeof(arr)/sizeof(arr[0][0]);
-d) sizeof(arr)/sizeof(*arr);
-Answer: a) sizeof(arr)/sizeof(arr[0]);
-
-30.How do you find the number of columns in a multi-dimensional array in C++?
-a) sizeof(arr)/sizeof(arr[0]);
-b) sizeof(arr)/sizeof(int);
-c) sizeof(arr)/sizeof(arr[0][0]);
-d) sizeof(arr)/sizeof(*arr[0]);
-Answer: d) sizeof(arr)/sizeof(*arr[0]);
-
-THEME - STRINGS.
-
-1. What is a string in C++?
-a) A data type used to store multiple characters
-b) A data type used to store a single character
-c) A data type used to store integers
-d) A data type used to store floating-point numbers
-Answer: a) A data type used to store multiple characters
-
-2. What is the syntax for declaring a string variable in C++?
-a) char str[];
-b) string str;
-c) str[] = "hello";
-d) str = "hello";
-Answer: b) string str;
-
-3. How do you assign a value to a string variable in C++?
-a) str = "hello";
-b) str[] = "hello";
-c) str = 'h';
-d) str = 1;
-Answer: a) str = "hello";
-
-4. How do you find the length of a string in C++?
-a) len(str);
-b) length(str);
-c) str.length();
-d) strlen(str);
-Answer: c) str.length();
-
-5. What is the difference between the C-style string and the C++ string?
-a) There is no difference
-b) C-style string is null-terminated, while C++ string is not
-c) C-style string is immutable, while C++ string is mutable
-d) C-style string is shorter, while C++ string is longer
-Answer: b) C-style string is null-terminated, while C++ string is not
-
-6. What is the function used to concatenate two strings in C++?
-a) strcat()
-b) strconcat()
-c) append()
-d) add()
-Answer: c) append()
-
-7. How do you access the character at a particular index in a string in C++?
-a) str[index]
-b) str.charAt(index)
-c) str.index(index)
-d) str.getChar(index)
-Answer: a) str[index]
-
-8. What is the function used to compare two strings in C++?
-a) strcmp()
-b) strcompare()
-c) compare()
-d) equals()
-Answer: c) compare()
-
-9. What is the return type of the compare() function in C++?
-a) int
-b) bool
-c) char
-d) float
-Answer: a) int
-
-10. What is the function used to find a substring in a string in C++?
-a) strfind()
-b) substr()
-c) find()
-d) search()
-Answer: c) find()
-
-11. What is the return type of the find() function in C++?
-a) int
-b) bool
-c) char
-d) float
-Answer: a) int
-
-12. What is the function used to insert a substring into a string in C++?
-a) strinsert()
-b) insert()
-c) substr()
-d) stradd()
-Answer: b) insert()
-
-13. What is the function used to erase a substring from a string in C++?
-a) strerase()
-b) erase()
-c) substr()
-d) strdelete()
-Answer: b) erase()
-
-14. What is the function used to replace a substring in a string with another substring in C++?
-a) strreplace()
-b) replace()
-c) substr()
-d) strswap()
-Answer: b) replace()
-
-15. What is the function used to convert a string to uppercase in C++?
-a) toupper()
-b) strupper()
-c) uppercase()
-d) toUpper()
-Answer: c) uppercase()
-
-16. What is the function used to convert a string to lowercase in C++?
-a) tolower()
-b) strlower()
-c) lowercase()
-d) toLower()
-Answer: c) lowercase()
-
-17. What is the function used to remove all occurrences of a character from a string in C++?
-a) remove_char()
-b) strremove()
-c) erase()
-d) remove()
-Answer: d) remove()
-
-18. What is the function used to reverse a string in C++?
-a) reverse()
-b) strreverse()
-c) flip()
-d) rotate()
-Answer: a) reverse()
-
-19. What is the function used to convert a string to an integer in C++?
-a) to_int()
-b) stoi()
-c) str_to_int()
-d) int_convert()
-Answer: b) stoi()
-
-20. What is the function used to convert an integer to a string in C++?
-a) to_string()
-b) int_to_str()
-c) convert_str()
-d) str_convert()
-Answer: a) to_string()
-
-21. What is the function used to trim whitespace from the beginning and end of a string in C++?
-a) strtrim()
-b) trim()
-c) trim_whitespace()
-d) remove_whitespace()
-Answer: b) trim()
-
-22. What is the function used to pad a string with a specific character to a certain length in C++?
-a) strpad()
-b) pad()
-c) pad_string()
-d) add_padding()
-Answer: b) pad()
-
-23. What is the function used to split a string into substrings based on a delimiter in C++?
-a) strsplit()
-b) split()
-c) split_string()
-d) substring()
-Answer: b) split()
-
-24. What is the return type of the split() function in C++?
-a) string
-b) vector<string>
-c) int
-d) bool
-Answer: b) vector<string>
-
-25. What is the function used to join a vector of strings into a single string with a delimiter in C++?
-a) strjoin()
-b) join()
-c) join_string()
-d) concatenate()
-Answer: b) join()
-
-26. What is the function used to check if a string starts with a specific prefix in C++?
-a) starts_with()
-b) strstarts()
-c) check_prefix()
-d) prefix()
-Answer: a) starts_with()
-
-27. What is the function used to check if a string ends with a specific suffix in C++?
-a) ends_with()
-b) strends()
-c) check_suffix()
-d) suffix()
-Answer: a) ends_with()
-
-28. What is the function used to find the first occurrence of a character in a string in C++?
-a) strfind()
-b) find_char()
-c) find()
-d) search()
-Answer: c) find()
-
-29. What is the function used to convert a string to a double in C++?
-a) to_double()
-b) stod()
-c) str_to_double()
-d) double_convert()
-Answer: b) stod()
-
-30. What is the function used to convert a double to a string in C++?
-a) to_string()
-b) double_to_str()
-c) convert_str()
-d) str_convert()
-Answer: a) to_string()
-
-THEME - RECURSION.
-
-1. What is recursion in C++?
-a) A loop that repeats a set of instructions
-b) A function that calls itself
-c) A function that returns a value
-d) A variable that changes its value during program execution
-Answer: b) A function that calls itself
-
-2. What is the base case in recursion?
-a) The case where the function is called for the first time
-b) The case where the function returns a value
-c) The case where the function stops calling itself
-d) The case where the function is called recursively
-Answer: c) The case where the function stops calling itself
-
-3. What is the difference between direct and indirect recursion?
-a) Direct recursion is when a function calls itself, while indirect recursion is when a function calls another function that eventually calls the original function.
-b) Direct recursion is when a function calls another function, while indirect recursion is when a function calls itself.
-c) Direct recursion is when a function returns a value, while indirect recursion is when a function does not return a value.
-d) Direct recursion is when a function uses a loop, while indirect recursion is when a function does not use a loop.
-Answer: a) Direct recursion is when a function calls itself, while indirect recursion is when a function calls another function that eventually calls the original function.
-
-4. What is the maximum number of recursive calls that can be made in C++?
-a) It depends on the available memory
-b) It depends on the processor speed
-c) It depends on the compiler used
-d) There is no maximum limit
-Answer: a) It depends on the available memory
-
-5. What is the factorial of a number?
-a) The sum of all the numbers up to the given number
-b) The product of all the numbers up to the given number
-c) The difference between all the numbers up to the given number
-d) The quotient of all the numbers up to the given number
-Answer: b) The product of all the numbers up to the given number
-
-6. What is the base case for computing the factorial of a number using recursion?
-a) n == 0
-b) n == 1
-c) n < 1
-d) n > 1
-Answer: b) n == 1
-
-7. What is the output of the following recursive function for n = 3?
-int recursiveFunc(int n) {
-    if (n == 1) {
-        return 1;
-    } else {
-        return n * recursiveFunc(n-1);
+e) 6
+f) 10
+g) 24
+Dqvzhu: f) 10
+
+9. Zkdw lv wkh rxwsxw ri wkh iroorzlqj uhfxuvlyh ixqfwlrq iru q = 5?
+dugxlqr
+Frsb frgh
+lqw uhfxuvlyhIxqf(lqw q) {
+    li (q < 1) {
+        uhwxuq 0;
+    } hovh {
+        uhwxuq uhfxuvlyhIxqf(q-1) + q;
     }
 }
-a) 1
-b) 2
-c) 3
+d) 0
+e) 10
+f) 15
+g) 25
+Dqvzhu: f) 15
+
+10. Zkdw lv d uhfxuvlyh dojrulwkp wr frpsxwh wkh Ilerqdffl vhtxhqfh?
+d) Fkhfn li q == 0 ru q == 1, uhwxuq 1, rwkhuzlvh uhwxuq ilerqdffl(q-2)
+e) Fkhfn li q == 0 ru q == 1, uhwxuq q, rwkhuzlvh uhwxuq ilerqdffl(q-1) + ilerqdffl(q-2)
+f) Fkhfn li q == 0 ru q == 1, uhwxuq 0, rwkhuzlvh uhwxuq ilerqdffl(q-1) - ilerqdffl(q-2)
+g) Fkhfn li q == 0 ru q == 1, uhwxuq 0, rwkhuzlvh uhwxuq ilerqdffl(q+1) + ilerqdffl(q-1)
+Dqvzhu: e) Fkhfn li q == 0 ru q == 1, uhwxuq q, rwkhuzlvh uhwxuq ilerqdffl(q-1) + ilerqdffl(q-2)
+
+11. Zkdw lv wkh rxwsxw ri wkh iroorzlqj uhfxuvlyh ixqfwlrq iru q = 6?
+lqw uhfxuvlyhIxqf(lqw q) {
+li (q <= 0) {
+uhwxuq 0;
+} hovh li (q % 2 == 0) {
+uhwxuq uhfxuvlyhIxqf(q-1);
+} hovh {
+uhwxuq q + uhfxuvlyhIxqf(q-2);
+}
+}
 d) 6
-Answer: d) 6
+e) 9
+f) 12
+g) 15
+Dqvzhu: g) 15
 
-8. What is the output of the following recursive function for n = 4?
-int recursiveFunc(int n) {
-    if (n == 0) {
-        return 0;
-    } else {
-        return n + recursiveFunc(n-1);
+12. Zkdw lv wdlo uhfxuvlrq?
+d) D ixqfwlrq wkdw uhwxuqv d ydoxh
+e) D ixqfwlrq wkdw fdoov lwvhoi dw wkh hqg ri wkh ixqfwlrq
+f) D ixqfwlrq wkdw fdoov dqrwkhu ixqfwlrq
+g) D ixqfwlrq wkdw xvhv d orrs
+Dqvzhu: e) D ixqfwlrq wkdw fdoov lwvhoi dw wkh hqg ri wkh ixqfwlrq
+
+13. Zkdw lv wkh gliihuhqfh ehwzhhq wdlo uhfxuvlrq dqg qrq-wdlo uhfxuvlrq?
+d) Wdlo uhfxuvlrq xvhv d orrs, zkloh qrq-wdlo uhfxuvlrq grhv qrw xvh d orrs.
+e) Wdlo uhfxuvlrq uhwxuqv d ydoxh, zkloh qrq-wdlo uhfxuvlrq grhv qrw uhwxuq d ydoxh.
+f) Wdlo uhfxuvlrq fdoov lwvhoi dw wkh hqg ri wkh ixqfwlrq, zkloh qrq-wdlo uhfxuvlrq fdoov lwvhoi dw wkh ehjlqqlqj ri wkh ixqfwlrq.
+g) Wkhuh lv qr gliihuhqfh ehwzhhq wdlo uhfxuvlrq dqg qrq-wdlo uhfxuvlrq.
+Dqvzhu: f) Wdlo uhfxuvlrq fdoov lwvhoi dw wkh hqg ri wkh ixqfwlrq, zkloh qrq-wdlo uhfxuvlrq fdoov lwvhoi dw wkh ehjlqqlqj ri wkh ixqfwlrq.
+
+14. Zkdw lv wkh rxwsxw ri wkh iroorzlqj wdlo uhfxuvlyh ixqfwlrq iru q = 4?
+lqw uhfxuvlyhIxqf(lqw q, lqw uhvxow) {
+li (q == 0) {
+uhwxuq uhvxow;
+} hovh {
+uhwxuq uhfxuvlyhIxqf(q-1, uhvxow*q);
+}
+}
+d) 0
+e) 1
+f) 6
+g) 24
+Dqvzhu: g) 24
+
+15. Zkdw lv wkh rxwsxw ri wkh iroorzlqj qrq-wdlo uhfxuvlyh ixqfwlrq iru q = 5?
+lqw uhfxuvlyhIxqf(lqw q) {
+li (q == 0) {
+uhwxuq 0;
+} hovh {
+uhwxuq uhfxuvlyhIxqf(q-1) + q;
+}
+}
+d) 0
+e) 10
+f) 15
+g) 25
+Dqvzhu: f) 15
+
+16. Zkdw lv wkh rxwsxw ri wkh iroorzlqj wdlo uhfxuvlyh ixqfwlrq iru q = 6?
+lqw uhfxuvlyhIxqf(lqw q, lqw d, lqw e) {
+li (q == 0) {
+uhwxuq d;
+} hovh {
+uhwxuq uhfxuvlyhIxqf(q-1, e, d+e);
+}
+}
+d) 5
+e) 8
+f) 13
+g) 21
+Dqvzhu: f) 13
+
+17. Zkdw lv wkh wlph frpsohalwb ri wkh uhfxuvlyh ixqfwlrq iru frpsxwlqj wkh idfwruldo ri d qxpehu?
+d) R(q)
+e) R(q^2)
+f) R(orj q)
+g) R(2^q)
+Dqvzhu: d) R(q)
+
+18. Zkdw lv wkh wlph frpsohalwb ri wkh uhfxuvlyh dojrulwkp iru frpsxwlqj wkh Ilerqdffl vhtxhqfh?
+d) R(q)
+e) R(q^2)
+f) R(orj q)
+g) R(2^q)
+Dqvzhu: g) R(2^q)
+
+19. Zkdw lv uhfxuvlrq lq F++?
+d) D orrs wkdw uhshdwv d vhw ri lqvwuxfwlrqv
+e) D ixqfwlrq wkdw fdoov lwvhoi
+f) D ixqfwlrq wkdw uhwxuqv d ydoxh
+g) D yduldeoh wkdw fkdqjhv lwv ydoxh gxulqj surjudp hahfxwlrq
+Dqvzhu: e) D ixqfwlrq wkdw fdoov lwvhoi
+
+20. Zkdw lv wkh edvh fdvh lq uhfxuvlrq?
+d) Wkh fdvh zkhuh wkh ixqfwlrq lv fdoohg iru wkh iluvw wlph
+e) Wkh fdvh zkhuh wkh ixqfwlrq uhwxuqv d ydoxh
+f) Wkh fdvh zkhuh wkh ixqfwlrq vwrsv fdoolqj lwvhoi
+g) Wkh fdvh zkhuh wkh ixqfwlrq lv fdoohg uhfxuvlyhob
+Dqvzhu: f) Wkh fdvh zkhuh wkh ixqfwlrq vwrsv fdoolqj lwvhoi
+
+21. Zkdw lv wkh gliihuhqfh ehwzhhq gluhfw dqg lqgluhfw uhfxuvlrq?
+d) Gluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov lwvhoi, zkloh lqgluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov dqrwkhu ixqfwlrq wkdw hyhqwxdoob fdoov wkh ruljlqdo ixqfwlrq.
+e) Gluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov dqrwkhu ixqfwlrq, zkloh lqgluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov lwvhoi.
+f) Gluhfw uhfxuvlrq lv zkhq d ixqfwlrq uhwxuqv d ydoxh, zkloh lqgluhfw uhfxuvlrq lv zkhq d ixqfwlrq grhv qrw uhwxuq d ydoxh.
+g) Gluhfw uhfxuvlrq lv zkhq d ixqfwlrq xvhv d orrs, zkloh lqgluhfw uhfxuvlrq lv zkhq d ixqfwlrq grhv qrw xvh d orrs.
+Dqvzhu: d) Gluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov lwvhoi, zkloh lqgluhfw uhfxuvlrq lv zkhq d ixqfwlrq fdoov dqrwkhu ixqfwlrq wkdw hyhqwxdoob fdoov wkh ruljlqdo ixqfwlrq.
+
+22. Zkdw lv wkh pdalpxp qxpehu ri uhfxuvlyh fdoov wkdw fdq eh pdgh lq F++?
+d) Lw ghshqgv rq wkh dydlodeoh phprub
+e) Lw ghshqgv rq wkh surfhvvru vshhg
+f) Lw ghshqgv rq wkh frpslohu xvhg
+g) Wkhuh lv qr pdalpxp olplw
+Dqvzhu: d) Lw ghshqgv rq wkh dydlodeoh phprub
+
+23. Zkdw lv wkh idfwruldo ri d qxpehu?
+d) Wkh vxp ri doo wkh qxpehuv xs wr wkh jlyhq qxpehu
+e) Wkh surgxfw ri doo wkh qxpehuv xs wr wkh jlyhq qxpehu
+f) Wkh gliihuhqfh ehwzhhq doo wkh qxpehuv xs wr wkh jlyhq qxpehu
+g) Wkh txrwlhqw ri doo wkh qxpehuv xs wr wkh jlyhq qxpehu
+Dqvzhu: e) Wkh surgxfw ri doo wkh qxpehuv xs wr wkh jlyhq qxpehu
+
+24. Zkdw lv wkh edvh fdvh iru frpsxwlqj wkh idfwruldo ri d qxpehu xvlqj uhfxuvlrq?
+d) q == 0
+e) q == 1
+f) q < 1
+g) q > 1
+Dqvzhu: e) q == 1
+
+25. Zkdw lv wkh rxwsxw ri wkh iroorzlqj uhfxuvlyh ixqfwlrq iru q = 3?
+lqw uhfxuvlyhIxqf(lqw q) {
+    li (q == 1) {
+        uhwxuq 1;
+    } hovh {
+        uhwxuq q * uhfxuvlyhIxqf(q-1);
     }
 }
-a) 0
-b) 6
-c) 10
-d) 24
-Answer: c) 10
+d) 1
+e) 2
+f) 3
+g) 6
+Dqvzhu: g) 6
 
-9. What is the output of the following recursive function for n = 5?
-arduino
-Copy code
-int recursiveFunc(int n) {
-    if (n < 1) {
-        return 0;
-    } else {
-        return recursiveFunc(n-1) + n;
+26. Zkdw lv wkh rxwsxw ri wkh iroorzlqj uhfxuvlyh ixqfwlrq iru q = 4?
+lqw uhfxuvlyhIxqf(lqw q) {
+    li (q == 0) {
+        uhwxuq 0;
+    } hovh {
+        uhwxuq q + uhfxuvlyhIxqf(q-1);
     }
 }
-a) 0
-b) 10
-c) 15
-d) 25
-Answer: c) 15
+d) 0
+e) 6
+f) 10
+g) 24
+Dqvzhu: f) 10
 
-10. What is a recursive algorithm to compute the Fibonacci sequence?
-a) Check if n == 0 or n == 1, return 1, otherwise return fibonacci(n-2)
-b) Check if n == 0 or n == 1, return n, otherwise return fibonacci(n-1) + fibonacci(n-2)
-c) Check if n == 0 or n == 1, return 0, otherwise return fibonacci(n-1) - fibonacci(n-2)
-d) Check if n == 0 or n == 1, return 0, otherwise return fibonacci(n+1) + fibonacci(n-1)
-Answer: b) Check if n == 0 or n == 1, return n, otherwise return fibonacci(n-1) + fibonacci(n-2)
-
-11. What is the output of the following recursive function for n = 6?
-int recursiveFunc(int n) {
-if (n <= 0) {
-return 0;
-} else if (n % 2 == 0) {
-return recursiveFunc(n-1);
-} else {
-return n + recursiveFunc(n-2);
-}
-}
-a) 6
-b) 9
-c) 12
-d) 15
-Answer: d) 15
-
-12. What is tail recursion?
-a) A function that returns a value
-b) A function that calls itself at the end of the function
-c) A function that calls another function
-d) A function that uses a loop
-Answer: b) A function that calls itself at the end of the function
-
-13. What is the difference between tail recursion and non-tail recursion?
-a) Tail recursion uses a loop, while non-tail recursion does not use a loop.
-b) Tail recursion returns a value, while non-tail recursion does not return a value.
-c) Tail recursion calls itself at the end of the function, while non-tail recursion calls itself at the beginning of the function.
-d) There is no difference between tail recursion and non-tail recursion.
-Answer: c) Tail recursion calls itself at the end of the function, while non-tail recursion calls itself at the beginning of the function.
-
-14. What is the output of the following tail recursive function for n = 4?
-int recursiveFunc(int n, int result) {
-if (n == 0) {
-return result;
-} else {
-return recursiveFunc(n-1, result*n);
-}
-}
-a) 0
-b) 1
-c) 6
-d) 24
-Answer: d) 24
-
-15. What is the output of the following non-tail recursive function for n = 5?
-int recursiveFunc(int n) {
-if (n == 0) {
-return 0;
-} else {
-return recursiveFunc(n-1) + n;
-}
-}
-a) 0
-b) 10
-c) 15
-d) 25
-Answer: c) 15
-
-16. What is the output of the following tail recursive function for n = 6?
-int recursiveFunc(int n, int a, int b) {
-if (n == 0) {
-return a;
-} else {
-return recursiveFunc(n-1, b, a+b);
-}
-}
-a) 5
-b) 8
-c) 13
-d) 21
-Answer: c) 13
-
-17. What is the time complexity of the recursive function for computing the factorial of a number?
-a) O(n)
-b) O(n^2)
-c) O(log n)
-d) O(2^n)
-Answer: a) O(n)
-
-18. What is the time complexity of the recursive algorithm for computing the Fibonacci sequence?
-a) O(n)
-b) O(n^2)
-c) O(log n)
-d) O(2^n)
-Answer: d) O(2^n)
-
-19. What is recursion in C++?
-a) A loop that repeats a set of instructions
-b) A function that calls itself
-c) A function that returns a value
-d) A variable that changes its value during program execution
-Answer: b) A function that calls itself
-
-20. What is the base case in recursion?
-a) The case where the function is called for the first time
-b) The case where the function returns a value
-c) The case where the function stops calling itself
-d) The case where the function is called recursively
-Answer: c) The case where the function stops calling itself
-
-21. What is the difference between direct and indirect recursion?
-a) Direct recursion is when a function calls itself, while indirect recursion is when a function calls another function that eventually calls the original function.
-b) Direct recursion is when a function calls another function, while indirect recursion is when a function calls itself.
-c) Direct recursion is when a function returns a value, while indirect recursion is when a function does not return a value.
-d) Direct recursion is when a function uses a loop, while indirect recursion is when a function does not use a loop.
-Answer: a) Direct recursion is when a function calls itself, while indirect recursion is when a function calls another function that eventually calls the original function.
-
-22. What is the maximum number of recursive calls that can be made in C++?
-a) It depends on the available memory
-b) It depends on the processor speed
-c) It depends on the compiler used
-d) There is no maximum limit
-Answer: a) It depends on the available memory
-
-23. What is the factorial of a number?
-a) The sum of all the numbers up to the given number
-b) The product of all the numbers up to the given number
-c) The difference between all the numbers up to the given number
-d) The quotient of all the numbers up to the given number
-Answer: b) The product of all the numbers up to the given number
-
-24. What is the base case for computing the factorial of a number using recursion?
-a) n == 0
-b) n == 1
-c) n < 1
-d) n > 1
-Answer: b) n == 1
-
-25. What is the output of the following recursive function for n = 3?
-int recursiveFunc(int n) {
-    if (n == 1) {
-        return 1;
-    } else {
-        return n * recursiveFunc(n-1);
+27. Zkdw lv wkh rxwsxw ri wkh iroorzlqj uhfxuvlyh ixqfwlrq iru q = 5?
+dugxlqr
+Frsb frgh
+lqw uhfxuvlyhIxqf(lqw q) {
+    li (q < 1) {
+        uhwxuq 0;
+    } hovh {
+        uhwxuq uhfxuvlyhIxqf(q-1) + q;
     }
 }
-a) 1
-b) 2
-c) 3
+d) 0
+e) 10
+f) 15
+g) 25
+Dqvzhu: f) 15
+
+28. Zkdw lv d uhfxuvlyh dojrulwkp wr frpsxwh wkh Ilerqdffl vhtxhqfh?
+d) Fkhfn li q == 0 ru q == 1, uhwxuq 1, rwkhuzlvh uhwxuq ilerqdffl(q-2)
+e) Fkhfn li q == 0 ru q == 1, uhwxuq q, rwkhuzlvh uhwxuq ilerqdffl(q-1) + ilerqdffl(q-2)
+f) Fkhfn li q == 0 ru q == 1, uhwxuq 0, rwkhuzlvh uhwxuq ilerqdffl(q-1) - ilerqdffl(q-2)
+g) Fkhfn li q == 0 ru q == 1, uhwxuq 0, rwkhuzlvh uhwxuq ilerqdffl(q+1) + ilerqdffl(q-1)
+Dqvzhu: e) Fkhfn li q == 0 ru q == 1, uhwxuq q, rwkhuzlvh uhwxuq ilerqdffl(q-1) + ilerqdffl(q-2)
+
+29. Zkdw lv wkh rxwsxw ri wkh iroorzlqj uhfxuvlyh ixqfwlrq iru q = 6?
+lqw uhfxuvlyhIxqf(lqw q) {
+li (q <= 0) {
+uhwxuq 0;
+} hovh li (q % 2 == 0) {
+uhwxuq uhfxuvlyhIxqf(q-1);
+} hovh {
+uhwxuq q + uhfxuvlyhIxqf(q-2);
+}
+}
 d) 6
-Answer: d) 6
-
-26. What is the output of the following recursive function for n = 4?
-int recursiveFunc(int n) {
-    if (n == 0) {
-        return 0;
-    } else {
-        return n + recursiveFunc(n-1);
-    }
-}
-a) 0
-b) 6
-c) 10
-d) 24
-Answer: c) 10
-
-27. What is the output of the following recursive function for n = 5?
-arduino
-Copy code
-int recursiveFunc(int n) {
-    if (n < 1) {
-        return 0;
-    } else {
-        return recursiveFunc(n-1) + n;
-    }
-}
-a) 0
-b) 10
-c) 15
-d) 25
-Answer: c) 15
-
-28. What is a recursive algorithm to compute the Fibonacci sequence?
-a) Check if n == 0 or n == 1, return 1, otherwise return fibonacci(n-2)
-b) Check if n == 0 or n == 1, return n, otherwise return fibonacci(n-1) + fibonacci(n-2)
-c) Check if n == 0 or n == 1, return 0, otherwise return fibonacci(n-1) - fibonacci(n-2)
-d) Check if n == 0 or n == 1, return 0, otherwise return fibonacci(n+1) + fibonacci(n-1)
-Answer: b) Check if n == 0 or n == 1, return n, otherwise return fibonacci(n-1) + fibonacci(n-2)
-
-29. What is the output of the following recursive function for n = 6?
-int recursiveFunc(int n) {
-if (n <= 0) {
-return 0;
-} else if (n % 2 == 0) {
-return recursiveFunc(n-1);
-} else {
-return n + recursiveFunc(n-2);
-}
-}
-a) 6
-b) 9
-c) 12
-d) 15
-Answer: d) 15
-
-30. What is tail recursion?
-a) A function that returns a value
-b) A function that calls itself at the end of the function
-c) A function that calls another function
-d) A function that uses a loop
-Answer: b) A function that calls itself at the end of the function
-
-THEME - STRUCTURES.
-
-1. What is a data structure in C++?
-a) A way to store and organize data in memory
-b) A way to format data on the screen
-c) A way to input data from the keyboard
-d) A way to output data to a file
-Answer: a) A way to store and organize data in memory
-
-2. Which of the following is a linear data structure?
-a) Binary tree
-b) Stack
-c) Graph
-d) Heap
-Answer: b) Stack
-
-3. Which of the following is a non-linear data structure?
-a) Array
-b) Linked list
-c) Queue
-d) Tree
-Answer: d) Tree
-
-4. Which of the following is a dynamic data structure?
-a) Array
-b) Stack
-c) Queue
-d) Linked list
-Answer: d) Linked list
-
-5. What is a stack in C++?
-a) A data structure that stores elements in a first-in, first-out (FIFO) order
-b) A data structure that stores elements in a last-in, first-out (LIFO) order
-c) A data structure that stores elements in a sorted order
-d) A data structure that stores elements in a binary tree
-Answer: b) A data structure that stores elements in a last-in, first-out (LIFO) order
-
-6. What is a queue in C++?
-a) A data structure that stores elements in a first-in, first-out (FIFO) order
-b) A data structure that stores elements in a last-in, first-out (LIFO) order
-c) A data structure that stores elements in a sorted order
-d) A data structure that stores elements in a binary tree
-Answer: a) A data structure that stores elements in a first-in, first-out (FIFO) order
-
-7. What is a linked list in C++?
-a) A data structure that stores elements in an array
-b) A data structure that stores elements in a stack
-c) A data structure that stores elements in a queue
-d) A data structure that stores elements in a sequence of nodes linked together
-Answer: d) A data structure that stores elements in a sequence of nodes linked together
-
-8. What is a doubly linked list in C++?
-a) A linked list where each node has two pointers, one to the previous node and one to the next node
-b) A linked list where each node has two values, one for the key and one for the data
-c) A linked list where each node has two children, one to the left and one to the right
-d) A linked list where each node has two weights, one for the distance and one for the cost
-Answer: a) A linked list where each node has two pointers, one to the previous node and one to the next node
-
-9. What is a binary tree in C++?
-a) A tree where each node has two children
-b) A tree where each node has three children
-c) A tree where each node has four children
-d) A tree where each node has five children
-Answer: a) A tree where each node has two children
-
-10. What is a binary search tree in C++?
-a) A binary tree where each node has two children and the left child is smaller than the parent and the right child is greater than the parent
-b) A binary tree where each node has two children and the left child is greater than the parent and the right child is smaller than the parent
-c) A binary tree where each node has three children and the middle child is equal to the parent
-d) A binary tree where each node has four children and the two middle children are equal to the parent
-Answer: a) A binary tree where each node has two children and the left child is smaller than the parent and the right child is greater than the parent
-
-11. What is a balanced binary search tree?
-a) A binary search tree where each node has two children and the left child is smaller than the parent and the right child is greater than the parent
-b) A binary search tree where each node has two children and the left child is greater than the parent and the right child is smaller than the parent
-c) A binary search tree where the height of the left and right subtrees of each node differ by at most one
-d) A binary search tree where the height of the left subtree is always greater than the height of the right subtree
-Answer: c) A binary search tree where the height of the left and right subtrees of each node differ by at most one
-
-12. What is a heap in C++?
-a) A data structure that stores elements in a first-in, first-out (FIFO) order
-b) A data structure that stores elements in a last-in, first-out (LIFO) order
-c) A data structure that stores elements in a sorted order
-d) A complete binary tree where the parent node is greater than or equal to its child nodes
-Answer: d) A complete binary tree where the parent node is greater than or equal to its child nodes
-
-13. Which of the following is not a type of heap?
-a) Max heap
-b) Min heap
-c) Binary heap
-d) Quad heap
-Answer: d) Quad heap
-
-14. What is a priority queue in C++?
-a) A queue where elements are stored in a first-in, first-out (FIFO) order
-b) A queue where elements are stored in a last-in, first-out (LIFO) order
-c) A queue where elements are stored in a sorted order
-d) A queue where elements are stored based on their priority
-Answer: d) A queue where elements are stored based on their priority
-
-15. What is a hash table in C++?
-a) A data structure that stores elements in a first-in, first-out (FIFO) order
-b) A data structure that stores elements in a last-in, first-out (LIFO) order
-c) A data structure that stores elements in a sorted order
-d) A data structure that stores elements based on their hash values
-Answer: d) A data structure that stores elements based on their hash values
-
-16. What is collision resolution in hash tables?
-a) The process of finding the hash value of an element
-b) The process of storing an element in the hash table
-c) The process of handling cases where two elements have the same hash value
-d) The process of deleting an element from the hash table
-Answer: c) The process of handling cases where two elements have the same hash value
-
-17. Which of the following is not a collision resolution technique in hash tables?
-a) Chaining
-b) Linear probing
-c) Quadratic probing
-d) Binary search
-Answer: d) Binary search
-
-18. What is a graph in C++?
-a) A data structure that stores elements in a first-in, first-out (FIFO) order
-b) A data structure that stores elements in a last-in, first-out (LIFO) order
-c) A data structure that stores elements in a sorted order
-d) A collection of vertices and edges that connect them
-Answer: d) A collection of vertices and edges that connect them
-
-19. What is a directed graph in C++?
-a) A graph where each edge has a direction
-b) A graph where the edges have no direction
-c) A graph where each vertex has a direction
-d) A graph where the edges have weights
-Answer: a) A graph where each edge has a direction
-
-20. What is a spanning tree in a graph?
-a) A tree that includes all vertices of the graph and a subset of its edges, with no cycles
-b) A tree that includes only some vertices of the graph and all of its edges, with no cycles
-c) A tree that includes all vertices of the graph and all of its edges, with no cycles
-d) A tree that includes only some vertices of the graph and a subset of its edges, with no cycles
-Answer: a) A tree that includes all vertices of the graph and a subset of its edges, with no cycles
-
-21. What is a data structure in C++?
-a) A way to store and organize data in memory
-b) A way to format data on the screen
-c) A way to input data from the keyboard
-d) A way to output data to a file
-Answer: a) A way to store and organize data in memory
-
-22. Which of the following is a linear data structure?
-a) Binary tree
-b) Stack
-c) Graph
-d) Heap
-Answer: b) Stack
-
-23. Which of the following is a non-linear data structure?
-a) Array
-b) Linked list
-c) Queue
-d) Tree
-Answer: d) Tree
-
-24. Which of the following is a dynamic data structure?
-a) Array
-b) Stack
-c) Queue
-d) Linked list
-Answer: d) Linked list
-
-25. What is a stack in C++?
-a) A data structure that stores elements in a first-in, first-out (FIFO) order
-b) A data structure that stores elements in a last-in, first-out (LIFO) order
-c) A data structure that stores elements in a sorted order
-d) A data structure that stores elements in a binary tree
-Answer: b) A data structure that stores elements in a last-in, first-out (LIFO) order
-
-26. What is a queue in C++?
-a) A data structure that stores elements in a first-in, first-out (FIFO) order
-b) A data structure that stores elements in a last-in, first-out (LIFO) order
-c) A data structure that stores elements in a sorted order
-d) A data structure that stores elements in a binary tree
-Answer: a) A data structure that stores elements in a first-in, first-out (FIFO) order
-
-27. What is a linked list in C++?
-a) A data structure that stores elements in an array
-b) A data structure that stores elements in a stack
-c) A data structure that stores elements in a queue
-d) A data structure that stores elements in a sequence of nodes linked together
-Answer: d) A data structure that stores elements in a sequence of nodes linked together
-
-28. What is a doubly linked list in C++?
-a) A linked list where each node has two pointers, one to the previous node and one to the next node
-b) A linked list where each node has two values, one for the key and one for the data
-c) A linked list where each node has two children, one to the left and one to the right
-d) A linked list where each node has two weights, one for the distance and one for the cost
-Answer: a) A linked list where each node has two pointers, one to the previous node and one to the next node
-
-29. What is a binary tree in C++?
-a) A tree where each node has two children
-b) A tree where each node has three children
-c) A tree where each node has four children
-d) A tree where each node has five children
-Answer: a) A tree where each node has two children
-
-30. What is a binary search tree in C++?
-a) A binary tree where each node has two children and the left child is smaller than the parent and the right child is greater than the parent
-b) A binary tree where each node has two children and the left child is greater than the parent and the right child is smaller than the parent
-c) A binary tree where each node has three children and the middle child is equal to the parent
-d) A binary tree where each node has four children and the two middle children are equal to the parent
-Answer: a) A binary tree where each node has two children and the left child is smaller than the parent and the right child is greater than the parent
-
-THEME - FILES.
-
-1. What is the purpose of the fstream library in C++?
-a) To handle input and output of files
-b) To handle dynamic memory allocation
-c) To handle networking operations
-d) To handle user input/output from the console
-Answer: a) To handle input and output of files
-
-2. What is the difference between ifstream and ofstream?
-a) ifstream is used for writing to a file, and ofstream is used for reading from a file
-b) ifstream is used for reading from a file, and ofstream is used for writing to a file
-c) ifstream and ofstream are used for the same purpose
-d) ifstream is used for reading binary files, and ofstream is used for reading text files
-Answer: b) ifstream is used for reading from a file, and ofstream is used for writing to a file
-
-3. What is the purpose of the ios::in and ios::out flags in file stream operations?
-a) ios::in is used to specify that the file is being opened for input, and ios::out is used to specify that the file is being opened for output
-b) ios::in is used to specify that the file is being opened for output, and ios::out is used to specify that the file is being opened for input
-c) ios::in and ios::out are used to specify that the file is being opened for both input and output
-d) ios::in is used to specify that the file is being opened in binary mode, and ios::out is used to specify that the file is being opened in text mode
-Answer: a) ios::in is used to specify that the file is being opened for input, and ios::out is used to specify that the file is being opened for output
-
-4. What is the purpose of the ios::app flag in file stream operations?
-a) To open the file for both input and output
-b) To append data to the end of the file
-c) To create a new file if it doesn't exist
-d) To overwrite the existing file
-Answer: b) To append data to the end of the file
-
-5. Which of the following is the correct syntax for opening a file for reading in C++?
-a) ifstream file("filename", ios::out);
-b) ifstream file("filename", ios::in);
-c) ofstream file("filename", ios::in);
-d) ofstream file("filename", ios::out);
-Answer: b) ifstream file("filename", ios::in);
-
-6. Which of the following is the correct syntax for opening a file for writing in C++?
-a) ifstream file("filename", ios::out);
-b) ifstream file("filename", ios::in);
-c) ofstream file("filename", ios::in);
-d) ofstream file("filename", ios::out);
-Answer: d) ofstream file("filename", ios::out);
-
-7. What is the difference between text and binary files in C++?
-a) Text files are readable by humans, while binary files are not
-b) Text files contain characters, while binary files contain machine-readable data
-c) Text files are smaller than binary files
-d) Text files cannot be read or written to in C++
-Answer: b) Text files contain characters, while binary files contain machine-readable data
-
-8. Which of the following is the correct syntax for writing to a file in C++?
-a) file.write("data", sizeof(data));
-b) file.put("data");
-c) file << "data";
-d) file.write("data");
-Answer: c) file << "data";
-
-9. Which of the following is the correct syntax for reading from a file in C++?
-a) file.read("data", sizeof(data));
-b) file.get("data");
-c) file >> "data";
-d) file.read("data");
-Answer: b) file.get("data");
-
-10. What is the purpose of the seekg() function in file stream operations?
-a) To move the read/write pointer to a specified position in the file
-b) To close the file
-c) To delete the file
-d) To create a new file
-Answer: a) To move the read/write pointer to a specified position in the file
-
-11. What is the difference between the tellg() and tellp() functions in file stream operations?
-a) tellg() is used for output operations, while tellp() is used for input operations
-b) tellg() returns the position of the read pointer, while tellp() returns the position of the write pointer
-c) tellg() returns the position of the write pointer, while tellp() returns the position of the read pointer
-d) tellg() and tellp() are used for the same purpose
-Answer: b) tellg() returns the position of the read pointer, while tellp() returns the position of the write pointer
-
-12. What is the purpose of the flush() function in file stream operations?
-a) To close the file
-b) To move the read/write pointer to a specified position in the file
-c) To write any buffered data to the file
-d) To read any buffered data from the file
-Answer: c) To write any buffered data to the file
-
-13. What is the purpose of the close() function in file stream operations?
-a) To move the read/write pointer to a specified position in the file
-b) To delete the file
-c) To flush any buffered data to the file
-d) To close the file
-Answer: d) To close the file
-
-14. What is the purpose of the getline() function in file stream operations?
-a) To read a line of text from the console
-b) To read a line of text from a file
-c) To write a line of text to a file
-d) To write a line of text to the console
-Answer: b) To read a line of text from a file
-
-15. What is the difference between the get() and getline() functions in file stream operations?
-a) get() reads a single character, while getline() reads a line of text
-b) get() reads a line of text, while getline() reads a single character
-c) get() and getline() are used for the same purpose
-d) get() and getline() are not used for file stream operations
-Answer: a) get() reads a single character, while getline() reads a line of text
-
-16. What is the purpose of the write() function in file stream operations?
-a) To read a line of text from a file
-b) To write a line of text to a file
-c) To read binary data from a file
-d) To write binary data to a file
-Answer: d) To write binary data to a file
-
-17. What is the purpose of the read() function in file stream operations?
-a) To write a line of text to a file
-b) To read a line of text from a file
-c) To write binary data to a file
-d) To read binary data from a file
-Answer: d) To read binary data from a file
-
-18. What is the purpose of the eof() function in file stream operations?
-a) To check if the end of the file has been reached
-b) To check if an error has occurred while reading from or writing to the file
-c) To check if the file exists
-d) To check if the file is empty
-Answer: a) To check if the end of the file has been reached
-
-19. What is the purpose of the fail() function in file stream operations?
-a) To check if the end of the file has been reached
-b) To check if an error has occurred while reading from or writing to the file
-c) To check if the file exists
-d) To check if the file is empty
-Answer: b) To check if an error has occurred while reading from or writing to the file
-
-20. What is the purpose of the good() function in file stream operations?
-a) To check if the end of the file has been reached
-b) To check if an error has occurred while reading from or writing to the file
-c) To check if the file exists
-d) To check if the file is empty
-Answer: b) To check if an error has occurred while reading from or writing to the file
-
-21. What is a binary file?
-a) A file that contains only text characters
-b) A file that contains machine-readable data
-c) A file that contains executable code
-d) A file that contains both text and machine-readable data
-Answer: b) A file that contains machine-readable data
-
-22. What is the difference between reading and writing to a binary file and a text file?
-a) There is no difference between reading and writing to binary and text files
-b) Binary files can only be read and written using specialized functions, while text files can be read and written using standard text file functions
-c) Text files can only be read and written using specialized functions, while binary files can be read and written using standard binary file functions
-d) Binary files can only be read and written in binary format, while text files can be read and written in both binary and text format
-Answer: b) Binary files can only be read and written using specialized functions, while text files can be read and written using standard text file functions
-
-23. What is the purpose of the fstream library in C++?
-a) To handle input and output of files
-b) To handle dynamic memory allocation
-c) To handle networking operations
-d) To handle user input/output from the console
-Answer: a) To handle input and output of files
-
-24. What is the difference between ifstream and ofstream?
-a) ifstream is used for writing to a file, and ofstream is used for reading from a file
-b) ifstream is used for reading from a file, and ofstream is used for writing to a file
-c) ifstream and ofstream are used for the same purpose
-d) ifstream is used for reading binary files, and ofstream is used for reading text files
-Answer: b) ifstream is used for reading from a file, and ofstream is used for writing to a file
-
-25. What is the purpose of the ios::in and ios::out flags in file stream operations?
-a) ios::in is used to specify that the file is being opened for input, and ios::out is used to specify that the file is being opened for output
-b) ios::in is used to specify that the file is being opened for output, and ios::out is used to specify that the file is being opened for input
-c) ios::in and ios::out are used to specify that the file is being opened for both input and output
-d) ios::in is used to specify that the file is being opened in binary mode, and ios::out is used to specify that the file is being opened in text mode
-Answer: a) ios::in is used to specify that the file is being opened for input, and ios::out is used to specify that the file is being opened for output
-
-26. What is the purpose of the ios::app flag in file stream operations?
-a) To open the file for both input and output
-b) To append data to the end of the file
-c) To create a new file if it doesn't exist
-d) To overwrite the existing file
-Answer: b) To append data to the end of the file
-
-27. Which of the following is the correct syntax for opening a file for reading in C++?
-a) ifstream file("filename", ios::out);
-b) ifstream file("filename", ios::in);
-c) ofstream file("filename", ios::in);
-d) ofstream file("filename", ios::out);
-Answer: b) ifstream file("filename", ios::in);
-
-28. Which of the following is the correct syntax for opening a file for writing in C++?
-a) ifstream file("filename", ios::out);
-b) ifstream file("filename", ios::in);
-c) ofstream file("filename", ios::in);
-d) ofstream file("filename", ios::out);
-Answer: d) ofstream file("filename", ios::out);
-
-29. What is the difference between text and binary files in C++?
-a) Text files are readable by humans, while binary files are not
-b) Text files contain characters, while binary files contain machine-readable data
-c) Text files are smaller than binary files
-d) Text files cannot be read or written to in C++
-Answer: b) Text files contain characters, while binary files contain machine-readable data
-
-30. Which of the following is the correct syntax for writing to a file in C++?
-a) file.write("data", sizeof(data));
-b) file.put("data");
-c) file << "data";
-d) file.write("data");
-Answer: c) file << "data";
-
-THEME - ADDRESSESS AND SIGNS.
-
-1. What is an address in C++?
-a) A reference to a location in memory
-b) A keyword used to declare variables
-c) A pointer to a function
-d) A type of control structure
-Answer: a) A reference to a location in memory
-
-2. How is an address declared in C++?
-a) Using the address-of operator (&)
-b) Using the dereference operator (*)
-c) Using the new operator
-d) Using the delete operator
-Answer: a) Using the address-of operator (&)
-
-3. What is a pointer in C++?
-a) A variable that stores an address
-b) A variable that stores a value
-c) A type of control structure
-d) A keyword used to declare variables
-Answer: a) A variable that stores an address
-
-4. How is a pointer declared in C++?
-a) Using the pointer operator ()
-b) Using the address-of operator (&)
-c) Using the new operator
-d) Using the delete operator
-Answer: a) Using the pointer operator ()
-
-5. What is the difference between a pointer and an address in C++?
-a) There is no difference between a pointer and an address
-b) A pointer is a variable that stores an address, while an address is the actual location in memory
-c) An address is a variable that stores a pointer, while a pointer is the actual location in memory
-d) An address is used to reference functions, while a pointer is used to reference variables
-Answer: b) A pointer is a variable that stores an address, while an address is the actual location in memory
-
-6. What is the dereference operator in C++?
-a) The operator used to declare pointers
-b) The operator used to access the value at a pointer's address
-c) The operator used to compare two addresses
-d) The operator used to assign a value to an address
-Answer: b) The operator used to access the value at a pointer's address
-
-7. What is a null pointer in C++?
-a) A pointer that points to the beginning of memory
-b) A pointer that points to a specific address
-c) A pointer that has not been initialized
-d) A pointer that points to the end of memory
-Answer: c) A pointer that has not been initialized
-
-8. What is a void pointer in C++?
-a) A pointer that can only be used with specific data types
-b) A pointer that points to a function
-c) A pointer that points to a location in memory without a specific data type
-d) A pointer that cannot be dereferenced
-Answer: c) A pointer that points to a location in memory without a specific data type
-
-9. How is a void pointer declared in C++?
-a) Using the pointer operator (*)
-b) Using the address-of operator (&)
-c) Using the void keyword
-d) Using the delete operator
-Answer: c) Using the void keyword
-
-10. What is a function pointer in C++?
-a) A pointer that points to a specific location in memory
-b) A pointer that points to a specific function
-c) A pointer that points to an object
-d) A pointer that points to a variable
-Answer: b) A pointer that points to a specific function
-
-11. How is a function pointer declared in C++?
-a) Using the pointer operator ()
-b) Using the address-of operator (&)
-c) Using the void keyword
-d) Using the function keyword
-Answer: a) Using the pointer operator ()
-
-12. What is the purpose of a function pointer in C++?
-a) To store the address of a function
-b) To store the address of a variable
-c) To create a new function
-d) To control the flow of a program
-Answer: a) To store the address of a function
-
-13. What is a pointer arithmetic in C++?
-a) A way to perform mathematical operations on pointers
-b) A way to access memory addresses out of bounds
-c) A way to compare two pointers
-d) A way to create new pointers
-Answer: a) A way to perform mathematical operations on pointers
-
-14. What is the difference between prefix and postfix increment operators in C++?
-a) There is no difference between prefix and postfix increment operators
-b) The prefix operator increments the value of a variable before using it, while the postfix operator increments it after using it
-c) The prefix operator increments the value of a variable after using it, while the postfix operator increments it before using it
-d) The prefix operator increments the value of a variable by a larger amount than the postfix operator
-Answer: b) The prefix operator increments the value of a variable before using it, while the postfix operator increments it after using it
-
-15. What is a const pointer in C++?
-a) A pointer to a constant value
-b) A pointer that cannot be changed
-c) A pointer that points to a constant memory location
-d) A pointer that points to a constant function
-Answer: b) A pointer that cannot be changed
-
-16. What is a const pointer to const in C++?
-a) A pointer to a constant value
-b) A pointer that cannot be changed
-c) A pointer that points to a constant memory location
-d) A pointer that points to a constant function
-Answer: c) A pointer that points to a constant memory location
-
-17. What is a reference in C++?
-a) A variable that stores an address
-b) A way to access the value of a variable directly
-c) A keyword used to declare variables
-d) A type of control structure
-Answer: b) A way to access the value of a variable directly
-
-18. How is a reference declared in C++?
-a) Using the reference operator ()
-b) Using the address-of operator (&)
-c) Using the new operator
-d) Using the delete operator
-Answer: a) Using the reference operator ()
-
-19. What is the difference between a pointer and a reference in C++?
-a) There is no difference between a pointer and a reference
-b) A pointer is a variable that stores an address, while a reference is an alias for a variable
-c) A pointer is used to access the value of a variable directly, while a reference is used to store an address
-d) A pointer and a reference cannot be used interchangeably in C++
-Answer: b) A pointer is a variable that stores an address, while a reference is an alias for a variable
-
-20. What is a reference parameter in C++?
-a) A parameter that is passed by value
-b) A parameter that is passed by reference
-c) A parameter that is passed by pointer
-d) A parameter that is passed by const pointer
-Answer: b) A parameter that is passed by reference
-
-21. What is the advantage of using references over pointers in C++?
-a) References are easier to declare than pointers
-b) References are safer to use than pointers
-c) References can be used to access any memory location, while pointers cannot
-d) References are faster to access than pointers
-Answer: b) References are safer to use than pointers
-
-22. What is a dangling pointer in C++?
-a) A pointer that points to a location in memory that has been deallocated
-b) A pointer that points to a location in memory that has been initialized
-c) A pointer that has not been initialized with a valid memory address
-d) A pointer that points to a location in memory that is currently being used by another process
-Answer: a) A pointer that points to a location in memory that has been deallocated
-
-23. What is a null pointer in C++?
-a) A pointer that points to the address 0
-b) A pointer that points to a location in memory that has been deallocated
-c) A pointer that points to a location in memory that has been initialized
-d) A pointer that points to a location in memory that is not accessible
-Answer: a) A pointer that points to the address 0
-
-24. What is the difference between a void pointer and a null pointer in C++?
-a) There is no difference between a void pointer and a null pointer
-b) A void pointer points to a location in memory of unknown type, while a null pointer points to the address 0
-c) A null pointer points to a location in memory of unknown type, while a void pointer points to the address 0
-d) A void pointer and a null pointer cannot be used interchangeably in C++
-Answer: b) A void pointer points to a location in memory of unknown type, while a null pointer points to the address 0
-
-25. What is the sizeof operator in C++?
-a) An operator that returns the size of a variable in bytes
-b) An operator that returns the address of a variable
-c) An operator that returns the value of a variable
-d) An operator that returns the type of a variable
-Answer: a) An operator that returns the size of a variable in bytes
-
-26. What is the difference between malloc and new in C++?
-a) There is no difference between malloc and new
-b) Malloc allocates memory on the heap, while new allocates memory on the stack
-c) Malloc allocates memory on the stack, while new allocates memory on the heap
-d) New is used to allocate memory for objects, while malloc is used to allocate memory for primitive types
-Answer: b) Malloc allocates memory on the heap, while new allocates memory on the stack
-
-27. What is the delete operator in C++ used for?
-a) To deallocate memory allocated with new
-b) To deallocate memory allocated with malloc
-c) To free up memory space on the stack
-d) To free up memory space on the heap
-Answer: a) To deallocate memory allocated with new
-
-28. What is a smart pointer in C++?
-a) A pointer that is automatically deallocated when it goes out of scope
-b) A pointer that can be used to access memory out of bounds
-c) A pointer that is used to access virtual memory
-d) A pointer that is used to access hardware resources
-Answer: a) A pointer that is automatically deallocated when it goes out of scope
-
-29. What is a unique pointer in C++?
-a) A smart pointer that can be copied
-b) A smart pointer that cannot be copied
-c) A smart pointer that can be used to access multiple memory locations
-d) A smart pointer that can be used to access memory out of bounds
-Answer: b) A smart pointer that cannot be copied
-
-30. What is a shared pointer in C++?
-a) A smart pointer that can be copied and shared between multiple objects
-b) A smart pointer that can only be used to access memory allocated on the stack
-c) A smart pointer that can only be used to access memory allocated on the heap
-d) A smart pointer that can be used to access hardware resources
-Answer: a) A smart pointer that can be copied and shared between multiple objects
-
-THEME - DYNAMIC MEMORY.
-
-1. What is dynamic memory allocation in C++?
-a) Allocating memory at compile time
-b) Allocating memory at runtime
-c) Allocating memory on the stack
-d) Allocating memory on the heap
-Answer: b) Allocating memory at runtime
-
-2. Which operator is used to allocate memory on the heap in C++?
-a) new
-b) malloc
-c) delete
-d) free
-Answer: a) new
-
-3. What is the purpose of the delete operator in C++?
-a) To deallocate memory allocated with new
-b) To deallocate memory allocated with malloc
-c) To free up memory space on the stack
-d) To free up memory space on the heap
-Answer: a) To deallocate memory allocated with new
-
-4. What is the difference between malloc and new in C++?
-a) There is no difference between malloc and new
-b) Malloc allocates memory on the heap, while new allocates memory on the stack
-c) Malloc allocates memory on the stack, while new allocates memory on the heap
-d) New is used to allocate memory for objects, while malloc is used to allocate memory for primitive types
-Answer: d) New is used to allocate memory for objects, while malloc is used to allocate memory for primitive types
-
-5. What is a memory leak in C++?
-a) A situation where memory allocated on the heap is not deallocated
-b) A situation where memory allocated on the stack is not deallocated
-c) A situation where a program runs out of memory
-d) A situation where a program crashes due to memory allocation issues
-Answer: a) A situation where memory allocated on the heap is not deallocated
-
-6. What is a null pointer in C++?
-a) A pointer that points to the address 0
-b) A pointer that points to a location in memory that has been deallocated
-c) A pointer that points to a location in memory that has been initialized
-d) A pointer that points to a location in memory that is not accessible
-Answer: a) A pointer that points to the address 0
-
-7. What is a dangling pointer in C++?
-a) A pointer that points to a location in memory that has been deallocated
-b) A pointer that points to a location in memory that has been initialized
-c) A pointer that points to a location in memory that is not accessible
-d) A pointer that points to a memory location that may have been deallocated
-Answer: d) A pointer that points to a memory location that may have been deallocated
-
-8. What is a smart pointer in C++?
-a) A pointer that is automatically deallocated when it goes out of scope
-b) A pointer that can be used to access memory out of bounds
-c) A pointer that is used to access virtual memory
-d) A pointer that is used to access hardware resources
-Answer: a) A pointer that is automatically deallocated when it goes out of scope
-
-9. What is a unique pointer in C++?
-a) A smart pointer that can be copied
-b) A smart pointer that cannot be copied
-c) A smart pointer that can be used to access multiple memory locations
-d) A smart pointer that can be used to access memory out of bounds
-Answer: b) A smart pointer that cannot be copied
-
-10. What is a shared pointer in C++?
-a) A smart pointer that can be copied and shared between multiple objects
-b) A smart pointer that can only be used to access memory allocated on the stack
-c) A smart pointer that can only be used to access memory allocated on the heap
-d) A smart pointer that can be used to access hardware resources
-Answer: a) A smart pointer that can be copied and shared between multiple objects
-
-11. How does a unique pointer differ from a shared pointer in C++?
-a) A unique pointer cannot be copied, while a shared pointer can be copied
-b) A shared pointer cannot be used to access memory on the heap, while a unique pointer can
-c) A unique pointer can only be used to access memory on the stack, while a shared pointer can be used to access memory on the heap
-d) There is no difference between a unique pointer and a shared pointer
-Answer: a) A unique pointer cannot be copied, while a shared pointer can be copied
-
-12. What is the difference between a raw pointer and a smart pointer in C++?
-a) There is no difference between a raw pointer and a smart pointer
-b) A smart pointer automatically deallocates memory when it goes out of scope, while a raw pointer does not
-c) A raw pointer can only be used to access memory allocated on the stack, while a smart pointer can be used to access memory allocated on the heap
-d) A smart pointer can only be used to access memory allocated on the stack, while a raw pointer can be used to access memory allocated on the heap
-Answer: b) A smart pointer automatically deallocates memory when it goes out of scope, while a raw pointer does not
-
-13. What is a weak pointer in C++?
-a) A pointer that cannot be dereferenced
-b) A pointer that can be used to access memory on the stack
-c) A pointer that is automatically deallocated when it goes out of scope
-d) A pointer that does not increment the reference count of a shared pointer
-Answer: d) A pointer that does not increment the reference count of a shared pointer
-
-14. What is the difference between a const pointer and a pointer to const in C++?
-a) There is no difference between a const pointer and a pointer to const
-b) A const pointer cannot be used to modify the value it points to, while a pointer to const can
-c) A pointer to const cannot be used to modify the value it points to, while a const pointer can
-d) A const pointer and a pointer to const cannot be used to modify the value they point to
-Answer: c) A pointer to const cannot be used to modify the value it points to, while a const pointer can
-
-15. What is the difference between a reference and a pointer in C++?
-a) There is no difference between a reference and a pointer
-b) A pointer can be null, while a reference cannot
-c) A reference can be reassigned, while a pointer cannot
-d) A pointer can be used to access memory out of bounds, while a reference cannot
-Answer: b) A pointer can be null, while a reference cannot
-
-16. What is the difference between a shallow copy and a deep copy in C++?
-a) There is no difference between a shallow copy and a deep copy
-b) A shallow copy copies only the pointer values, while a deep copy copies the pointed-to values as well
-c) A deep copy copies only the pointer values, while a shallow copy copies the pointed-to values as well
-d) A shallow copy and a deep copy cannot be performed on dynamically allocated memory
-Answer: b) A shallow copy copies only the pointer values, while a deep copy copies the pointed-to values as well
-
-17. What is the difference between the stack and the heap in C++?
-a) There is no difference between the stack and the heap
-b) Memory allocated on the stack is automatically deallocated when the function it was allocated in returns, while memory allocated on the heap must be manually deallocated
-c) Memory allocated on the heap is faster to access than memory allocated on the stack
-d) Memory allocated on the stack can be shared between multiple threads, while memory allocated on the heap cannot
-Answer: b) Memory allocated on the stack is automatically deallocated when the function it was allocated in returns, while memory allocated on the heap must be manually deallocated
-
-18. What is a memory leak in C++?
-a) A situation where memory is allocated on the stack but not deallocated when it goes out of scope
-b) A situation where memory is allocated on the heap but not deallocated when it is no longer needed
-c) A situation where memory is allocated on the heap but deallocated too early, causing a segmentation fault
-d) A situation where memory is allocated on the stack but not initialized with a value
-Answer: b) A situation where memory is allocated on the heap but not deallocated when it is no longer needed
-
-19. How can you avoid a memory leak in C++?
-a) Always use raw pointers instead of smart pointers
-b) Always allocate memory on the stack instead of the heap
-c) Always manually deallocate memory after it is no longer needed
-d) Always use smart pointers instead of raw pointers, and make sure to release ownership of the memory when it is no longer needed
-Answer: d) Always use smart pointers instead of raw pointers, and make sure to release ownership of the memory when it is no longer needed
-
-20. What is a dangling pointer in C++?
-a) A pointer that is never initialized with a value
-b) A pointer that is initialized with a value that points to memory that has been deallocated
-c) A pointer that is initialized with a value that points to memory that has not been allocated
-d) A pointer that is initialized with a value that points to a valid memory address
-Answer: b) A pointer that is initialized with a value that points to memory that has been deallocated
-
-21. What is dynamic memory allocation in C++?
-a) Allocating memory at compile time
-b) Allocating memory at runtime
-c) Allocating memory on the stack
-d) Allocating memory on the heap
-Answer: b) Allocating memory at runtime
-
-22. Which operator is used to allocate memory on the heap in C++?
-a) new
-b) malloc
-c) delete
-d) free
-Answer: a) new
-
-23. What is the purpose of the delete operator in C++?
-a) To deallocate memory allocated with new
-b) To deallocate memory allocated with malloc
-c) To free up memory space on the stack
-d) To free up memory space on the heap
-Answer: a) To deallocate memory allocated with new
-
-24. What is the difference between malloc and new in C++?
-a) There is no difference between malloc and new
-b) Malloc allocates memory on the heap, while new allocates memory on the stack
-c) Malloc allocates memory on the stack, while new allocates memory on the heap
-d) New is used to allocate memory for objects, while malloc is used to allocate memory for primitive types
-Answer: d) New is used to allocate memory for objects, while malloc is used to allocate memory for primitive types
-
-25. What is a memory leak in C++?
-a) A situation where memory allocated on the heap is not deallocated
-b) A situation where memory allocated on the stack is not deallocated
-c) A situation where a program runs out of memory
-d) A situation where a program crashes due to memory allocation issues
-Answer: a) A situation where memory allocated on the heap is not deallocated
-
-26. What is a null pointer in C++?
-a) A pointer that points to the address 0
-b) A pointer that points to a location in memory that has been deallocated
-c) A pointer that points to a location in memory that has been initialized
-d) A pointer that points to a location in memory that is not accessible
-Answer: a) A pointer that points to the address 0
-
-27. What is a dangling pointer in C++?
-a) A pointer that points to a location in memory that has been deallocated
-b) A pointer that points to a location in memory that has been initialized
-c) A pointer that points to a location in memory that is not accessible
-d) A pointer that points to a memory location that may have been deallocated
-Answer: d) A pointer that points to a memory location that may have been deallocated
-
-28. What is a smart pointer in C++?
-a) A pointer that is automatically deallocated when it goes out of scope
-b) A pointer that can be used to access memory out of bounds
-c) A pointer that is used to access virtual memory
-d) A pointer that is used to access hardware resources
-Answer: a) A pointer that is automatically deallocated when it goes out of scope
-
-29. What is a unique pointer in C++?
-a) A smart pointer that can be copied
-b) A smart pointer that cannot be copied
-c) A smart pointer that can be used to access multiple memory locations
-d) A smart pointer that can be used to access memory out of bounds
-Answer: b) A smart pointer that cannot be copied
-
-30. What is a shared pointer in C++?
-a) A smart pointer that can be copied and shared between multiple objects
-b) A smart pointer that can only be used to access memory allocated on the stack
-c) A smart pointer that can only be used to access memory allocated on the heap
-d) A smart pointer that can be used to access hardware resources
-Answer: a) A smart pointer that can be copied and shared between multiple objects
+e) 9
+f) 12
+g) 15
+Dqvzhu: g) 15
+
+30. Zkdw lv wdlo uhfxuvlrq?
+d) D ixqfwlrq wkdw uhwxuqv d ydoxh
+e) D ixqfwlrq wkdw fdoov lwvhoi dw wkh hqg ri wkh ixqfwlrq
+f) D ixqfwlrq wkdw fdoov dqrwkhu ixqfwlrq
+g) D ixqfwlrq wkdw xvhv d orrs
+Dqvzhu: e) D ixqfwlrq wkdw fdoov lwvhoi dw wkh hqg ri wkh ixqfwlrq
+
+WKHPH - VWUXFWXUHV.
+
+1. Zkdw lv d gdwd vwuxfwxuh lq F++?
+d) D zdb wr vwruh dqg rujdqlch gdwd lq phprub
+e) D zdb wr irupdw gdwd rq wkh vfuhhq
+f) D zdb wr lqsxw gdwd iurp wkh nhberdug
+g) D zdb wr rxwsxw gdwd wr d iloh
+Dqvzhu: d) D zdb wr vwruh dqg rujdqlch gdwd lq phprub
+
+2. Zklfk ri wkh iroorzlqj lv d olqhdu gdwd vwuxfwxuh?
+d) Elqdub wuhh
+e) Vwdfn
+f) Judsk
+g) Khds
+Dqvzhu: e) Vwdfn
+
+3. Zklfk ri wkh iroorzlqj lv d qrq-olqhdu gdwd vwuxfwxuh?
+d) Duudb
+e) Olqnhg olvw
+f) Txhxh
+g) Wuhh
+Dqvzhu: g) Wuhh
+
+4. Zklfk ri wkh iroorzlqj lv d gbqdplf gdwd vwuxfwxuh?
+d) Duudb
+e) Vwdfn
+f) Txhxh
+g) Olqnhg olvw
+Dqvzhu: g) Olqnhg olvw
+
+5. Zkdw lv d vwdfn lq F++?
+d) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d iluvw-lq, iluvw-rxw (ILIR) rughu
+e) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d odvw-lq, iluvw-rxw (OLIR) rughu
+f) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vruwhg rughu
+g) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d elqdub wuhh
+Dqvzhu: e) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d odvw-lq, iluvw-rxw (OLIR) rughu
+
+6. Zkdw lv d txhxh lq F++?
+d) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d iluvw-lq, iluvw-rxw (ILIR) rughu
+e) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d odvw-lq, iluvw-rxw (OLIR) rughu
+f) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vruwhg rughu
+g) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d elqdub wuhh
+Dqvzhu: d) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d iluvw-lq, iluvw-rxw (ILIR) rughu
+
+7. Zkdw lv d olqnhg olvw lq F++?
+d) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq dq duudb
+e) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vwdfn
+f) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d txhxh
+g) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vhtxhqfh ri qrghv olqnhg wrjhwkhu
+Dqvzhu: g) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vhtxhqfh ri qrghv olqnhg wrjhwkhu
+
+8. Zkdw lv d grxeob olqnhg olvw lq F++?
+d) D olqnhg olvw zkhuh hdfk qrgh kdv wzr srlqwhuv, rqh wr wkh suhylrxv qrgh dqg rqh wr wkh qhaw qrgh
+e) D olqnhg olvw zkhuh hdfk qrgh kdv wzr ydoxhv, rqh iru wkh nhb dqg rqh iru wkh gdwd
+f) D olqnhg olvw zkhuh hdfk qrgh kdv wzr fkloguhq, rqh wr wkh ohiw dqg rqh wr wkh uljkw
+g) D olqnhg olvw zkhuh hdfk qrgh kdv wzr zhljkwv, rqh iru wkh glvwdqfh dqg rqh iru wkh frvw
+Dqvzhu: d) D olqnhg olvw zkhuh hdfk qrgh kdv wzr srlqwhuv, rqh wr wkh suhylrxv qrgh dqg rqh wr wkh qhaw qrgh
+
+9. Zkdw lv d elqdub wuhh lq F++?
+d) D wuhh zkhuh hdfk qrgh kdv wzr fkloguhq
+e) D wuhh zkhuh hdfk qrgh kdv wkuhh fkloguhq
+f) D wuhh zkhuh hdfk qrgh kdv irxu fkloguhq
+g) D wuhh zkhuh hdfk qrgh kdv ilyh fkloguhq
+Dqvzhu: d) D wuhh zkhuh hdfk qrgh kdv wzr fkloguhq
+
+10. Zkdw lv d elqdub vhdufk wuhh lq F++?
+d) D elqdub wuhh zkhuh hdfk qrgh kdv wzr fkloguhq dqg wkh ohiw fklog lv vpdoohu wkdq wkh sduhqw dqg wkh uljkw fklog lv juhdwhu wkdq wkh sduhqw
+e) D elqdub wuhh zkhuh hdfk qrgh kdv wzr fkloguhq dqg wkh ohiw fklog lv juhdwhu wkdq wkh sduhqw dqg wkh uljkw fklog lv vpdoohu wkdq wkh sduhqw
+f) D elqdub wuhh zkhuh hdfk qrgh kdv wkuhh fkloguhq dqg wkh plggoh fklog lv htxdo wr wkh sduhqw
+g) D elqdub wuhh zkhuh hdfk qrgh kdv irxu fkloguhq dqg wkh wzr plggoh fkloguhq duh htxdo wr wkh sduhqw
+Dqvzhu: d) D elqdub wuhh zkhuh hdfk qrgh kdv wzr fkloguhq dqg wkh ohiw fklog lv vpdoohu wkdq wkh sduhqw dqg wkh uljkw fklog lv juhdwhu wkdq wkh sduhqw
+
+11. Zkdw lv d edodqfhg elqdub vhdufk wuhh?
+d) D elqdub vhdufk wuhh zkhuh hdfk qrgh kdv wzr fkloguhq dqg wkh ohiw fklog lv vpdoohu wkdq wkh sduhqw dqg wkh uljkw fklog lv juhdwhu wkdq wkh sduhqw
+e) D elqdub vhdufk wuhh zkhuh hdfk qrgh kdv wzr fkloguhq dqg wkh ohiw fklog lv juhdwhu wkdq wkh sduhqw dqg wkh uljkw fklog lv vpdoohu wkdq wkh sduhqw
+f) D elqdub vhdufk wuhh zkhuh wkh khljkw ri wkh ohiw dqg uljkw vxewuhhv ri hdfk qrgh gliihu eb dw prvw rqh
+g) D elqdub vhdufk wuhh zkhuh wkh khljkw ri wkh ohiw vxewuhh lv dozdbv juhdwhu wkdq wkh khljkw ri wkh uljkw vxewuhh
+Dqvzhu: f) D elqdub vhdufk wuhh zkhuh wkh khljkw ri wkh ohiw dqg uljkw vxewuhhv ri hdfk qrgh gliihu eb dw prvw rqh
+
+12. Zkdw lv d khds lq F++?
+d) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d iluvw-lq, iluvw-rxw (ILIR) rughu
+e) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d odvw-lq, iluvw-rxw (OLIR) rughu
+f) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vruwhg rughu
+g) D frpsohwh elqdub wuhh zkhuh wkh sduhqw qrgh lv juhdwhu wkdq ru htxdo wr lwv fklog qrghv
+Dqvzhu: g) D frpsohwh elqdub wuhh zkhuh wkh sduhqw qrgh lv juhdwhu wkdq ru htxdo wr lwv fklog qrghv
+
+13. Zklfk ri wkh iroorzlqj lv qrw d wbsh ri khds?
+d) Pda khds
+e) Plq khds
+f) Elqdub khds
+g) Txdg khds
+Dqvzhu: g) Txdg khds
+
+14. Zkdw lv d sulrulwb txhxh lq F++?
+d) D txhxh zkhuh hohphqwv duh vwruhg lq d iluvw-lq, iluvw-rxw (ILIR) rughu
+e) D txhxh zkhuh hohphqwv duh vwruhg lq d odvw-lq, iluvw-rxw (OLIR) rughu
+f) D txhxh zkhuh hohphqwv duh vwruhg lq d vruwhg rughu
+g) D txhxh zkhuh hohphqwv duh vwruhg edvhg rq wkhlu sulrulwb
+Dqvzhu: g) D txhxh zkhuh hohphqwv duh vwruhg edvhg rq wkhlu sulrulwb
+
+15. Zkdw lv d kdvk wdeoh lq F++?
+d) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d iluvw-lq, iluvw-rxw (ILIR) rughu
+e) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d odvw-lq, iluvw-rxw (OLIR) rughu
+f) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vruwhg rughu
+g) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv edvhg rq wkhlu kdvk ydoxhv
+Dqvzhu: g) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv edvhg rq wkhlu kdvk ydoxhv
+
+16. Zkdw lv froolvlrq uhvroxwlrq lq kdvk wdeohv?
+d) Wkh surfhvv ri ilqglqj wkh kdvk ydoxh ri dq hohphqw
+e) Wkh surfhvv ri vwrulqj dq hohphqw lq wkh kdvk wdeoh
+f) Wkh surfhvv ri kdqgolqj fdvhv zkhuh wzr hohphqwv kdyh wkh vdph kdvk ydoxh
+g) Wkh surfhvv ri ghohwlqj dq hohphqw iurp wkh kdvk wdeoh
+Dqvzhu: f) Wkh surfhvv ri kdqgolqj fdvhv zkhuh wzr hohphqwv kdyh wkh vdph kdvk ydoxh
+
+17. Zklfk ri wkh iroorzlqj lv qrw d froolvlrq uhvroxwlrq whfkqltxh lq kdvk wdeohv?
+d) Fkdlqlqj
+e) Olqhdu surelqj
+f) Txdgudwlf surelqj
+g) Elqdub vhdufk
+Dqvzhu: g) Elqdub vhdufk
+
+18. Zkdw lv d judsk lq F++?
+d) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d iluvw-lq, iluvw-rxw (ILIR) rughu
+e) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d odvw-lq, iluvw-rxw (OLIR) rughu
+f) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vruwhg rughu
+g) D froohfwlrq ri yhuwlfhv dqg hgjhv wkdw frqqhfw wkhp
+Dqvzhu: g) D froohfwlrq ri yhuwlfhv dqg hgjhv wkdw frqqhfw wkhp
+
+19. Zkdw lv d gluhfwhg judsk lq F++?
+d) D judsk zkhuh hdfk hgjh kdv d gluhfwlrq
+e) D judsk zkhuh wkh hgjhv kdyh qr gluhfwlrq
+f) D judsk zkhuh hdfk yhuwha kdv d gluhfwlrq
+g) D judsk zkhuh wkh hgjhv kdyh zhljkwv
+Dqvzhu: d) D judsk zkhuh hdfk hgjh kdv d gluhfwlrq
+
+20. Zkdw lv d vsdqqlqj wuhh lq d judsk?
+d) D wuhh wkdw lqfoxghv doo yhuwlfhv ri wkh judsk dqg d vxevhw ri lwv hgjhv, zlwk qr fbfohv
+e) D wuhh wkdw lqfoxghv rqob vrph yhuwlfhv ri wkh judsk dqg doo ri lwv hgjhv, zlwk qr fbfohv
+f) D wuhh wkdw lqfoxghv doo yhuwlfhv ri wkh judsk dqg doo ri lwv hgjhv, zlwk qr fbfohv
+g) D wuhh wkdw lqfoxghv rqob vrph yhuwlfhv ri wkh judsk dqg d vxevhw ri lwv hgjhv, zlwk qr fbfohv
+Dqvzhu: d) D wuhh wkdw lqfoxghv doo yhuwlfhv ri wkh judsk dqg d vxevhw ri lwv hgjhv, zlwk qr fbfohv
+
+21. Zkdw lv d gdwd vwuxfwxuh lq F++?
+d) D zdb wr vwruh dqg rujdqlch gdwd lq phprub
+e) D zdb wr irupdw gdwd rq wkh vfuhhq
+f) D zdb wr lqsxw gdwd iurp wkh nhberdug
+g) D zdb wr rxwsxw gdwd wr d iloh
+Dqvzhu: d) D zdb wr vwruh dqg rujdqlch gdwd lq phprub
+
+22. Zklfk ri wkh iroorzlqj lv d olqhdu gdwd vwuxfwxuh?
+d) Elqdub wuhh
+e) Vwdfn
+f) Judsk
+g) Khds
+Dqvzhu: e) Vwdfn
+
+23. Zklfk ri wkh iroorzlqj lv d qrq-olqhdu gdwd vwuxfwxuh?
+d) Duudb
+e) Olqnhg olvw
+f) Txhxh
+g) Wuhh
+Dqvzhu: g) Wuhh
+
+24. Zklfk ri wkh iroorzlqj lv d gbqdplf gdwd vwuxfwxuh?
+d) Duudb
+e) Vwdfn
+f) Txhxh
+g) Olqnhg olvw
+Dqvzhu: g) Olqnhg olvw
+
+25. Zkdw lv d vwdfn lq F++?
+d) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d iluvw-lq, iluvw-rxw (ILIR) rughu
+e) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d odvw-lq, iluvw-rxw (OLIR) rughu
+f) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vruwhg rughu
+g) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d elqdub wuhh
+Dqvzhu: e) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d odvw-lq, iluvw-rxw (OLIR) rughu
+
+26. Zkdw lv d txhxh lq F++?
+d) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d iluvw-lq, iluvw-rxw (ILIR) rughu
+e) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d odvw-lq, iluvw-rxw (OLIR) rughu
+f) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vruwhg rughu
+g) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d elqdub wuhh
+Dqvzhu: d) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d iluvw-lq, iluvw-rxw (ILIR) rughu
+
+27. Zkdw lv d olqnhg olvw lq F++?
+d) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq dq duudb
+e) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vwdfn
+f) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d txhxh
+g) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vhtxhqfh ri qrghv olqnhg wrjhwkhu
+Dqvzhu: g) D gdwd vwuxfwxuh wkdw vwruhv hohphqwv lq d vhtxhqfh ri qrghv olqnhg wrjhwkhu
+
+28. Zkdw lv d grxeob olqnhg olvw lq F++?
+d) D olqnhg olvw zkhuh hdfk qrgh kdv wzr srlqwhuv, rqh wr wkh suhylrxv qrgh dqg rqh wr wkh qhaw qrgh
+e) D olqnhg olvw zkhuh hdfk qrgh kdv wzr ydoxhv, rqh iru wkh nhb dqg rqh iru wkh gdwd
+f) D olqnhg olvw zkhuh hdfk qrgh kdv wzr fkloguhq, rqh wr wkh ohiw dqg rqh wr wkh uljkw
+g) D olqnhg olvw zkhuh hdfk qrgh kdv wzr zhljkwv, rqh iru wkh glvwdqfh dqg rqh iru wkh frvw
+Dqvzhu: d) D olqnhg olvw zkhuh hdfk qrgh kdv wzr srlqwhuv, rqh wr wkh suhylrxv qrgh dqg rqh wr wkh qhaw qrgh
+
+29. Zkdw lv d elqdub wuhh lq F++?
+d) D wuhh zkhuh hdfk qrgh kdv wzr fkloguhq
+e) D wuhh zkhuh hdfk qrgh kdv wkuhh fkloguhq
+f) D wuhh zkhuh hdfk qrgh kdv irxu fkloguhq
+g) D wuhh zkhuh hdfk qrgh kdv ilyh fkloguhq
+Dqvzhu: d) D wuhh zkhuh hdfk qrgh kdv wzr fkloguhq
+
+30. Zkdw lv d elqdub vhdufk wuhh lq F++?
+d) D elqdub wuhh zkhuh hdfk qrgh kdv wzr fkloguhq dqg wkh ohiw fklog lv vpdoohu wkdq wkh sduhqw dqg wkh uljkw fklog lv juhdwhu wkdq wkh sduhqw
+e) D elqdub wuhh zkhuh hdfk qrgh kdv wzr fkloguhq dqg wkh ohiw fklog lv juhdwhu wkdq wkh sduhqw dqg wkh uljkw fklog lv vpdoohu wkdq wkh sduhqw
+f) D elqdub wuhh zkhuh hdfk qrgh kdv wkuhh fkloguhq dqg wkh plggoh fklog lv htxdo wr wkh sduhqw
+g) D elqdub wuhh zkhuh hdfk qrgh kdv irxu fkloguhq dqg wkh wzr plggoh fkloguhq duh htxdo wr wkh sduhqw
+Dqvzhu: d) D elqdub wuhh zkhuh hdfk qrgh kdv wzr fkloguhq dqg wkh ohiw fklog lv vpdoohu wkdq wkh sduhqw dqg wkh uljkw fklog lv juhdwhu wkdq wkh sduhqw
+
+WKHPH - ILOHV.
+
+1. Zkdw lv wkh sxusrvh ri wkh ivwuhdp oleudub lq F++?
+d) Wr kdqgoh lqsxw dqg rxwsxw ri ilohv
+e) Wr kdqgoh gbqdplf phprub doorfdwlrq
+f) Wr kdqgoh qhwzrunlqj rshudwlrqv
+g) Wr kdqgoh xvhu lqsxw/rxwsxw iurp wkh frqvroh
+Dqvzhu: d) Wr kdqgoh lqsxw dqg rxwsxw ri ilohv
+
+2. Zkdw lv wkh gliihuhqfh ehwzhhq livwuhdp dqg rivwuhdp?
+d) livwuhdp lv xvhg iru zulwlqj wr d iloh, dqg rivwuhdp lv xvhg iru uhdglqj iurp d iloh
+e) livwuhdp lv xvhg iru uhdglqj iurp d iloh, dqg rivwuhdp lv xvhg iru zulwlqj wr d iloh
+f) livwuhdp dqg rivwuhdp duh xvhg iru wkh vdph sxusrvh
+g) livwuhdp lv xvhg iru uhdglqj elqdub ilohv, dqg rivwuhdp lv xvhg iru uhdglqj whaw ilohv
+Dqvzhu: e) livwuhdp lv xvhg iru uhdglqj iurp d iloh, dqg rivwuhdp lv xvhg iru zulwlqj wr d iloh
+
+3. Zkdw lv wkh sxusrvh ri wkh lrv::lq dqg lrv::rxw iodjv lq iloh vwuhdp rshudwlrqv?
+d) lrv::lq lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru lqsxw, dqg lrv::rxw lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru rxwsxw
+e) lrv::lq lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru rxwsxw, dqg lrv::rxw lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru lqsxw
+f) lrv::lq dqg lrv::rxw duh xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru erwk lqsxw dqg rxwsxw
+g) lrv::lq lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg lq elqdub prgh, dqg lrv::rxw lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg lq whaw prgh
+Dqvzhu: d) lrv::lq lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru lqsxw, dqg lrv::rxw lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru rxwsxw
+
+4. Zkdw lv wkh sxusrvh ri wkh lrv::dss iodj lq iloh vwuhdp rshudwlrqv?
+d) Wr rshq wkh iloh iru erwk lqsxw dqg rxwsxw
+e) Wr dsshqg gdwd wr wkh hqg ri wkh iloh
+f) Wr fuhdwh d qhz iloh li lw grhvq'w halvw
+g) Wr ryhuzulwh wkh halvwlqj iloh
+Dqvzhu: e) Wr dsshqg gdwd wr wkh hqg ri wkh iloh
+
+5. Zklfk ri wkh iroorzlqj lv wkh fruuhfw vbqwda iru rshqlqj d iloh iru uhdglqj lq F++?
+d) livwuhdp iloh("ilohqdph", lrv::rxw);
+e) livwuhdp iloh("ilohqdph", lrv::lq);
+f) rivwuhdp iloh("ilohqdph", lrv::lq);
+g) rivwuhdp iloh("ilohqdph", lrv::rxw);
+Dqvzhu: e) livwuhdp iloh("ilohqdph", lrv::lq);
+
+6. Zklfk ri wkh iroorzlqj lv wkh fruuhfw vbqwda iru rshqlqj d iloh iru zulwlqj lq F++?
+d) livwuhdp iloh("ilohqdph", lrv::rxw);
+e) livwuhdp iloh("ilohqdph", lrv::lq);
+f) rivwuhdp iloh("ilohqdph", lrv::lq);
+g) rivwuhdp iloh("ilohqdph", lrv::rxw);
+Dqvzhu: g) rivwuhdp iloh("ilohqdph", lrv::rxw);
+
+7. Zkdw lv wkh gliihuhqfh ehwzhhq whaw dqg elqdub ilohv lq F++?
+d) Whaw ilohv duh uhdgdeoh eb kxpdqv, zkloh elqdub ilohv duh qrw
+e) Whaw ilohv frqwdlq fkdudfwhuv, zkloh elqdub ilohv frqwdlq pdfklqh-uhdgdeoh gdwd
+f) Whaw ilohv duh vpdoohu wkdq elqdub ilohv
+g) Whaw ilohv fdqqrw eh uhdg ru zulwwhq wr lq F++
+Dqvzhu: e) Whaw ilohv frqwdlq fkdudfwhuv, zkloh elqdub ilohv frqwdlq pdfklqh-uhdgdeoh gdwd
+
+8. Zklfk ri wkh iroorzlqj lv wkh fruuhfw vbqwda iru zulwlqj wr d iloh lq F++?
+d) iloh.zulwh("gdwd", vlchri(gdwd));
+e) iloh.sxw("gdwd");
+f) iloh << "gdwd";
+g) iloh.zulwh("gdwd");
+Dqvzhu: f) iloh << "gdwd";
+
+9. Zklfk ri wkh iroorzlqj lv wkh fruuhfw vbqwda iru uhdglqj iurp d iloh lq F++?
+d) iloh.uhdg("gdwd", vlchri(gdwd));
+e) iloh.jhw("gdwd");
+f) iloh >> "gdwd";
+g) iloh.uhdg("gdwd");
+Dqvzhu: e) iloh.jhw("gdwd");
+
+10. Zkdw lv wkh sxusrvh ri wkh vhhnj() ixqfwlrq lq iloh vwuhdp rshudwlrqv?
+d) Wr pryh wkh uhdg/zulwh srlqwhu wr d vshflilhg srvlwlrq lq wkh iloh
+e) Wr forvh wkh iloh
+f) Wr ghohwh wkh iloh
+g) Wr fuhdwh d qhz iloh
+Dqvzhu: d) Wr pryh wkh uhdg/zulwh srlqwhu wr d vshflilhg srvlwlrq lq wkh iloh
+
+11. Zkdw lv wkh gliihuhqfh ehwzhhq wkh whooj() dqg whoos() ixqfwlrqv lq iloh vwuhdp rshudwlrqv?
+d) whooj() lv xvhg iru rxwsxw rshudwlrqv, zkloh whoos() lv xvhg iru lqsxw rshudwlrqv
+e) whooj() uhwxuqv wkh srvlwlrq ri wkh uhdg srlqwhu, zkloh whoos() uhwxuqv wkh srvlwlrq ri wkh zulwh srlqwhu
+f) whooj() uhwxuqv wkh srvlwlrq ri wkh zulwh srlqwhu, zkloh whoos() uhwxuqv wkh srvlwlrq ri wkh uhdg srlqwhu
+g) whooj() dqg whoos() duh xvhg iru wkh vdph sxusrvh
+Dqvzhu: e) whooj() uhwxuqv wkh srvlwlrq ri wkh uhdg srlqwhu, zkloh whoos() uhwxuqv wkh srvlwlrq ri wkh zulwh srlqwhu
+
+12. Zkdw lv wkh sxusrvh ri wkh ioxvk() ixqfwlrq lq iloh vwuhdp rshudwlrqv?
+d) Wr forvh wkh iloh
+e) Wr pryh wkh uhdg/zulwh srlqwhu wr d vshflilhg srvlwlrq lq wkh iloh
+f) Wr zulwh dqb exiihuhg gdwd wr wkh iloh
+g) Wr uhdg dqb exiihuhg gdwd iurp wkh iloh
+Dqvzhu: f) Wr zulwh dqb exiihuhg gdwd wr wkh iloh
+
+13. Zkdw lv wkh sxusrvh ri wkh forvh() ixqfwlrq lq iloh vwuhdp rshudwlrqv?
+d) Wr pryh wkh uhdg/zulwh srlqwhu wr d vshflilhg srvlwlrq lq wkh iloh
+e) Wr ghohwh wkh iloh
+f) Wr ioxvk dqb exiihuhg gdwd wr wkh iloh
+g) Wr forvh wkh iloh
+Dqvzhu: g) Wr forvh wkh iloh
+
+14. Zkdw lv wkh sxusrvh ri wkh jhwolqh() ixqfwlrq lq iloh vwuhdp rshudwlrqv?
+d) Wr uhdg d olqh ri whaw iurp wkh frqvroh
+e) Wr uhdg d olqh ri whaw iurp d iloh
+f) Wr zulwh d olqh ri whaw wr d iloh
+g) Wr zulwh d olqh ri whaw wr wkh frqvroh
+Dqvzhu: e) Wr uhdg d olqh ri whaw iurp d iloh
+
+15. Zkdw lv wkh gliihuhqfh ehwzhhq wkh jhw() dqg jhwolqh() ixqfwlrqv lq iloh vwuhdp rshudwlrqv?
+d) jhw() uhdgv d vlqjoh fkdudfwhu, zkloh jhwolqh() uhdgv d olqh ri whaw
+e) jhw() uhdgv d olqh ri whaw, zkloh jhwolqh() uhdgv d vlqjoh fkdudfwhu
+f) jhw() dqg jhwolqh() duh xvhg iru wkh vdph sxusrvh
+g) jhw() dqg jhwolqh() duh qrw xvhg iru iloh vwuhdp rshudwlrqv
+Dqvzhu: d) jhw() uhdgv d vlqjoh fkdudfwhu, zkloh jhwolqh() uhdgv d olqh ri whaw
+
+16. Zkdw lv wkh sxusrvh ri wkh zulwh() ixqfwlrq lq iloh vwuhdp rshudwlrqv?
+d) Wr uhdg d olqh ri whaw iurp d iloh
+e) Wr zulwh d olqh ri whaw wr d iloh
+f) Wr uhdg elqdub gdwd iurp d iloh
+g) Wr zulwh elqdub gdwd wr d iloh
+Dqvzhu: g) Wr zulwh elqdub gdwd wr d iloh
+
+17. Zkdw lv wkh sxusrvh ri wkh uhdg() ixqfwlrq lq iloh vwuhdp rshudwlrqv?
+d) Wr zulwh d olqh ri whaw wr d iloh
+e) Wr uhdg d olqh ri whaw iurp d iloh
+f) Wr zulwh elqdub gdwd wr d iloh
+g) Wr uhdg elqdub gdwd iurp d iloh
+Dqvzhu: g) Wr uhdg elqdub gdwd iurp d iloh
+
+18. Zkdw lv wkh sxusrvh ri wkh hri() ixqfwlrq lq iloh vwuhdp rshudwlrqv?
+d) Wr fkhfn li wkh hqg ri wkh iloh kdv ehhq uhdfkhg
+e) Wr fkhfn li dq huuru kdv rffxuuhg zkloh uhdglqj iurp ru zulwlqj wr wkh iloh
+f) Wr fkhfn li wkh iloh halvwv
+g) Wr fkhfn li wkh iloh lv hpswb
+Dqvzhu: d) Wr fkhfn li wkh hqg ri wkh iloh kdv ehhq uhdfkhg
+
+19. Zkdw lv wkh sxusrvh ri wkh idlo() ixqfwlrq lq iloh vwuhdp rshudwlrqv?
+d) Wr fkhfn li wkh hqg ri wkh iloh kdv ehhq uhdfkhg
+e) Wr fkhfn li dq huuru kdv rffxuuhg zkloh uhdglqj iurp ru zulwlqj wr wkh iloh
+f) Wr fkhfn li wkh iloh halvwv
+g) Wr fkhfn li wkh iloh lv hpswb
+Dqvzhu: e) Wr fkhfn li dq huuru kdv rffxuuhg zkloh uhdglqj iurp ru zulwlqj wr wkh iloh
+
+20. Zkdw lv wkh sxusrvh ri wkh jrrg() ixqfwlrq lq iloh vwuhdp rshudwlrqv?
+d) Wr fkhfn li wkh hqg ri wkh iloh kdv ehhq uhdfkhg
+e) Wr fkhfn li dq huuru kdv rffxuuhg zkloh uhdglqj iurp ru zulwlqj wr wkh iloh
+f) Wr fkhfn li wkh iloh halvwv
+g) Wr fkhfn li wkh iloh lv hpswb
+Dqvzhu: e) Wr fkhfn li dq huuru kdv rffxuuhg zkloh uhdglqj iurp ru zulwlqj wr wkh iloh
+
+21. Zkdw lv d elqdub iloh?
+d) D iloh wkdw frqwdlqv rqob whaw fkdudfwhuv
+e) D iloh wkdw frqwdlqv pdfklqh-uhdgdeoh gdwd
+f) D iloh wkdw frqwdlqv hahfxwdeoh frgh
+g) D iloh wkdw frqwdlqv erwk whaw dqg pdfklqh-uhdgdeoh gdwd
+Dqvzhu: e) D iloh wkdw frqwdlqv pdfklqh-uhdgdeoh gdwd
+
+22. Zkdw lv wkh gliihuhqfh ehwzhhq uhdglqj dqg zulwlqj wr d elqdub iloh dqg d whaw iloh?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq uhdglqj dqg zulwlqj wr elqdub dqg whaw ilohv
+e) Elqdub ilohv fdq rqob eh uhdg dqg zulwwhq xvlqj vshfldolchg ixqfwlrqv, zkloh whaw ilohv fdq eh uhdg dqg zulwwhq xvlqj vwdqgdug whaw iloh ixqfwlrqv
+f) Whaw ilohv fdq rqob eh uhdg dqg zulwwhq xvlqj vshfldolchg ixqfwlrqv, zkloh elqdub ilohv fdq eh uhdg dqg zulwwhq xvlqj vwdqgdug elqdub iloh ixqfwlrqv
+g) Elqdub ilohv fdq rqob eh uhdg dqg zulwwhq lq elqdub irupdw, zkloh whaw ilohv fdq eh uhdg dqg zulwwhq lq erwk elqdub dqg whaw irupdw
+Dqvzhu: e) Elqdub ilohv fdq rqob eh uhdg dqg zulwwhq xvlqj vshfldolchg ixqfwlrqv, zkloh whaw ilohv fdq eh uhdg dqg zulwwhq xvlqj vwdqgdug whaw iloh ixqfwlrqv
+
+23. Zkdw lv wkh sxusrvh ri wkh ivwuhdp oleudub lq F++?
+d) Wr kdqgoh lqsxw dqg rxwsxw ri ilohv
+e) Wr kdqgoh gbqdplf phprub doorfdwlrq
+f) Wr kdqgoh qhwzrunlqj rshudwlrqv
+g) Wr kdqgoh xvhu lqsxw/rxwsxw iurp wkh frqvroh
+Dqvzhu: d) Wr kdqgoh lqsxw dqg rxwsxw ri ilohv
+
+24. Zkdw lv wkh gliihuhqfh ehwzhhq livwuhdp dqg rivwuhdp?
+d) livwuhdp lv xvhg iru zulwlqj wr d iloh, dqg rivwuhdp lv xvhg iru uhdglqj iurp d iloh
+e) livwuhdp lv xvhg iru uhdglqj iurp d iloh, dqg rivwuhdp lv xvhg iru zulwlqj wr d iloh
+f) livwuhdp dqg rivwuhdp duh xvhg iru wkh vdph sxusrvh
+g) livwuhdp lv xvhg iru uhdglqj elqdub ilohv, dqg rivwuhdp lv xvhg iru uhdglqj whaw ilohv
+Dqvzhu: e) livwuhdp lv xvhg iru uhdglqj iurp d iloh, dqg rivwuhdp lv xvhg iru zulwlqj wr d iloh
+
+25. Zkdw lv wkh sxusrvh ri wkh lrv::lq dqg lrv::rxw iodjv lq iloh vwuhdp rshudwlrqv?
+d) lrv::lq lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru lqsxw, dqg lrv::rxw lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru rxwsxw
+e) lrv::lq lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru rxwsxw, dqg lrv::rxw lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru lqsxw
+f) lrv::lq dqg lrv::rxw duh xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru erwk lqsxw dqg rxwsxw
+g) lrv::lq lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg lq elqdub prgh, dqg lrv::rxw lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg lq whaw prgh
+Dqvzhu: d) lrv::lq lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru lqsxw, dqg lrv::rxw lv xvhg wr vshflib wkdw wkh iloh lv ehlqj rshqhg iru rxwsxw
+
+26. Zkdw lv wkh sxusrvh ri wkh lrv::dss iodj lq iloh vwuhdp rshudwlrqv?
+d) Wr rshq wkh iloh iru erwk lqsxw dqg rxwsxw
+e) Wr dsshqg gdwd wr wkh hqg ri wkh iloh
+f) Wr fuhdwh d qhz iloh li lw grhvq'w halvw
+g) Wr ryhuzulwh wkh halvwlqj iloh
+Dqvzhu: e) Wr dsshqg gdwd wr wkh hqg ri wkh iloh
+
+27. Zklfk ri wkh iroorzlqj lv wkh fruuhfw vbqwda iru rshqlqj d iloh iru uhdglqj lq F++?
+d) livwuhdp iloh("ilohqdph", lrv::rxw);
+e) livwuhdp iloh("ilohqdph", lrv::lq);
+f) rivwuhdp iloh("ilohqdph", lrv::lq);
+g) rivwuhdp iloh("ilohqdph", lrv::rxw);
+Dqvzhu: e) livwuhdp iloh("ilohqdph", lrv::lq);
+
+28. Zklfk ri wkh iroorzlqj lv wkh fruuhfw vbqwda iru rshqlqj d iloh iru zulwlqj lq F++?
+d) livwuhdp iloh("ilohqdph", lrv::rxw);
+e) livwuhdp iloh("ilohqdph", lrv::lq);
+f) rivwuhdp iloh("ilohqdph", lrv::lq);
+g) rivwuhdp iloh("ilohqdph", lrv::rxw);
+Dqvzhu: g) rivwuhdp iloh("ilohqdph", lrv::rxw);
+
+29. Zkdw lv wkh gliihuhqfh ehwzhhq whaw dqg elqdub ilohv lq F++?
+d) Whaw ilohv duh uhdgdeoh eb kxpdqv, zkloh elqdub ilohv duh qrw
+e) Whaw ilohv frqwdlq fkdudfwhuv, zkloh elqdub ilohv frqwdlq pdfklqh-uhdgdeoh gdwd
+f) Whaw ilohv duh vpdoohu wkdq elqdub ilohv
+g) Whaw ilohv fdqqrw eh uhdg ru zulwwhq wr lq F++
+Dqvzhu: e) Whaw ilohv frqwdlq fkdudfwhuv, zkloh elqdub ilohv frqwdlq pdfklqh-uhdgdeoh gdwd
+
+30. Zklfk ri wkh iroorzlqj lv wkh fruuhfw vbqwda iru zulwlqj wr d iloh lq F++?
+d) iloh.zulwh("gdwd", vlchri(gdwd));
+e) iloh.sxw("gdwd");
+f) iloh << "gdwd";
+g) iloh.zulwh("gdwd");
+Dqvzhu: f) iloh << "gdwd";
+
+WKHPH - DGGUHVVHVV DQG VLJQV.
+
+1. Zkdw lv dq dgguhvv lq F++?
+d) D uhihuhqfh wr d orfdwlrq lq phprub
+e) D nhbzrug xvhg wr ghfoduh yduldeohv
+f) D srlqwhu wr d ixqfwlrq
+g) D wbsh ri frqwuro vwuxfwxuh
+Dqvzhu: d) D uhihuhqfh wr d orfdwlrq lq phprub
+
+2. Krz lv dq dgguhvv ghfoduhg lq F++?
+d) Xvlqj wkh dgguhvv-ri rshudwru (&)
+e) Xvlqj wkh ghuhihuhqfh rshudwru (*)
+f) Xvlqj wkh qhz rshudwru
+g) Xvlqj wkh ghohwh rshudwru
+Dqvzhu: d) Xvlqj wkh dgguhvv-ri rshudwru (&)
+
+3. Zkdw lv d srlqwhu lq F++?
+d) D yduldeoh wkdw vwruhv dq dgguhvv
+e) D yduldeoh wkdw vwruhv d ydoxh
+f) D wbsh ri frqwuro vwuxfwxuh
+g) D nhbzrug xvhg wr ghfoduh yduldeohv
+Dqvzhu: d) D yduldeoh wkdw vwruhv dq dgguhvv
+
+4. Krz lv d srlqwhu ghfoduhg lq F++?
+d) Xvlqj wkh srlqwhu rshudwru ()
+e) Xvlqj wkh dgguhvv-ri rshudwru (&)
+f) Xvlqj wkh qhz rshudwru
+g) Xvlqj wkh ghohwh rshudwru
+Dqvzhu: d) Xvlqj wkh srlqwhu rshudwru ()
+
+5. Zkdw lv wkh gliihuhqfh ehwzhhq d srlqwhu dqg dq dgguhvv lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq d srlqwhu dqg dq dgguhvv
+e) D srlqwhu lv d yduldeoh wkdw vwruhv dq dgguhvv, zkloh dq dgguhvv lv wkh dfwxdo orfdwlrq lq phprub
+f) Dq dgguhvv lv d yduldeoh wkdw vwruhv d srlqwhu, zkloh d srlqwhu lv wkh dfwxdo orfdwlrq lq phprub
+g) Dq dgguhvv lv xvhg wr uhihuhqfh ixqfwlrqv, zkloh d srlqwhu lv xvhg wr uhihuhqfh yduldeohv
+Dqvzhu: e) D srlqwhu lv d yduldeoh wkdw vwruhv dq dgguhvv, zkloh dq dgguhvv lv wkh dfwxdo orfdwlrq lq phprub
+
+6. Zkdw lv wkh ghuhihuhqfh rshudwru lq F++?
+d) Wkh rshudwru xvhg wr ghfoduh srlqwhuv
+e) Wkh rshudwru xvhg wr dffhvv wkh ydoxh dw d srlqwhu'v dgguhvv
+f) Wkh rshudwru xvhg wr frpsduh wzr dgguhvvhv
+g) Wkh rshudwru xvhg wr dvvljq d ydoxh wr dq dgguhvv
+Dqvzhu: e) Wkh rshudwru xvhg wr dffhvv wkh ydoxh dw d srlqwhu'v dgguhvv
+
+7. Zkdw lv d qxoo srlqwhu lq F++?
+d) D srlqwhu wkdw srlqwv wr wkh ehjlqqlqj ri phprub
+e) D srlqwhu wkdw srlqwv wr d vshflilf dgguhvv
+f) D srlqwhu wkdw kdv qrw ehhq lqlwldolchg
+g) D srlqwhu wkdw srlqwv wr wkh hqg ri phprub
+Dqvzhu: f) D srlqwhu wkdw kdv qrw ehhq lqlwldolchg
+
+8. Zkdw lv d yrlg srlqwhu lq F++?
+d) D srlqwhu wkdw fdq rqob eh xvhg zlwk vshflilf gdwd wbshv
+e) D srlqwhu wkdw srlqwv wr d ixqfwlrq
+f) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub zlwkrxw d vshflilf gdwd wbsh
+g) D srlqwhu wkdw fdqqrw eh ghuhihuhqfhg
+Dqvzhu: f) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub zlwkrxw d vshflilf gdwd wbsh
+
+9. Krz lv d yrlg srlqwhu ghfoduhg lq F++?
+d) Xvlqj wkh srlqwhu rshudwru (*)
+e) Xvlqj wkh dgguhvv-ri rshudwru (&)
+f) Xvlqj wkh yrlg nhbzrug
+g) Xvlqj wkh ghohwh rshudwru
+Dqvzhu: f) Xvlqj wkh yrlg nhbzrug
+
+10. Zkdw lv d ixqfwlrq srlqwhu lq F++?
+d) D srlqwhu wkdw srlqwv wr d vshflilf orfdwlrq lq phprub
+e) D srlqwhu wkdw srlqwv wr d vshflilf ixqfwlrq
+f) D srlqwhu wkdw srlqwv wr dq remhfw
+g) D srlqwhu wkdw srlqwv wr d yduldeoh
+Dqvzhu: e) D srlqwhu wkdw srlqwv wr d vshflilf ixqfwlrq
+
+11. Krz lv d ixqfwlrq srlqwhu ghfoduhg lq F++?
+d) Xvlqj wkh srlqwhu rshudwru ()
+e) Xvlqj wkh dgguhvv-ri rshudwru (&)
+f) Xvlqj wkh yrlg nhbzrug
+g) Xvlqj wkh ixqfwlrq nhbzrug
+Dqvzhu: d) Xvlqj wkh srlqwhu rshudwru ()
+
+12. Zkdw lv wkh sxusrvh ri d ixqfwlrq srlqwhu lq F++?
+d) Wr vwruh wkh dgguhvv ri d ixqfwlrq
+e) Wr vwruh wkh dgguhvv ri d yduldeoh
+f) Wr fuhdwh d qhz ixqfwlrq
+g) Wr frqwuro wkh iorz ri d surjudp
+Dqvzhu: d) Wr vwruh wkh dgguhvv ri d ixqfwlrq
+
+13. Zkdw lv d srlqwhu dulwkphwlf lq F++?
+d) D zdb wr shuirup pdwkhpdwlfdo rshudwlrqv rq srlqwhuv
+e) D zdb wr dffhvv phprub dgguhvvhv rxw ri erxqgv
+f) D zdb wr frpsduh wzr srlqwhuv
+g) D zdb wr fuhdwh qhz srlqwhuv
+Dqvzhu: d) D zdb wr shuirup pdwkhpdwlfdo rshudwlrqv rq srlqwhuv
+
+14. Zkdw lv wkh gliihuhqfh ehwzhhq suhila dqg srvwila lqfuhphqw rshudwruv lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq suhila dqg srvwila lqfuhphqw rshudwruv
+e) Wkh suhila rshudwru lqfuhphqwv wkh ydoxh ri d yduldeoh ehiruh xvlqj lw, zkloh wkh srvwila rshudwru lqfuhphqwv lw diwhu xvlqj lw
+f) Wkh suhila rshudwru lqfuhphqwv wkh ydoxh ri d yduldeoh diwhu xvlqj lw, zkloh wkh srvwila rshudwru lqfuhphqwv lw ehiruh xvlqj lw
+g) Wkh suhila rshudwru lqfuhphqwv wkh ydoxh ri d yduldeoh eb d odujhu dprxqw wkdq wkh srvwila rshudwru
+Dqvzhu: e) Wkh suhila rshudwru lqfuhphqwv wkh ydoxh ri d yduldeoh ehiruh xvlqj lw, zkloh wkh srvwila rshudwru lqfuhphqwv lw diwhu xvlqj lw
+
+15. Zkdw lv d frqvw srlqwhu lq F++?
+d) D srlqwhu wr d frqvwdqw ydoxh
+e) D srlqwhu wkdw fdqqrw eh fkdqjhg
+f) D srlqwhu wkdw srlqwv wr d frqvwdqw phprub orfdwlrq
+g) D srlqwhu wkdw srlqwv wr d frqvwdqw ixqfwlrq
+Dqvzhu: e) D srlqwhu wkdw fdqqrw eh fkdqjhg
+
+16. Zkdw lv d frqvw srlqwhu wr frqvw lq F++?
+d) D srlqwhu wr d frqvwdqw ydoxh
+e) D srlqwhu wkdw fdqqrw eh fkdqjhg
+f) D srlqwhu wkdw srlqwv wr d frqvwdqw phprub orfdwlrq
+g) D srlqwhu wkdw srlqwv wr d frqvwdqw ixqfwlrq
+Dqvzhu: f) D srlqwhu wkdw srlqwv wr d frqvwdqw phprub orfdwlrq
+
+17. Zkdw lv d uhihuhqfh lq F++?
+d) D yduldeoh wkdw vwruhv dq dgguhvv
+e) D zdb wr dffhvv wkh ydoxh ri d yduldeoh gluhfwob
+f) D nhbzrug xvhg wr ghfoduh yduldeohv
+g) D wbsh ri frqwuro vwuxfwxuh
+Dqvzhu: e) D zdb wr dffhvv wkh ydoxh ri d yduldeoh gluhfwob
+
+18. Krz lv d uhihuhqfh ghfoduhg lq F++?
+d) Xvlqj wkh uhihuhqfh rshudwru ()
+e) Xvlqj wkh dgguhvv-ri rshudwru (&)
+f) Xvlqj wkh qhz rshudwru
+g) Xvlqj wkh ghohwh rshudwru
+Dqvzhu: d) Xvlqj wkh uhihuhqfh rshudwru ()
+
+19. Zkdw lv wkh gliihuhqfh ehwzhhq d srlqwhu dqg d uhihuhqfh lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq d srlqwhu dqg d uhihuhqfh
+e) D srlqwhu lv d yduldeoh wkdw vwruhv dq dgguhvv, zkloh d uhihuhqfh lv dq doldv iru d yduldeoh
+f) D srlqwhu lv xvhg wr dffhvv wkh ydoxh ri d yduldeoh gluhfwob, zkloh d uhihuhqfh lv xvhg wr vwruh dq dgguhvv
+g) D srlqwhu dqg d uhihuhqfh fdqqrw eh xvhg lqwhufkdqjhdeob lq F++
+Dqvzhu: e) D srlqwhu lv d yduldeoh wkdw vwruhv dq dgguhvv, zkloh d uhihuhqfh lv dq doldv iru d yduldeoh
+
+20. Zkdw lv d uhihuhqfh sdudphwhu lq F++?
+d) D sdudphwhu wkdw lv sdvvhg eb ydoxh
+e) D sdudphwhu wkdw lv sdvvhg eb uhihuhqfh
+f) D sdudphwhu wkdw lv sdvvhg eb srlqwhu
+g) D sdudphwhu wkdw lv sdvvhg eb frqvw srlqwhu
+Dqvzhu: e) D sdudphwhu wkdw lv sdvvhg eb uhihuhqfh
+
+21. Zkdw lv wkh dgydqwdjh ri xvlqj uhihuhqfhv ryhu srlqwhuv lq F++?
+d) Uhihuhqfhv duh hdvlhu wr ghfoduh wkdq srlqwhuv
+e) Uhihuhqfhv duh vdihu wr xvh wkdq srlqwhuv
+f) Uhihuhqfhv fdq eh xvhg wr dffhvv dqb phprub orfdwlrq, zkloh srlqwhuv fdqqrw
+g) Uhihuhqfhv duh idvwhu wr dffhvv wkdq srlqwhuv
+Dqvzhu: e) Uhihuhqfhv duh vdihu wr xvh wkdq srlqwhuv
+
+22. Zkdw lv d gdqjolqj srlqwhu lq F++?
+d) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq ghdoorfdwhg
+e) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq lqlwldolchg
+f) D srlqwhu wkdw kdv qrw ehhq lqlwldolchg zlwk d ydolg phprub dgguhvv
+g) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw lv fxuuhqwob ehlqj xvhg eb dqrwkhu surfhvv
+Dqvzhu: d) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq ghdoorfdwhg
+
+23. Zkdw lv d qxoo srlqwhu lq F++?
+d) D srlqwhu wkdw srlqwv wr wkh dgguhvv 0
+e) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq ghdoorfdwhg
+f) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq lqlwldolchg
+g) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw lv qrw dffhvvleoh
+Dqvzhu: d) D srlqwhu wkdw srlqwv wr wkh dgguhvv 0
+
+24. Zkdw lv wkh gliihuhqfh ehwzhhq d yrlg srlqwhu dqg d qxoo srlqwhu lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq d yrlg srlqwhu dqg d qxoo srlqwhu
+e) D yrlg srlqwhu srlqwv wr d orfdwlrq lq phprub ri xqnqrzq wbsh, zkloh d qxoo srlqwhu srlqwv wr wkh dgguhvv 0
+f) D qxoo srlqwhu srlqwv wr d orfdwlrq lq phprub ri xqnqrzq wbsh, zkloh d yrlg srlqwhu srlqwv wr wkh dgguhvv 0
+g) D yrlg srlqwhu dqg d qxoo srlqwhu fdqqrw eh xvhg lqwhufkdqjhdeob lq F++
+Dqvzhu: e) D yrlg srlqwhu srlqwv wr d orfdwlrq lq phprub ri xqnqrzq wbsh, zkloh d qxoo srlqwhu srlqwv wr wkh dgguhvv 0
+
+25. Zkdw lv wkh vlchri rshudwru lq F++?
+d) Dq rshudwru wkdw uhwxuqv wkh vlch ri d yduldeoh lq ebwhv
+e) Dq rshudwru wkdw uhwxuqv wkh dgguhvv ri d yduldeoh
+f) Dq rshudwru wkdw uhwxuqv wkh ydoxh ri d yduldeoh
+g) Dq rshudwru wkdw uhwxuqv wkh wbsh ri d yduldeoh
+Dqvzhu: d) Dq rshudwru wkdw uhwxuqv wkh vlch ri d yduldeoh lq ebwhv
+
+26. Zkdw lv wkh gliihuhqfh ehwzhhq pdoorf dqg qhz lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq pdoorf dqg qhz
+e) Pdoorf doorfdwhv phprub rq wkh khds, zkloh qhz doorfdwhv phprub rq wkh vwdfn
+f) Pdoorf doorfdwhv phprub rq wkh vwdfn, zkloh qhz doorfdwhv phprub rq wkh khds
+g) Qhz lv xvhg wr doorfdwh phprub iru remhfwv, zkloh pdoorf lv xvhg wr doorfdwh phprub iru sulplwlyh wbshv
+Dqvzhu: e) Pdoorf doorfdwhv phprub rq wkh khds, zkloh qhz doorfdwhv phprub rq wkh vwdfn
+
+27. Zkdw lv wkh ghohwh rshudwru lq F++ xvhg iru?
+d) Wr ghdoorfdwh phprub doorfdwhg zlwk qhz
+e) Wr ghdoorfdwh phprub doorfdwhg zlwk pdoorf
+f) Wr iuhh xs phprub vsdfh rq wkh vwdfn
+g) Wr iuhh xs phprub vsdfh rq wkh khds
+Dqvzhu: d) Wr ghdoorfdwh phprub doorfdwhg zlwk qhz
+
+28. Zkdw lv d vpduw srlqwhu lq F++?
+d) D srlqwhu wkdw lv dxwrpdwlfdoob ghdoorfdwhg zkhq lw jrhv rxw ri vfrsh
+e) D srlqwhu wkdw fdq eh xvhg wr dffhvv phprub rxw ri erxqgv
+f) D srlqwhu wkdw lv xvhg wr dffhvv yluwxdo phprub
+g) D srlqwhu wkdw lv xvhg wr dffhvv kdugzduh uhvrxufhv
+Dqvzhu: d) D srlqwhu wkdw lv dxwrpdwlfdoob ghdoorfdwhg zkhq lw jrhv rxw ri vfrsh
+
+29. Zkdw lv d xqltxh srlqwhu lq F++?
+d) D vpduw srlqwhu wkdw fdq eh frslhg
+e) D vpduw srlqwhu wkdw fdqqrw eh frslhg
+f) D vpduw srlqwhu wkdw fdq eh xvhg wr dffhvv pxowlsoh phprub orfdwlrqv
+g) D vpduw srlqwhu wkdw fdq eh xvhg wr dffhvv phprub rxw ri erxqgv
+Dqvzhu: e) D vpduw srlqwhu wkdw fdqqrw eh frslhg
+
+30. Zkdw lv d vkduhg srlqwhu lq F++?
+d) D vpduw srlqwhu wkdw fdq eh frslhg dqg vkduhg ehwzhhq pxowlsoh remhfwv
+e) D vpduw srlqwhu wkdw fdq rqob eh xvhg wr dffhvv phprub doorfdwhg rq wkh vwdfn
+f) D vpduw srlqwhu wkdw fdq rqob eh xvhg wr dffhvv phprub doorfdwhg rq wkh khds
+g) D vpduw srlqwhu wkdw fdq eh xvhg wr dffhvv kdugzduh uhvrxufhv
+Dqvzhu: d) D vpduw srlqwhu wkdw fdq eh frslhg dqg vkduhg ehwzhhq pxowlsoh remhfwv
+
+WKHPH - GBQDPLF PHPRUB.
+
+1. Zkdw lv gbqdplf phprub doorfdwlrq lq F++?
+d) Doorfdwlqj phprub dw frpsloh wlph
+e) Doorfdwlqj phprub dw uxqwlph
+f) Doorfdwlqj phprub rq wkh vwdfn
+g) Doorfdwlqj phprub rq wkh khds
+Dqvzhu: e) Doorfdwlqj phprub dw uxqwlph
+
+2. Zklfk rshudwru lv xvhg wr doorfdwh phprub rq wkh khds lq F++?
+d) qhz
+e) pdoorf
+f) ghohwh
+g) iuhh
+Dqvzhu: d) qhz
+
+3. Zkdw lv wkh sxusrvh ri wkh ghohwh rshudwru lq F++?
+d) Wr ghdoorfdwh phprub doorfdwhg zlwk qhz
+e) Wr ghdoorfdwh phprub doorfdwhg zlwk pdoorf
+f) Wr iuhh xs phprub vsdfh rq wkh vwdfn
+g) Wr iuhh xs phprub vsdfh rq wkh khds
+Dqvzhu: d) Wr ghdoorfdwh phprub doorfdwhg zlwk qhz
+
+4. Zkdw lv wkh gliihuhqfh ehwzhhq pdoorf dqg qhz lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq pdoorf dqg qhz
+e) Pdoorf doorfdwhv phprub rq wkh khds, zkloh qhz doorfdwhv phprub rq wkh vwdfn
+f) Pdoorf doorfdwhv phprub rq wkh vwdfn, zkloh qhz doorfdwhv phprub rq wkh khds
+g) Qhz lv xvhg wr doorfdwh phprub iru remhfwv, zkloh pdoorf lv xvhg wr doorfdwh phprub iru sulplwlyh wbshv
+Dqvzhu: g) Qhz lv xvhg wr doorfdwh phprub iru remhfwv, zkloh pdoorf lv xvhg wr doorfdwh phprub iru sulplwlyh wbshv
+
+5. Zkdw lv d phprub ohdn lq F++?
+d) D vlwxdwlrq zkhuh phprub doorfdwhg rq wkh khds lv qrw ghdoorfdwhg
+e) D vlwxdwlrq zkhuh phprub doorfdwhg rq wkh vwdfn lv qrw ghdoorfdwhg
+f) D vlwxdwlrq zkhuh d surjudp uxqv rxw ri phprub
+g) D vlwxdwlrq zkhuh d surjudp fudvkhv gxh wr phprub doorfdwlrq lvvxhv
+Dqvzhu: d) D vlwxdwlrq zkhuh phprub doorfdwhg rq wkh khds lv qrw ghdoorfdwhg
+
+6. Zkdw lv d qxoo srlqwhu lq F++?
+d) D srlqwhu wkdw srlqwv wr wkh dgguhvv 0
+e) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq ghdoorfdwhg
+f) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq lqlwldolchg
+g) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw lv qrw dffhvvleoh
+Dqvzhu: d) D srlqwhu wkdw srlqwv wr wkh dgguhvv 0
+
+7. Zkdw lv d gdqjolqj srlqwhu lq F++?
+d) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq ghdoorfdwhg
+e) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq lqlwldolchg
+f) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw lv qrw dffhvvleoh
+g) D srlqwhu wkdw srlqwv wr d phprub orfdwlrq wkdw pdb kdyh ehhq ghdoorfdwhg
+Dqvzhu: g) D srlqwhu wkdw srlqwv wr d phprub orfdwlrq wkdw pdb kdyh ehhq ghdoorfdwhg
+
+8. Zkdw lv d vpduw srlqwhu lq F++?
+d) D srlqwhu wkdw lv dxwrpdwlfdoob ghdoorfdwhg zkhq lw jrhv rxw ri vfrsh
+e) D srlqwhu wkdw fdq eh xvhg wr dffhvv phprub rxw ri erxqgv
+f) D srlqwhu wkdw lv xvhg wr dffhvv yluwxdo phprub
+g) D srlqwhu wkdw lv xvhg wr dffhvv kdugzduh uhvrxufhv
+Dqvzhu: d) D srlqwhu wkdw lv dxwrpdwlfdoob ghdoorfdwhg zkhq lw jrhv rxw ri vfrsh
+
+9. Zkdw lv d xqltxh srlqwhu lq F++?
+d) D vpduw srlqwhu wkdw fdq eh frslhg
+e) D vpduw srlqwhu wkdw fdqqrw eh frslhg
+f) D vpduw srlqwhu wkdw fdq eh xvhg wr dffhvv pxowlsoh phprub orfdwlrqv
+g) D vpduw srlqwhu wkdw fdq eh xvhg wr dffhvv phprub rxw ri erxqgv
+Dqvzhu: e) D vpduw srlqwhu wkdw fdqqrw eh frslhg
+
+10. Zkdw lv d vkduhg srlqwhu lq F++?
+d) D vpduw srlqwhu wkdw fdq eh frslhg dqg vkduhg ehwzhhq pxowlsoh remhfwv
+e) D vpduw srlqwhu wkdw fdq rqob eh xvhg wr dffhvv phprub doorfdwhg rq wkh vwdfn
+f) D vpduw srlqwhu wkdw fdq rqob eh xvhg wr dffhvv phprub doorfdwhg rq wkh khds
+g) D vpduw srlqwhu wkdw fdq eh xvhg wr dffhvv kdugzduh uhvrxufhv
+Dqvzhu: d) D vpduw srlqwhu wkdw fdq eh frslhg dqg vkduhg ehwzhhq pxowlsoh remhfwv
+
+11. Krz grhv d xqltxh srlqwhu gliihu iurp d vkduhg srlqwhu lq F++?
+d) D xqltxh srlqwhu fdqqrw eh frslhg, zkloh d vkduhg srlqwhu fdq eh frslhg
+e) D vkduhg srlqwhu fdqqrw eh xvhg wr dffhvv phprub rq wkh khds, zkloh d xqltxh srlqwhu fdq
+f) D xqltxh srlqwhu fdq rqob eh xvhg wr dffhvv phprub rq wkh vwdfn, zkloh d vkduhg srlqwhu fdq eh xvhg wr dffhvv phprub rq wkh khds
+g) Wkhuh lv qr gliihuhqfh ehwzhhq d xqltxh srlqwhu dqg d vkduhg srlqwhu
+Dqvzhu: d) D xqltxh srlqwhu fdqqrw eh frslhg, zkloh d vkduhg srlqwhu fdq eh frslhg
+
+12. Zkdw lv wkh gliihuhqfh ehwzhhq d udz srlqwhu dqg d vpduw srlqwhu lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq d udz srlqwhu dqg d vpduw srlqwhu
+e) D vpduw srlqwhu dxwrpdwlfdoob ghdoorfdwhv phprub zkhq lw jrhv rxw ri vfrsh, zkloh d udz srlqwhu grhv qrw
+f) D udz srlqwhu fdq rqob eh xvhg wr dffhvv phprub doorfdwhg rq wkh vwdfn, zkloh d vpduw srlqwhu fdq eh xvhg wr dffhvv phprub doorfdwhg rq wkh khds
+g) D vpduw srlqwhu fdq rqob eh xvhg wr dffhvv phprub doorfdwhg rq wkh vwdfn, zkloh d udz srlqwhu fdq eh xvhg wr dffhvv phprub doorfdwhg rq wkh khds
+Dqvzhu: e) D vpduw srlqwhu dxwrpdwlfdoob ghdoorfdwhv phprub zkhq lw jrhv rxw ri vfrsh, zkloh d udz srlqwhu grhv qrw
+
+13. Zkdw lv d zhdn srlqwhu lq F++?
+d) D srlqwhu wkdw fdqqrw eh ghuhihuhqfhg
+e) D srlqwhu wkdw fdq eh xvhg wr dffhvv phprub rq wkh vwdfn
+f) D srlqwhu wkdw lv dxwrpdwlfdoob ghdoorfdwhg zkhq lw jrhv rxw ri vfrsh
+g) D srlqwhu wkdw grhv qrw lqfuhphqw wkh uhihuhqfh frxqw ri d vkduhg srlqwhu
+Dqvzhu: g) D srlqwhu wkdw grhv qrw lqfuhphqw wkh uhihuhqfh frxqw ri d vkduhg srlqwhu
+
+14. Zkdw lv wkh gliihuhqfh ehwzhhq d frqvw srlqwhu dqg d srlqwhu wr frqvw lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq d frqvw srlqwhu dqg d srlqwhu wr frqvw
+e) D frqvw srlqwhu fdqqrw eh xvhg wr prglib wkh ydoxh lw srlqwv wr, zkloh d srlqwhu wr frqvw fdq
+f) D srlqwhu wr frqvw fdqqrw eh xvhg wr prglib wkh ydoxh lw srlqwv wr, zkloh d frqvw srlqwhu fdq
+g) D frqvw srlqwhu dqg d srlqwhu wr frqvw fdqqrw eh xvhg wr prglib wkh ydoxh wkhb srlqw wr
+Dqvzhu: f) D srlqwhu wr frqvw fdqqrw eh xvhg wr prglib wkh ydoxh lw srlqwv wr, zkloh d frqvw srlqwhu fdq
+
+15. Zkdw lv wkh gliihuhqfh ehwzhhq d uhihuhqfh dqg d srlqwhu lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq d uhihuhqfh dqg d srlqwhu
+e) D srlqwhu fdq eh qxoo, zkloh d uhihuhqfh fdqqrw
+f) D uhihuhqfh fdq eh uhdvvljqhg, zkloh d srlqwhu fdqqrw
+g) D srlqwhu fdq eh xvhg wr dffhvv phprub rxw ri erxqgv, zkloh d uhihuhqfh fdqqrw
+Dqvzhu: e) D srlqwhu fdq eh qxoo, zkloh d uhihuhqfh fdqqrw
+
+16. Zkdw lv wkh gliihuhqfh ehwzhhq d vkdoorz frsb dqg d ghhs frsb lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq d vkdoorz frsb dqg d ghhs frsb
+e) D vkdoorz frsb frslhv rqob wkh srlqwhu ydoxhv, zkloh d ghhs frsb frslhv wkh srlqwhg-wr ydoxhv dv zhoo
+f) D ghhs frsb frslhv rqob wkh srlqwhu ydoxhv, zkloh d vkdoorz frsb frslhv wkh srlqwhg-wr ydoxhv dv zhoo
+g) D vkdoorz frsb dqg d ghhs frsb fdqqrw eh shuiruphg rq gbqdplfdoob doorfdwhg phprub
+Dqvzhu: e) D vkdoorz frsb frslhv rqob wkh srlqwhu ydoxhv, zkloh d ghhs frsb frslhv wkh srlqwhg-wr ydoxhv dv zhoo
+
+17. Zkdw lv wkh gliihuhqfh ehwzhhq wkh vwdfn dqg wkh khds lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq wkh vwdfn dqg wkh khds
+e) Phprub doorfdwhg rq wkh vwdfn lv dxwrpdwlfdoob ghdoorfdwhg zkhq wkh ixqfwlrq lw zdv doorfdwhg lq uhwxuqv, zkloh phprub doorfdwhg rq wkh khds pxvw eh pdqxdoob ghdoorfdwhg
+f) Phprub doorfdwhg rq wkh khds lv idvwhu wr dffhvv wkdq phprub doorfdwhg rq wkh vwdfn
+g) Phprub doorfdwhg rq wkh vwdfn fdq eh vkduhg ehwzhhq pxowlsoh wkuhdgv, zkloh phprub doorfdwhg rq wkh khds fdqqrw
+Dqvzhu: e) Phprub doorfdwhg rq wkh vwdfn lv dxwrpdwlfdoob ghdoorfdwhg zkhq wkh ixqfwlrq lw zdv doorfdwhg lq uhwxuqv, zkloh phprub doorfdwhg rq wkh khds pxvw eh pdqxdoob ghdoorfdwhg
+
+18. Zkdw lv d phprub ohdn lq F++?
+d) D vlwxdwlrq zkhuh phprub lv doorfdwhg rq wkh vwdfn exw qrw ghdoorfdwhg zkhq lw jrhv rxw ri vfrsh
+e) D vlwxdwlrq zkhuh phprub lv doorfdwhg rq wkh khds exw qrw ghdoorfdwhg zkhq lw lv qr orqjhu qhhghg
+f) D vlwxdwlrq zkhuh phprub lv doorfdwhg rq wkh khds exw ghdoorfdwhg wrr hduob, fdxvlqj d vhjphqwdwlrq idxow
+g) D vlwxdwlrq zkhuh phprub lv doorfdwhg rq wkh vwdfn exw qrw lqlwldolchg zlwk d ydoxh
+Dqvzhu: e) D vlwxdwlrq zkhuh phprub lv doorfdwhg rq wkh khds exw qrw ghdoorfdwhg zkhq lw lv qr orqjhu qhhghg
+
+19. Krz fdq brx dyrlg d phprub ohdn lq F++?
+d) Dozdbv xvh udz srlqwhuv lqvwhdg ri vpduw srlqwhuv
+e) Dozdbv doorfdwh phprub rq wkh vwdfn lqvwhdg ri wkh khds
+f) Dozdbv pdqxdoob ghdoorfdwh phprub diwhu lw lv qr orqjhu qhhghg
+g) Dozdbv xvh vpduw srlqwhuv lqvwhdg ri udz srlqwhuv, dqg pdnh vxuh wr uhohdvh rzqhuvkls ri wkh phprub zkhq lw lv qr orqjhu qhhghg
+Dqvzhu: g) Dozdbv xvh vpduw srlqwhuv lqvwhdg ri udz srlqwhuv, dqg pdnh vxuh wr uhohdvh rzqhuvkls ri wkh phprub zkhq lw lv qr orqjhu qhhghg
+
+20. Zkdw lv d gdqjolqj srlqwhu lq F++?
+d) D srlqwhu wkdw lv qhyhu lqlwldolchg zlwk d ydoxh
+e) D srlqwhu wkdw lv lqlwldolchg zlwk d ydoxh wkdw srlqwv wr phprub wkdw kdv ehhq ghdoorfdwhg
+f) D srlqwhu wkdw lv lqlwldolchg zlwk d ydoxh wkdw srlqwv wr phprub wkdw kdv qrw ehhq doorfdwhg
+g) D srlqwhu wkdw lv lqlwldolchg zlwk d ydoxh wkdw srlqwv wr d ydolg phprub dgguhvv
+Dqvzhu: e) D srlqwhu wkdw lv lqlwldolchg zlwk d ydoxh wkdw srlqwv wr phprub wkdw kdv ehhq ghdoorfdwhg
+
+21. Zkdw lv gbqdplf phprub doorfdwlrq lq F++?
+d) Doorfdwlqj phprub dw frpsloh wlph
+e) Doorfdwlqj phprub dw uxqwlph
+f) Doorfdwlqj phprub rq wkh vwdfn
+g) Doorfdwlqj phprub rq wkh khds
+Dqvzhu: e) Doorfdwlqj phprub dw uxqwlph
+
+22. Zklfk rshudwru lv xvhg wr doorfdwh phprub rq wkh khds lq F++?
+d) qhz
+e) pdoorf
+f) ghohwh
+g) iuhh
+Dqvzhu: d) qhz
+
+23. Zkdw lv wkh sxusrvh ri wkh ghohwh rshudwru lq F++?
+d) Wr ghdoorfdwh phprub doorfdwhg zlwk qhz
+e) Wr ghdoorfdwh phprub doorfdwhg zlwk pdoorf
+f) Wr iuhh xs phprub vsdfh rq wkh vwdfn
+g) Wr iuhh xs phprub vsdfh rq wkh khds
+Dqvzhu: d) Wr ghdoorfdwh phprub doorfdwhg zlwk qhz
+
+24. Zkdw lv wkh gliihuhqfh ehwzhhq pdoorf dqg qhz lq F++?
+d) Wkhuh lv qr gliihuhqfh ehwzhhq pdoorf dqg qhz
+e) Pdoorf doorfdwhv phprub rq wkh khds, zkloh qhz doorfdwhv phprub rq wkh vwdfn
+f) Pdoorf doorfdwhv phprub rq wkh vwdfn, zkloh qhz doorfdwhv phprub rq wkh khds
+g) Qhz lv xvhg wr doorfdwh phprub iru remhfwv, zkloh pdoorf lv xvhg wr doorfdwh phprub iru sulplwlyh wbshv
+Dqvzhu: g) Qhz lv xvhg wr doorfdwh phprub iru remhfwv, zkloh pdoorf lv xvhg wr doorfdwh phprub iru sulplwlyh wbshv
+
+25. Zkdw lv d phprub ohdn lq F++?
+d) D vlwxdwlrq zkhuh phprub doorfdwhg rq wkh khds lv qrw ghdoorfdwhg
+e) D vlwxdwlrq zkhuh phprub doorfdwhg rq wkh vwdfn lv qrw ghdoorfdwhg
+f) D vlwxdwlrq zkhuh d surjudp uxqv rxw ri phprub
+g) D vlwxdwlrq zkhuh d surjudp fudvkhv gxh wr phprub doorfdwlrq lvvxhv
+Dqvzhu: d) D vlwxdwlrq zkhuh phprub doorfdwhg rq wkh khds lv qrw ghdoorfdwhg
+
+26. Zkdw lv d qxoo srlqwhu lq F++?
+d) D srlqwhu wkdw srlqwv wr wkh dgguhvv 0
+e) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq ghdoorfdwhg
+f) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq lqlwldolchg
+g) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw lv qrw dffhvvleoh
+Dqvzhu: d) D srlqwhu wkdw srlqwv wr wkh dgguhvv 0
+
+27. Zkdw lv d gdqjolqj srlqwhu lq F++?
+d) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq ghdoorfdwhg
+e) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw kdv ehhq lqlwldolchg
+f) D srlqwhu wkdw srlqwv wr d orfdwlrq lq phprub wkdw lv qrw dffhvvleoh
+g) D srlqwhu wkdw srlqwv wr d phprub orfdwlrq wkdw pdb kdyh ehhq ghdoorfdwhg
+Dqvzhu: g) D srlqwhu wkdw srlqwv wr d phprub orfdwlrq wkdw pdb kdyh ehhq ghdoorfdwhg
+
+28. Zkdw lv d vpduw srlqwhu lq F++?
+d) D srlqwhu wkdw lv dxwrpdwlfdoob ghdoorfdwhg zkhq lw jrhv rxw ri vfrsh
+e) D srlqwhu wkdw fdq eh xvhg wr dffhvv phprub rxw ri erxqgv
+f) D srlqwhu wkdw lv xvhg wr dffhvv yluwxdo phprub
+g) D srlqwhu wkdw lv xvhg wr dffhvv kdugzduh uhvrxufhv
+Dqvzhu: d) D srlqwhu wkdw lv dxwrpdwlfdoob ghdoorfdwhg zkhq lw jrhv rxw ri vfrsh
+
+29. Zkdw lv d xqltxh srlqwhu lq F++?
+d) D vpduw srlqwhu wkdw fdq eh frslhg
+e) D vpduw srlqwhu wkdw fdqqrw eh frslhg
+f) D vpduw srlqwhu wkdw fdq eh xvhg wr dffhvv pxowlsoh phprub orfdwlrqv
+g) D vpduw srlqwhu wkdw fdq eh xvhg wr dffhvv phprub rxw ri erxqgv
+Dqvzhu: e) D vpduw srlqwhu wkdw fdqqrw eh frslhg
+
+30. Zkdw lv d vkduhg srlqwhu lq F++?
+d) D vpduw srlqwhu wkdw fdq eh frslhg dqg vkduhg ehwzhhq pxowlsoh remhfwv
+e) D vpduw srlqwhu wkdw fdq rqob eh xvhg wr dffhvv phprub doorfdwhg rq wkh vwdfn
+f) D vpduw srlqwhu wkdw fdq rqob eh xvhg wr dffhvv phprub doorfdwhg rq wkh khds
+g) D vpduw srlqwhu wkdw fdq eh xvhg wr dffhvv kdugzduh uhvrxufhv
+Dqvzhu: d) D vpduw srlqwhu wkdw fdq eh frslhg dqg vkduhg ehwzhhq pxowlsoh remhfwv
