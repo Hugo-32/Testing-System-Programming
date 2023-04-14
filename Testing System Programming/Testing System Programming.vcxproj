@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="authStudents.cpp" />
     <ClCompile Include="authTeacher.cpp" />
+    <ClCompile Include="caesarCipher.cpp" />
     <ClCompile Include="Students.cpp" />
     <ClCompile Include="Teacher.cpp" />
     <ClCompile Include="Testing System Programming.cpp" />
@@ -136,6 +137,7 @@
   <ItemGroup>
     <ClInclude Include="authStudents.h" />
     <ClInclude Include="authTeacher.h" />
+    <ClInclude Include="caesarCipher.h" />
     <ClInclude Include="Students.h" />
     <ClInclude Include="Teacher.h" />
   </ItemGroup>

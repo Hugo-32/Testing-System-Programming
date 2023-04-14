@@ -27,6 +27,12 @@
     <ClCompile Include="authStudents.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="authTeacher.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="caesarCipher.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Teacher.h">
@@ -36,6 +42,12 @@
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="authStudents.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="authTeacher.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="caesarCipher.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
