@@ -6,19 +6,28 @@ using namespace std;
 void Students()
 {
 	Student students[MAX_STUDENTS];
-	cout << " Режим студента " << endl;
-	cout << " ==============" << endl;
 	int NumberOfStudents = readStudents(students);
 	int Pr = -1;
+	int Break = 1;
 	do
 	{
+		system("cls"); 
+		cout << " Режим студента " << endl;
+		cout << " ==============" << endl;
 		Pr = Proverka(students, NumberOfStudents);
-		if (Pr == -1) { cout << " Неверный логин или пароль" << endl << endl; }
+		if (Pr == -1) 
+		{ 
+			cout << " Неверный логин или пароль" << endl; 
+			cout << " Для возвращения в главное меню введите \" 0 \": ";
+			cin >> Break;
+			cin.get();
+			if (Break == 0) { break; }
+		}
 		else 
 		{ 
-			cout << " Студент найден: "; 
+			cout << " Здравствуйте, "; 
 			cout << students[Pr].firstName << " " << students[Pr].lastName << endl;
-			cout << " Для перехода в меню выбора режима работы программы нажмите любую клавишу: " << endl << " ";
+			cout << " Для перехода к списку операций нажмите любую клавишу: " << endl << " ";
 			cout << "=> ";
 			_getch();
 			system("cls");
@@ -63,7 +72,7 @@ void Menu(Student students[MAX_STUDENTS], int Pr)
 		cout << " 1. Тренинг по теме" << endl;
 		cout << " 2. Тестирование по теме" << endl;
 		cout << " 3. Итоговый тест" << endl;
-		cout << " 0. Вернуться назад" << endl;
+		cout << " 0. Выйти из учетной записи" << endl;
 		cout << endl;
 		cout << " Выберите операцию: ";
 		cin >> choice;
@@ -82,7 +91,7 @@ void Menu(Student students[MAX_STUDENTS], int Pr)
 			finalTest(questions);
 			break;
 		case 0:
-			cout << "Выход из программы." << endl;
+			cout << " Выйти из учетной записи" << endl;
 			break;
 		default:
 			system("cls");
@@ -101,9 +110,11 @@ void trainingMode(const vector<Question>& questions)
 
 	system("cls");
 	cout << theme << endl << endl;
+	
+	int l = 1;
 
 	for (const auto& question : random_questions) {
-		cout << question.text << endl;
+		cout << l << ". " << question.text << endl;
 		for (const auto& answer : question.answers) {
 			cout << answer << endl;
 		}
@@ -124,6 +135,7 @@ void trainingMode(const vector<Question>& questions)
 				cout << "Неверно. Попробуйте ещё раз: ";
 			}
 		} while (!flag_right_answer);
+		l++;
 	}
 
 	theme.erase(theme.find("."), 1);
@@ -146,24 +158,30 @@ void testingMode(const vector<Question>& questions) {
 	system("cls");
 	cout << theme << endl << endl;
 
+	int l = 1;
 
 	for (const auto& question : random_questions) {
-		cout << question.text << endl;
+		cout << l << ". " << question.text << endl;
 		for (const auto& answer : question.answers) {
 			cout << answer << endl;
 		}
+		l++;
 
 		cout << "Введите ваш ответ (a, b, c или d): ";
 		string user_answer;
 		do {
 			cin >> user_answer;
+			if ((user_answer != "a") && (user_answer != "b") && (user_answer != "c") && (user_answer != "d")) { cout << "Некорректный ввод. Попробуйте еще раз: "; }
 		} while ((user_answer != "a") && (user_answer != "b") && (user_answer != "c") && (user_answer != "d"));
 		cout << endl;
 
 		string user_answer_str = user_answer + ")";
 
-		if (user_answer_str != question.correct_answer.substr(0, 2)) {
+		if (user_answer_str != question.correct_answer.substr(0, 2)) 
+		{
+			string answer = "Answer: (" + question.correct_answer.substr(0, 2);
 			wrong_questions.push_back(question.text);
+			wrong_questions.push_back(answer);
 			wrong_answers++;
 		}
 	}
@@ -178,8 +196,18 @@ void testingMode(const vector<Question>& questions) {
 	cout << "Оценка за тест: " << test_result << "." << endl;
 	cout << "=============================================" << endl;
 	cout << "\tВопросы, в которых допущены ошибки:" << endl;
-	for (const auto& wrong_questions : wrong_questions) {
-		cout << wrong_questions << endl;
+	double  k = 1;
+	for (const auto& wrong_questions : wrong_questions) 
+	{
+		if (int(k * 10) % 10 == 0)
+		{
+			cout << k << ". " << wrong_questions << endl;
+		}
+		else
+		{
+			cout <<  wrong_questions << endl;
+		}
+		k+=0.5;
 	}
 	cout << "=============================================" << endl;
 	cout << "Для продолжения нажмите любую клавишу: ";
@@ -197,8 +225,10 @@ void finalTest(const vector<Question>& questions) {
 	cout << "Итоговый тест " << endl;
 	cout << "================" << endl;
 
+	int l = 1;
+
 	for (const auto& question : random_questions) {
-		cout << question.text << endl;
+		cout << l << ". " << question.text << endl;
 		for (const auto& answer : question.answers) {
 			cout << answer << endl;
 		}
@@ -207,6 +237,7 @@ void finalTest(const vector<Question>& questions) {
 		string user_answer;
 		do {
 			cin >> user_answer;
+			if ((user_answer != "a") && (user_answer != "b") && (user_answer != "c") && (user_answer != "d")) { cout << "Некорректный ввод. Попробуйте еще раз: "; }
 		} while ((user_answer != "a") && (user_answer != "b") && (user_answer != "c") && (user_answer != "d"));
 		cout << endl;
 
@@ -216,6 +247,7 @@ void finalTest(const vector<Question>& questions) {
 			wrong_questions.push_back(question.text);
 			wrong_answers++;
 		}
+		l++;
 	}
 
 	if (wrong_answers <= 7) test_result = 5;

@@ -95,7 +95,7 @@ vector<Question> readQuestionsFromFile(const string& filename) {
 
 string chooseTheme() {
 	string theme;
-	char choice;
+	int choice;
 
 	cout << "Список тем:" << endl;
 	cout << "1. CYCLES" << endl;
@@ -110,31 +110,32 @@ string chooseTheme() {
 	cin >> choice;
 
 	switch (choice) {
-	case '1':
+	case 1:
 		theme = "CYCLES.";
 		break;
-	case '2':
+	case 2:
 		theme = "ARRAYS (ONE- AND TWO-DIMENSIONAL).";
 		break;
-	case '3':
+	case 3:
 		theme = "STRINGS.";
 		break;
-	case '4':
+	case 4:
 		theme = "RECURSION.";
 		break;
-	case '5':
-		theme = "STRUCTURES.";
+	case 5:
+		theme = "STRUCTURES.";	
 		break;
-	case '6':
+	case 6:
 		theme = "FILES.";
 		break;
-	case '7':
+	case 7:
 		theme = "ADDRESSESS AND SIGNS.";
 		break;
-	case '8':
+	case 8:
 		theme = "DYNAMIC MEMORY.";
 		break;
 	default:
+		system("cls");
 		cout << "Неверный выбор. Введите число от 1 до 8." << endl;
 		return chooseTheme();
 	}
