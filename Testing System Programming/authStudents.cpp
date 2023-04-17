@@ -1,4 +1,5 @@
 #include "authStudents.h"
+#include "CaesarCipher.h"
 
 // Функция для считывания данных из файла и создания массива студентов
 double calculateAverage(Student student) {
@@ -19,8 +20,10 @@ double calculateAverage(Student student) {
 }
 
 // Функция для считывания данных из файла и создания массива студентов
-int readStudents(Student* students) {
-    ifstream inputFile("students.txt");
+int readStudents(Student* students) 
+{
+    decrypt("students.txt", "decrypted2.txt");
+    ifstream inputFile("decrypted2.txt");
     int count = 0;
     while (!inputFile.eof() && count < MAX_STUDENTS) {
         inputFile >> students[count].login >> students[count].password;
@@ -51,4 +54,23 @@ void printStudent(Student& student) {
     cout << "Test grade: " << student.testGrade << endl;
     cout << "Average grade: " << student.average << endl;
     cout << endl;
+}
+
+void writeEstimation(Student* students, int count) 
+{
+	FILE* file;
+	fopen_s(&file, "decrypted2.txt", "w");
+	for (int i = 0; i < count; i++)
+	{
+		fprintf(file, "%s %s\n", students[i].login.c_str(),students[i].password.c_str());
+        fprintf(file, "%s %s\n", students[i].firstName.c_str(), students[i].lastName.c_str());
+        for (int j = 0; j < MAX_GRADES; j++)
+        {
+            fprintf(file, "%d ", students[i].grades[j]);
+        }
+        fprintf(file, "\n%d", students[i].testGrade);
+        if (i < count-1) { fprintf(file, "\n\n"); }
+	}
+	fclose(file);
+    encrypt("students.txt", "decrypted2.txt");
 }

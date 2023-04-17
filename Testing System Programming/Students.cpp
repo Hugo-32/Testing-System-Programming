@@ -31,7 +31,7 @@ void Students()
 			cout << "=> ";
 			_getch();
 			system("cls");
-			Menu(students, Pr);
+			Menu(students, Pr, NumberOfStudents);
 		}
 	} while (Pr == -1);
 }
@@ -60,7 +60,7 @@ int Proverka(Student students[MAX_STUDENTS], int NumberOfStudents)
 	else { return -1; }
 }
 
-void Menu(Student students[MAX_STUDENTS], int Pr)
+void Menu(Student students[MAX_STUDENTS], int Pr, int NumberOfStudents)
 {
 	int choice;
 	vector<Question> questions = readQuestionsFromFile("decrypted.txt");
@@ -84,11 +84,11 @@ void Menu(Student students[MAX_STUDENTS], int Pr)
 			break;
 		case 2:
 			system("cls"); 
-			testingMode(questions);
+			testingMode(questions, students, NumberOfStudents, Pr);
 			break;
 		case 3:
 			system("cls"); 
-			finalTest(questions);
+			finalTest(questions, students, NumberOfStudents, Pr);
 			break;
 		case 0:
 			cout << " Выйти из учетной записи" << endl;
@@ -147,7 +147,8 @@ void trainingMode(const vector<Question>& questions)
 	system("cls");
 }
 
-void testingMode(const vector<Question>& questions) {
+void testingMode(const vector<Question>& questions, Student students[MAX_STUDENTS], int NumberOfStudents, int Pr) 
+{
 	string theme = chooseTheme();
 	vector<Question> theme_questions = filterQuestionsByTheme(questions, theme);
 	vector<Question> random_questions = selectRandomQuestions(theme_questions, 10);
@@ -213,9 +214,67 @@ void testingMode(const vector<Question>& questions) {
 	cout << "Для продолжения нажмите любую клавишу: ";
 	_getch();
 	system("cls");
+
+	int choice = 0;
+	if (theme == "CYCLES.")
+	{
+		choice = 1;
+	}
+	else
+	{
+		if (theme == "ARRAYS (ONE- AND TWO-DIMENSIONAL).")
+		{
+			choice = 2;
+		}
+		else
+		{
+			if (theme == "STRINGS.")
+			{
+				choice = 3;
+			}
+			else
+			{
+				if (theme == "RECURSION.")
+				{
+					choice = 4;
+				}
+				else
+				{
+					if (theme == "STRUCTURES.")
+					{
+						choice = 5;
+					}
+					else
+					{
+						if (theme == "FILES.")
+						{
+							choice = 6;
+						}
+						else
+						{
+							if (theme == "ADDRESSESS AND SIGNS.")
+							{
+								choice = 7;
+							}
+							else
+							{
+								if (theme == "DYNAMIC MEMORY.")
+								{
+									choice = 8;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	students[Pr].grades[choice-1] = test_result;
+	writeEstimation(students, NumberOfStudents);
 }
 
-void finalTest(const vector<Question>& questions) {
+void finalTest(const vector<Question>& questions, Student students[MAX_STUDENTS], int NumberOfStudents, int Pr)
+{
 	vector<Question> random_questions = selectRandomQuestions(questions, 40);
 	vector<string> wrong_questions;
 	int wrong_answers = 0, test_result;
@@ -262,4 +321,6 @@ void finalTest(const vector<Question>& questions) {
 	cout << "Для продолжения нажмите любую клавишу: ";
 	_getch();
 	system("cls");
+	students[Pr].testGrade = test_result;
+	writeEstimation(students, NumberOfStudents);
 }

@@ -2,6 +2,7 @@
 #include <fstream>
 #include <cstring>
 #include <locale>
+#define _CRT_SECURE_NO_WARNINGS
 
 using namespace std;
 
@@ -21,3 +22,4 @@ struct Student {
 int readStudents(Student* students);
 double calculateAverage(Student students);
 void printStudent(Student& student);
+void writeEstimation(Student* students, int count);
