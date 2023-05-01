@@ -8,7 +8,7 @@
 
 void Students();
 void Menu(Student students[MAX_STUDENTS], int Pr, int NumberOfStudents);
-int Proverka(Student students[100], int NumberOfStudents);
+int Proverka(Student students[MAX_STUDENTS], int NumberOfStudents);
 
 void trainingMode(const vector<Question>& questions);
 void testingMode(const vector<Question>& questions, Student students[MAX_STUDENTS], int NumberOfStudents, int Pr);

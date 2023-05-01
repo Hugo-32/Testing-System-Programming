@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <fstream>
 #include <cstring>
@@ -11,6 +12,8 @@ const int MAX_TEACHERS = 10; // Максимальное количество учителей
 struct Teacher {
     string login;
     string password;
+    string firstName;
+    string lastName;
 };
 
 int readTeachers(Teacher* teachers);
